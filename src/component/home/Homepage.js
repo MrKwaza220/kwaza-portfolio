@@ -1,4 +1,5 @@
 import React from 'react'
+import Typical from 'react-typical'
 
 export default function Homepage(){
     return (
@@ -28,8 +29,34 @@ export default function Homepage(){
                     </div>
                     <div className='homepage_details_role'>
                         <span>
-                            
+                            {" "}
+                            <h1>
+                                {" "}
+                                <Typical
+                                  loop={Infinity}
+                                  steps={[
+                                    "Front End Dev",
+                                    1000,
+                                    "Software Dev",
+                                    1000,
+                                    "Backend Dev",
+                                    1000, 
+                                  ]}
+
+                                />
+                            </h1>
                         </span>
+                    </div>
+                    <div className='homepageButtons'>
+                        <a href='images/large_devices.pdf' download='large_device.pdf'>
+                        <button className='download_button'>
+                            {" "}
+                            download cv {" "}
+                        </button>
+                        </a>
+                    </div>
+                    <div className='homepage_picture'>
+                        <div className='homepage_picture_background'></div>
                     </div>
                 </div>
             </div>
