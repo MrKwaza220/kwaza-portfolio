@@ -66,24 +66,24 @@ export default function Homepage() {
         <div className="homepage_left-content">
           <div className="homepage_names">
             <div className="my_name">
-              <h6>HI, I'M SAKHUMZI KWAZA</h6>
+              Hi, I'm Sakhumzi
             </div>
 
             <div className="job_name">
-              <h1>JUNIOR DEVELOPER</h1>
+               Junior Developer
             </div>
           </div>
           <div className="homepage_icons">
+          <a href="#">
+              <i className="fa fa-instagram"></i>
+            </a>
+
             <a href="https://www.linkedin.com/in/sakhumzi-kwaza-2690351b9/">
               <i className="fa fa-linkedin"></i>
             </a>
 
             <a href="https://github.com/MrKwaza220?tab=repositories">
               <i className="fa fa-github"></i>
-            </a>
-
-            <a href="#">
-              <i className="fa fa-instagram"></i>
             </a>
           </div>
           {/* <i className="fa-brands fa-linkedin"></i>

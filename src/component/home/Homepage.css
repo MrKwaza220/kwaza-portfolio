@@ -99,16 +99,40 @@ html {
 .container {
   padding: 10px 10%;
 }
-.job_name h1 {
-  font-size: 50px;
-  margin-top: 8rem;
+
+.homepage_content {
+  display: flex;
+  column-gap: 2rem;
+   margin-left: 10px;
+}
+
+.homepage_icons{
+  margin-left: -13.5rem;
+  margin-top: 5rem;
+
+  
+}
+.homepage_icons i {
+  align-items: flex-start;
+  font-size: 40px;
+  margin-left: 20px;
+  color:#000;
+}
+
+
+ .homepage_names{
+  margin-top: 6rem;
+ }
+
+.job_name{
+  font-size: 65px;
   margin-left: 9rem;
   color: #000;
   font-weight: 400;
-  font-family: "Rampart One", sans-serif;
+  /* font-family: "Rampart One", sans-serif; */
 }
-.my_name h6 {
-  margin-left: -7rem;
+.my_name{
+  margin-left: -6.5rem;
   font-size: 30px;
   color: #000;
   font-weight: 300;
@@ -117,8 +141,8 @@ html {
 .downloadbtn button {
   height: 50px;
   width: 200px;
+  margin-top: 1rem;
   margin-left: -9rem;
-  margin-top: 2rem;
   border-radius: 7px;
   background-color: wheat;
   color: white;
@@ -138,32 +162,15 @@ html {
   color: #000;
 }
 
-.homepage_content {
-  display: flex;
-  column-gap: 2rem;
-  align-items: center;
-  align-content: center;
-}
 .homepage_picture {
   display: flex;
   align-items: center;
   justify-content: center;
   box-shadow: 0px 2px 0px 0px black;
   border-radius: 50%;
-  height: 380px;
-  width: 380px;
+  height: 300px;
+  width: 300px;
   margin: 0 24px 0 100px;
-}
-.homepage_icons{
-  margin-left: -5rem;
-  
-}
-.homepage_icons i {
-  align-items: flex-start;
-  font-size: 40px;
-  margin-left: 20px;
-  margin-top: 5rem;
-  color:#000;
 }
 
 /*________________NAVIGATION BAR___________*/
