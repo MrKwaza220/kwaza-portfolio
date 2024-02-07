@@ -72,9 +72,6 @@ export default function Homepage() {
             <h1>JUNIOR DEVELOPER</h1>
 
             <div className="homepage_icons">
-              <a href="#">
-                <i className="fa fa-instagram-square"></i>
-              </a>
 
               <a href="https://www.linkedin.com/in/sakhumzi-kwaza-2690351b9/">
                 <i className="fa fa-linkedin"></i>
@@ -82,6 +79,10 @@ export default function Homepage() {
 
               <a href="https://github.com/MrKwaza220?tab=repositories">
                 <i className="fa fa-github"></i>
+              </a>
+              
+              <a href="#">
+                <i className="fa fa-instagram"></i>
               </a>
             </div>
             {/* <i className="fa-brands fa-linkedin"></i>
