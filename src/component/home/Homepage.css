@@ -1,19 +1,21 @@
-.homepage_container{
-    /* display: flex;
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Solway&display=swap');
+/* .homepage_container{
+    display: flex;
     align-items: center;
     text-align: center;
-    justify-content: center; */
+    justify-content: center;
     height: 10%;
     min-height: fit-content;
     background-color: wheat;
 }
 .homepage_parent{
     display: flex;
-    /* align-items: center; */
+    align-items: center;
 
     margin-left: -15rem;
     margin-top: 10rem;
-    color:aliceblue;
+    color: black;
 }
 .homepage_details_name{
     font-size: 24px;
@@ -29,7 +31,7 @@
     font-family: cursive;
 }
 .primary_text{
-    color: white;
+    color: black;
 }
 .highlighted_text{
     color: red;
@@ -45,23 +47,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0px 1px 0px 0px white;
+    box-shadow: 0px 1px 0px 0px ;
     border-radius: 50%;
     height: 380px;
     width: 380px;
     margin-left: 70rem;
     margin-top: -10rem;
-    /* 
+    
     margin-bottom: 0;
     
-    margin-right: 0;    */
+    margin-right: 0;   
 }
 
 
 .homepage_picture_background{
   width: 92%;
   height: 92%;
-  /* background-image: url("../..assets/Images/messi.jpeg"); */
+  background-image: url("../..assets/Images/messi.jpeg");
   background-size: cover;
   border-radius: 50%;
   
@@ -78,4 +80,147 @@
 }
 .homepage_icons_icolz i:hover{
    transform: scale(1.1);
-}
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html{
+    scroll-behavior: smooth;
+    transition: 0.2s;
+  }
+  
+  #homepage{
+    height: 650px;
+    /* background: linear-gradient(to right, #eec8c4 60%, white 10% ); */
+    /*#eec8c4*/
+  }
+  .container{
+    padding: 10px 10%;
+  
+  }
+  /* .page{
+    display: none;
+  }
+  
+  .active{
+    display: block;
+  } */
+  
+  .job_name h1{
+    margin-left: 5px;
+    font-size: 50px;
+    margin-top: 0rem;
+    color: #000;
+    font-weight: 400;
+    font-family: 'Rampart One', sans-serif;
+  }
+  
+  .my_name h6{
+    font-size: 30px;
+    margin-left: 40px;
+    margin-top: 4rem;
+    color: #000;
+    font-weight: 300;
+    font-family: 'RocknRoll One', sans-serif;
+    
+  }
+  .downloadbtn button{
+    height: 50px;
+    width: 200px;
+    margin-left: 7rem;
+    margin-top: 7rem;
+    border-radius: 7px;
+    background-color: wheat;
+    color: white;
+    
+    font-size: 17px;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+  .downloadbtn button:hover{
+    background-color: wheat;
+  -webkit-box-shadow: 0px 0px 13px -5px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 0px 0px 13px -5px rgba(66, 68, 90, 1);
+  box-shadow: 0px 0px 13px -5px rgba(66, 68, 90, 1);
+  }
+  .downloadbtn button a{
+    text-decoration: none;
+    color: #000;
+  }
+  .job_name .fa-brands{
+    margin-left: 40px; 
+    font-size: 30px;
+    margin-top: 3rem;
+  }
+  
+  /*________________NAVIGATION BAR___________*/
+  .navigation{
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+   
+  }
+  ul{
+    list-style: none;
+  }
+  
+  .navigation-bar{
+    margin-top: 35px;
+    display: flex;
+    /* justify-content: flex-end; */
+  }
+  .navigation-bar li {
+    margin-right: 40px;
+  }
+  .navigation-bar li{
+    display: block;
+    position: relative;
+    overflow: hidden;  
+  }
+  .navigation-bar a span{
+    transition: transform 0.5s ease-out;
+  }
+  .navigation-bar a{
+    text-decoration: none;
+    color: #000;
+  }
+  .navigation-bar a span:first-child {
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  .navigation-bar a span:last-child {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-100%);
+  }
+  .navigation-bar i {
+    font-size: 30px;
+  }
+  .navigation-bar a:hover span:first-child {
+    transform: translateY(100%);
+  }
+  .navigation-bar a:hover span:last-child,
+  .navigation-bar[data-animation] a:hover span:last-child {
+    transform: none;
+  }
+  
+  .homepage_picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 1px 0px 0px black;
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    margin: 0 24px 0 100px;
+  }

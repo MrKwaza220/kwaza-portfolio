@@ -12,7 +12,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+/* 
 @font-face {
   font-family: "Poppins Medium";
   font-style: normal;
@@ -81,46 +81,46 @@ body ::-webkit-scrollbar-thumb{
 
 ::-webkit-scrollbar-track {
   background: hsla(0, 0%, 100%, 0.1);
-}
+} */
 
 
-.btn {
+/* .btn {
   border-radius: 50px;
   padding: 14px 0;
   width: 160px;
   cursor: pointer;
   transition: 0.2s;
   font-family: "Poppins SemiBold";
-}
+} */
 
-.btn:active {
+/* .btn:active {
   transform: translateY(2px);
-}
+} */
 
-.primary-btn {
+/* .primary-btn {
   color: var(--white);
   border: 2px solid linen;
   font-size: 12px;
   background-color: #1f2235;
-}
+} */
 /* @media only screen and (max-width: 414px) {
   .primary-btn {
     font-size: 13px;
   }
 } */
 
-.download_button:hover {
+/* .download_button:hover {
   color: aliceblue;
   border: 2px solid #ff5823;
   background-color: #1f2235;
-}
+} */
 
-.download_button{
+/* .download_button{
   color: white;
   background-color: black;
   font-size: 12px;
   
-}
+} */
 @media only screen and (max-width: 568px) {
   .highlighted-btn {
     z-index: -900;
