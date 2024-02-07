@@ -30,6 +30,12 @@ export default function Homepage() {
               {" "}
               Hello, I'm <span className="highlighted_text">Sakhumzi</span>
             </span>
+            
+          </div>
+          <div>
+            <span className="primary_text_tagline">
+                The easiest way to get icons on your website is with a Kit.
+            </span>
           </div>
           <div className="homepage_details_role">
             <span>
@@ -60,7 +66,7 @@ export default function Homepage() {
           </div>
           <div className="homepage_picture">
             <div className="homepage_picture_background">
-                
+
             </div>
           </div>
         </div>
