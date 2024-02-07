@@ -1,0 +1,51 @@
+.homepage_container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 10%;
+    min-height: fit-content;
+    background-color: black;
+}
+.homepage_parent{
+    display: flex;
+    align-items: center;
+    color:aliceblue;
+}
+.homepage_details_name{
+    font-size: 24px;
+    font-family: "Poppins SemiBold";
+}
+.homepage_details_role{
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 24px 0;
+}
+.homepage_details_role h1{
+    font-size: 40px;
+    font-family: cursive;
+}
+.primary_text{
+    color: white;
+}
+.highlighted_text{
+    color: white;
+
+}
+.homepage_picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 1px 0px 0px white;
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    margin: 0 0px 0 100px;
+}
+.homepage_picture_background{
+  width: 92%;
+  height: 92%;
+  /* background-image: url("../..assets/Images/messi.jpeg"); */
+  background-size: cover;
+  border-radius: 50%;
+}

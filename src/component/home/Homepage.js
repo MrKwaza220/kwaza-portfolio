@@ -1,5 +1,7 @@
 import React from "react";
 import Typical from "react-typical";
+import './Homepage.css';
+
 
 export default function Homepage() {
   return (
@@ -37,7 +39,7 @@ export default function Homepage() {
                 <Typical
                   loop={Infinity}
                   steps={[
-                    "Front End Dev",
+                    "Frontend Dev",
                     1000,
                     "Software Dev",
                     1000,
@@ -52,9 +54,14 @@ export default function Homepage() {
             <a href="images/large_devices.pdf" download="">
               <button className="download_button"> download cv </button>
             </a>
+            <a href="images/large_devices.pdf" download="">
+              <button className="download_button"> download cv </button>
+            </a>
           </div>
           <div className="homepage_picture">
-            <div className="homepage_picture_background"></div>
+            <div className="homepage_picture_background">
+                
+            </div>
           </div>
         </div>
       </div>
