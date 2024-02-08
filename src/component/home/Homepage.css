@@ -92,10 +92,13 @@ html {
   scroll-behavior: smooth;
   transition: 0.2s;
 }
-
-#homepage {
-  height: 650px;
+.homepage_logo {
+  font-size: 27px;
+  margin: 2rem 0px 0px -70rem;
+  cursor: pointer;
+  font-family: "Rampart One", sans-serif;
 }
+
 .container {
   padding: 10px 10%;
 }
@@ -103,10 +106,10 @@ html {
 .homepage_content {
   display: flex;
   column-gap: 2rem;
-   margin-left: 10px;
+  margin-left: 10px;
 }
 
-.homepage_icons{
+.homepage_icons {
   margin-left: -22.5rem;
   margin-top: 2rem;
 }
@@ -114,21 +117,21 @@ html {
   align-items: flex-start;
   font-size: 40px;
   margin-left: 20px;
-  color:#000;
+  color: #000;
 }
 
- .homepage_names{
+.homepage_names {
   margin-top: 12rem;
- }
+}
 
-.job_name{
+.job_name {
   font-size: 65px;
   margin-left: 6rem;
   color: #000;
   font-weight: 400;
   /* font-family: "Rampart One", sans-serif; */
 }
-.my_name{
+.my_name {
   margin-left: -14.5rem;
   font-size: 30px;
   color: #000;
@@ -175,7 +178,6 @@ html {
   Bottom margin: 0
   Left margin: 100 pixels
   */
-
 }
 
 /*________________NAVIGATION BAR___________*/
@@ -188,13 +190,13 @@ ul {
 }
 
 .navigation-bar {
-  margin-top: 30px;
+  margin-top: -42px;
   display: flex;
-  margin-left: 45rem;
+  margin-left: 37rem;
   /* justify-content: flex-end; */
 }
 .navigation-bar li {
-  /* margin-right: 30px; */
+  margin-left: 20px;
 }
 .navigation-bar li {
   display: block;
