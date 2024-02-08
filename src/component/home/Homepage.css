@@ -179,6 +179,9 @@ html {
   Left margin: 100 pixels
   */
 }
+img .homepage_image {
+  border-radius: 50%;
+}
 
 /*________________NAVIGATION BAR___________*/
 .navigation {

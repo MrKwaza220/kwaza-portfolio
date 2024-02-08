@@ -104,7 +104,9 @@ export default function Homepage() {
         </div>
 
         <div className="homepage_picture">
-          <div className="homepage_picture_background"></div>
+          <div className="homepage_picture_background">
+            <img className="homepage_image" alt="" src="messi.jpg" height={"340"} width={"350"}></img>
+          </div>
         </div>
       </div>
     </div>
