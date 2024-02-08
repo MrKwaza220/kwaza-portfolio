@@ -102,12 +102,15 @@ export default function Homepage() {
         </div>
 
         <div className="homepage_picture">
-          <div className="homepage_picture_background"></div>
+          <div className="homepage_picture_background">
+            <img className="homepage_image" alt="" src="sakhumzi.png" ></img>
+          </div>
         </div>
       </div>
     </div>
   );
 }
+
 
 
 // <div className="homepage_container">
