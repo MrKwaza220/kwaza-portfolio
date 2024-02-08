@@ -167,11 +167,14 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 2px 0px 0px black;
-  border-radius: 50%;
-  height: 300px;
-  width: 350px;
-  margin: 10rem 0px 0px 100px;
+  
+  /* box-shadow: 0px 2px 0px 0px black; */
+  border-radius: 0px 0px 0px 200px;
+  background-color: aliceblue;
+  height: 500px;
+  width: 600px;
+  margin: 5.01rem 0px 0px 100px;
+  border: 1px solid black;
 
   /****** 
   Top margin: 0
@@ -180,8 +183,11 @@ html {
   Left margin: 100 pixels
   */
 }
-img .homepage_image {
-  border-radius: 50%;
+.homepage_picture_background img {
+  border-radius: 0px 0px 0px 200px;
+  height: 900px;
+  width: 900px;
+
 }
 
 /*________________NAVIGATION BAR___________*/
@@ -212,7 +218,7 @@ ul {
 }
 .navigation-bar a {
   text-decoration: none;
-  color: #000;
+  color: white;
 }
 .navigation-bar a span:first-child {
   display: inline-block;
