@@ -1,11 +1,17 @@
 import React from "react";
 import Typical from "react-typical";
 import "./Homepage.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function Homepage() {
   return (
-    <div id="homepage" className="page active">
+    <div className="homepage_active">
       {/* <!--Navigation BAR--> */}
+      <div className="homepage_logo">
+        <div className="logo">
+          <i > </i>
+        </div>
+      </div>
       <div className="navigation">
         <ul className="navigation-bar" id="navbar">
           <li>
@@ -66,11 +72,11 @@ export default function Homepage() {
         <div className="homepage_left-content">
           <div className="homepage_names">
             <div className="my_name">
-              Hi, I'm Sakhumzi
+              HI, I'M SAKHUMZI
             </div>
 
             <div className="job_name">
-               Junior Developer
+               JUNIOR DEVELOPER
             </div>
           </div>
           <div className="homepage_icons">
