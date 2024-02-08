@@ -94,7 +94,7 @@ html {
 }
 .homepage_logo {
   font-size: 27px;
-  margin: 2rem 0px 0px -70rem;
+  margin: 2rem 0px 0px -90rem;
   cursor: pointer;
   font-family: "Rampart One", sans-serif;
 }
@@ -105,12 +105,12 @@ html {
 
 .homepage_content {
   display: flex;
-  column-gap: 2rem;
+  column-gap: -2rem;
   margin-left: 10px;
 }
 
 .homepage_icons {
-  margin-left: -22.5rem;
+  margin-left: 0rem;
   margin-top: 2rem;
 }
 .homepage_icons i {
@@ -125,52 +125,52 @@ html {
 }
 
 .job_name {
-  font-size: 65px;
-  margin-left: 6rem;
+  font-size: 40px;
+  margin-left: -12.7rem;
   color: #000;
   font-weight: 400;
   /* font-family: "Rampart One", sans-serif; */
 }
 .my_name {
-  margin-left: -14.5rem;
-  font-size: 30px;
-  color: #000;
-  font-weight: 300;
-  font-family: "RocknRoll One", sans-serif;
+  /* border: 1px solid black; */
+  width: 700px;
+  margin-left: 3rem;
+  font-size: 80px;
+  
 }
 .downloadbtn button {
   height: 50px;
   width: 200px;
-  margin-top: 1rem;
-  margin-left: -18rem;
+  margin-top: -15rem;
+  margin-left: 0rem;
   border-radius: 7px;
-  background-color: wheat;
-  color: white;
+  background-color: black;
+  color: #9FC5F8;
 
-  font-size: 17px;
+  font-size: 20px;
   cursor: pointer;
-  border: 1px solid black;
 }
 .downloadbtn button:hover {
-  background-color: wheat;
+  
   -webkit-box-shadow: 0px 0px 13px -5px rgba(66, 68, 90, 1);
   -moz-box-shadow: 0px 0px 13px -5px rgba(66, 68, 90, 1);
   box-shadow: 0px 0px 13px -5px rgba(66, 68, 90, 1);
 }
 .downloadbtn button a {
   text-decoration: none;
-  color: #000;
+  color: #9FC5F8;
 }
 
 .homepage_picture {
   display: flex;
   align-items: center;
-  justify-content: center;
-  box-shadow: 0px 2px 0px 0px black;
-  border-radius: 50%;
-  height: 300px;
-  width: 350px;
-  margin: 10rem 0px 0px 100px;
+  justify-content: center;  
+  border-radius: 0px 0px 0px 399px;
+  /* background-color: white; */
+  background-color: #9FC5F8;
+  height: 650px;
+  width: 900px;
+  margin: -4rem 0px 0px 3rem;
 
   /****** 
   Top margin: 0
@@ -179,8 +179,15 @@ html {
   Left margin: 100 pixels
   */
 }
+.homepage_picture_background img {
+  
+  border-radius: 0px 0px 0px 180px;
+  margin: -2.9rem 0px 0px 9rem;
+  height: 700px;
+  width: 600px;
+}
 
-/*________________NAVIGATION BAR___________*/
+/*______________________NAVIGATION BAR___________________*/
 .navigation {
   font-family: "Mulish", sans-serif;
   font-size: 20px;
@@ -192,11 +199,11 @@ ul {
 .navigation-bar {
   margin-top: -42px;
   display: flex;
-  margin-left: 37rem;
+  margin-left: 49rem;
   /* justify-content: flex-end; */
 }
 .navigation-bar li {
-  margin-left: 20px;
+  margin-left: 40px;
 }
 .navigation-bar li {
   display: block;

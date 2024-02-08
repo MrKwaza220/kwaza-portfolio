@@ -1,16 +1,15 @@
 import React from "react";
 import Typical from "react-typical";
 import "./Homepage.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Homepage() {
   return (
     <div className="homepage_active">
       {/* <!--Navigation BAR--> */}
-      
-      
+
+
       <div className="homepage_logo">
-        <i className="Name">Kwaza</i>
+        <p>Kwaza</p>
       </div>
 
       <div className="navigation">
@@ -25,7 +24,7 @@ export default function Homepage() {
           </li>
           <li>
             <a href="#about_me" className="underline">
-              <span>About Me</span>
+              <span>About</span>
               <span>
                 <i className="fa-solid fa-address-card" aria-hidden="true"></i>
               </span>
@@ -74,13 +73,12 @@ export default function Homepage() {
           <div className="homepage_names">
             <div className="my_name">HI, I'M SAKHUMZI</div>
 
-            <div className="job_name">JUNIOR DEVELOPER</div>
+            <div className="job_name"> A JUNIOR DEVELOPER</div>
           </div>
           <div className="homepage_icons">
             <a href="#">
               <i className="fa fa-instagram"></i>
             </a>
-
             <a href="https://www.linkedin.com/in/sakhumzi-kwaza-2690351b9/">
               <i className="fa fa-linkedin"></i>
             </a>
@@ -97,19 +95,22 @@ export default function Homepage() {
           <div className="downloadbtn">
             <button>
               <a href="Images/portfolio cv.pdf" download className="btn">
-                download cv
+                Download cv
               </a>
             </button>
           </div>
         </div>
 
         <div className="homepage_picture">
-          <div className="homepage_picture_background"></div>
+          <div className="homepage_picture_background">
+            <img className="homepage_image" alt="" src="sakhumzi.png" ></img>
+          </div>
         </div>
       </div>
     </div>
   );
 }
+
 
 // <div className="homepage_container">
 //   <div className="homepage_parent">
