@@ -2,6 +2,7 @@ import React from "react";
 // import Typical from "react-typical";
 import "./Homepage.css";
 
+
 export default function Homepage() {
   return (
     <div className="homepage_active">
@@ -112,7 +113,7 @@ export default function Homepage() {
 
         <div className="homepage_picture">
           <div className="homepage_picture_background">
-            {/* <img className="homepage_image" alt="" src="sakhumzi.png" ></img> */}
+            {/* <img className="homepage_image" alt="" src="messi.jpg" ></img> */}
           </div>
         </div>
       </div>
