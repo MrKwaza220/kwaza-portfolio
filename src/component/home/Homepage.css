@@ -189,7 +189,7 @@ ul {
     .homepage_picture{
       border-radius: 0px 0px 0px 450px;
       margin: -7.5rem 0px 0px -10.5rem;
-      border: 1px solid black;
+      /* border: 1px solid black; */
       height: 750px;
       width: 700px;
     }
