@@ -3,6 +3,7 @@ import React from "react";
 import "./Homepage.css";
 
 
+
 export default function Homepage() {
   return (
     <div className="homepage_active">
@@ -24,7 +25,7 @@ export default function Homepage() {
             </a>
           </li>
           <li>
-            <a href="#about_me" className="underline">
+            <a href="#about" className="underline">
               <span>About</span>
               <span>
                 <i className="fa-solid fa-address-card" aria-hidden="true"></i>
