@@ -88,14 +88,19 @@ export default function Homepage() {
             <a href="https://github.com/MrKwaza220?tab=repositories">
               <i className="fa fa-github"></i>
             </a>
+            <a href="#" download>
+             <button>
+                 Download cv
+             </button>
+            </a>
 
-            <div className="downloadbtn">
+            {/* <div className="downloadbtn">
             <button>
-              <a href="Images/portfolio cv.pdf" download className="btn">
+              <a href="Images/portfolio cv.pdf" download>
                 Download cv
               </a>
             </button>
-          </div>
+          </div> */}
           </div>
           {/* <i className="fa-brands fa-linkedin"></i>
             <i className="fa-brands fa-github"></i>
