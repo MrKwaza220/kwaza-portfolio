@@ -1,0 +1,53 @@
+.page {
+    display: flex;
+    padding: 30px 0;
+    margin-top: 300px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+  }
+  /* .myjourney_list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+  } */
+  .myjourney_list {
+    padding: 50 0;
+  }
+  .myjourney_list div i{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+  .myjourney_list div {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 20px;
+  }
+  
+  div:nth-child(1) .myjourneylist {
+    font-family: Verdana;
+
+  }
+  
+  div:nth-child(2) .myjourneylist {
+    font-family: Verdana;
+  }
+  
+  .myjourney_list div:nth-child(3) .myjourneylist {
+    font-family: Verdana;
+  }
+  
+  .myjourneylist {
+    position: relative;
+    font-size: 17px;
+    padding: 40px;
+    border-radius: 15px;
+    border: 0px solid white;
+    color: black;
+    font-family: Verdana;
+    font-weight:lighter;
+    cursor: pointer;
+    padding: 0;
+  }
+  
