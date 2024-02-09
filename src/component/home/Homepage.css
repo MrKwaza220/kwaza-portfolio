@@ -29,8 +29,9 @@ html {
 }
 
 .homepage_icons {
-  margin-left: 0rem;
-  margin-top: 2rem;
+  font-size: 30px;
+  margin-left: -28rem;
+  margin-top: 3rem;
 }
 .homepage_icons i {
   align-items: flex-start;
@@ -46,6 +47,7 @@ html {
 .job_name {
   font-size: 40px;
   margin-left: -12.7rem;
+  margin-top: -0.9rem;
   color: #000;
   font-weight: 400;
   /* font-family: "Rampart One", sans-serif; */
@@ -53,18 +55,21 @@ html {
 .my_name {
   /* border: 1px solid black; */
   width: 700px;
-  margin-left: 3rem;
-  font-size: 80px;
+  margin-left: 2rem;
+  font-size: 78px;
+  margin-top: -4rem;
   
 }
+
 .downloadbtn button {
   height: 50px;
   width: 200px;
-  margin-top: -15rem;
-  margin-left: 0rem;
+  margin-top: -28rem;
+  margin-left: 25rem;
   border-radius: 7px;
   background-color: black;
-  color: #9FC5F8;
+  /* color: #9FC5F8; */
+  color: wheat;
 
   font-size: 20px;
   cursor: pointer;
@@ -77,7 +82,8 @@ html {
 }
 .downloadbtn button a {
   text-decoration: none;
-  color: #9FC5F8;
+  /* color: #9FC5F8; */
+  color: wheat;
 }
 
 .homepage_picture {
@@ -85,11 +91,12 @@ html {
   align-items: center;
   justify-content: center;  
   border-radius: 0px 0px 0px 399px;
-  /* background-color: wheate; */
-  background-color: #9FC5F8;
+  background-color: wheat;
+  /* background-color: #9FC5F8; */
+
   height: 650px;
   width: 900px;
-  margin: -4rem 0px 0px 3rem;
+  margin: -7.1rem 0px 0px 1rem;
 
   /****** 
   Top margin: 0

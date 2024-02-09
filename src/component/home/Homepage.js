@@ -1,5 +1,5 @@
 import React from "react";
-import Typical from "react-typical";
+// import Typical from "react-typical";
 import "./Homepage.css";
 
 export default function Homepage() {
@@ -75,6 +75,8 @@ export default function Homepage() {
 
             <div className="job_name"> A JUNIOR DEVELOPER</div>
           </div>
+          <div className="Icons_button">
+
           <div className="homepage_icons">
             <a href="#">
               <i className="fa fa-instagram"></i>
@@ -86,18 +88,20 @@ export default function Homepage() {
             <a href="https://github.com/MrKwaza220?tab=repositories">
               <i className="fa fa-github"></i>
             </a>
+
+            <div className="downloadbtn">
+            <button>
+              <a href="Images/portfolio cv.pdf" download className="btn">
+                Download cv
+              </a>
+            </button>
+          </div>
           </div>
           {/* <i className="fa-brands fa-linkedin"></i>
             <i className="fa-brands fa-github"></i>
             <i className="fa-brands fa-facebook"></i>
             <i className="fa-brands fa-instagram"></i> */}
 
-          <div className="downloadbtn">
-            <button>
-              <a href="Images/portfolio cv.pdf" download className="btn">
-                Download cv
-              </a>
-            </button>
           </div>
         </div>
 
