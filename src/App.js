@@ -5,7 +5,7 @@ import Aboutpage from './component/about/Aboutpage'
  function App() {
   return (
     <div className="App">
-      {/* <Homepage/> */}
+      <Homepage/>
       <Aboutpage/>
     </div>
   );

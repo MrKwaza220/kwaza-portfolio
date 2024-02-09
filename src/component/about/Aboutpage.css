@@ -1,13 +1,11 @@
-
-
 /***************** ABOUT ME*********************/
 .container{
     padding: 10px 10%;
 
 }
-/* #about_me{
+#about_me{
     padding: 80px 0;
-} */
+}
 .about_image{
     flex-basis: 40%;
 }
@@ -29,6 +27,12 @@
     justify-content: space-between;
     position: relative;
     column-gap: 40px;
+}
+
+:root {
+    --bg: white;
+    --color: #1a1e24;
+    --font: Montserrat, Roboto, Helvetica, Arial, sans-serif;
 }
 
 .wrapper {
@@ -81,9 +85,12 @@
     transform: none;
 }
 img{
+    margin: 150px 0px 0px -25rem;
+    border: 1px solid black;
     height: 600px;
     width: 600px;
 }
+/* 
 img {
     --m:
       radial-gradient(circle farthest-side at right,#000 99%,#0000) 
@@ -101,5 +108,8 @@ img {
             mask-position: 7.5% 50%,92.5% 50%;
     filter: grayscale(0);
   }
-  
-  
+   */
+
+   @media only screen and (max-width: 2200px){
+    
+   }

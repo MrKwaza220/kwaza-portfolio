@@ -176,7 +176,7 @@ ul {
 
   @media only screen and (max-width: 2200px) {
     .homepage_logo{
-      margin-left: -70rem;
+      margin-left: 2rem;
     }
     .navigation-bar {
       margin-left: 37rem;
@@ -188,8 +188,8 @@ ul {
     
     .homepage_picture{
       border-radius: 0px 0px 0px 450px;
-      margin: -7.5rem 0px 0px -3.5rem;
-      /* border: 1px solid black; */
+      margin: -7.5rem 0px 0px -10.5rem;
+      border: 1px solid black;
       height: 750px;
       width: 700px;
     }
@@ -203,7 +203,7 @@ ul {
     .my_name {
       /* border: 1px solid black; */
   
-      margin-left: -5rem;
+      margin-left: 2rem;
       font-size: 57px;
       margin-top: 1rem;
     }
@@ -215,7 +215,7 @@ ul {
 
     }
     .homepage_icons{
-      margin-left: -15rem;
+      margin-left: 1rem;
       margin-top: 2rem;
       /* border: 1px solid black; */
     }

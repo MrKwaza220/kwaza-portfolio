@@ -25,7 +25,7 @@ export default function Homepage() {
             </a>
           </li>
           <li>
-            <a href="#about" className="underline">
+            <a href="#about_me" className="underline">
               <span>About</span>
               <span>
                 <i className="fa-solid fa-address-card" aria-hidden="true"></i>
