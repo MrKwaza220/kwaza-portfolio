@@ -12,7 +12,7 @@ html {
   transition: 0.2s;
 }
 .homepage_logo {
-  font-size: 27px;
+  font-size: 30px;
   margin: 2rem 0px 0px -90rem;
   cursor: pointer;
   font-family: "Rampart One", sans-serif;
@@ -29,7 +29,7 @@ html {
 }
 
 .homepage_icons {
-  font-size: 30px;
+  font-size: 35px;
   margin-left: -28rem;
   margin-top: 3rem;
 }
@@ -106,7 +106,7 @@ html {
 }
 .homepage_picture_background img {
   
-  /* border-radius: 0px 0px 0px 180px; */
+  border-radius: 0px 0px 0px 180px;
   margin: -2.9rem 0px 0px 9rem;
   height: 700px;
   width: 600px;
@@ -187,13 +187,15 @@ ul {
     }
     
     .homepage_picture{
+      border-radius: 0px 0px 0px 450px;
       margin: -7.5rem 0px 0px -3.5rem;
-      border: 1px solid black;
+      /* border: 1px solid black; */
       height: 750px;
       width: 700px;
     }
     .homepage_picture_background img{
-      margin: 3rem 0px 0px 0rem;
+      border-radius: 0px 0px 0px 260px;
+      margin: 6.2rem 0px 0px 0rem;
       height: 650px;
       width: 550px;
     }
@@ -203,7 +205,7 @@ ul {
   
       margin-left: -5rem;
       font-size: 57px;
-      margin-top: -4rem;
+      margin-top: 1rem;
     }
 
     .job_name {
@@ -213,7 +215,6 @@ ul {
 
     }
     .homepage_icons{
-
       margin-left: -15rem;
       margin-top: 2rem;
       /* border: 1px solid black; */
