@@ -12,15 +12,24 @@
 .about_image img{
     width: 100%;
 }
+.about_image{
+    margin: 150px 0px 0px 0px
+}
 .about_paragraph{
    flex-basis: 60%;
 }
 .about_paragraph{
     margin-top: 50px;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 100;
-    font-family: Verdana, sans-serif;
-    
+    font-family: Verdana, sans-serif;  
+}
+
+.about_myself h2{
+  margin-top: 170px;
+  border: 1px solid black;
+  height: 50px;
+  width: 200px;
 }
 .about_myself{
     display: flex;
@@ -56,7 +65,7 @@
     font-size: 1.25rem;
 }
 
-.button:before,
+/* .button:before,
 .button:after {
     width: 4.4em;
     height: 2.95em;
@@ -83,7 +92,8 @@
 .button:hover:before,
 .button:hover:after {
     transform: none;
-}
+} */
+
 img{
     margin: 150px 0px 0px -25rem;
     border: 1px solid black;
@@ -111,5 +121,18 @@ img {
    */
 
    @media only screen and (max-width: 2200px){
-    
+    .about_image{
+        flex-basis: 100%;
+    }
+    .about_paragraph{
+        flex-basis: 100%;
+     }
+    .about_image{
+        margin: 90px 0px 0px 0px;
+        height: 100px;
+    }
+    .about_paragraph{
+        border: 1px solid black;
+        margin: 230px 0px 0px 20px;
+    }
    }
