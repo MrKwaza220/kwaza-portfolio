@@ -4,10 +4,10 @@ import "./Journeypage.css";
 function Journeypage() {
   return (
     <div className="page">
-       <div className="my_journey">
+       {/* <div className="my_journey">
         
          Journey
-       </div>
+       </div> */}
       <div className="myjourney_list">
       
         <div>
