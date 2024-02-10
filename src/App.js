@@ -2,7 +2,8 @@ import './App.css';
 import Homepage from './component/home/Homepage';
 import Aboutpage from './component/about/Aboutpage';
 import Journeypage from './component/journey/Journeypage';
-
+import Skillspage from './component/skills/Skillspage';
+import Projectpage from './component/project/Projectpage';
 
  function App() {
   return (
@@ -10,6 +11,8 @@ import Journeypage from './component/journey/Journeypage';
       <Homepage/>
       <Aboutpage/>
       <Journeypage/>
+      <Skillspage/>
+      <Projectpage/>
     </div>
   );
 }
