@@ -4,9 +4,12 @@ import "./Journeypage.css";
 function Journeypage() {
   return (
     <div className="page">
-       
+       <div className="my_journey">
+        
+         Journey
+       </div>
       <div className="myjourney_list">
-      <h2>Journey</h2>
+      
         <div>
           <div className="myjourneylist">
             <i className="fa-solid fa-school"></i>

@@ -1,0 +1,113 @@
+.container {
+    padding: 10px 10%;
+  }
+  /* #about_me {
+    padding: 80px 0;
+  } */
+  .about_myself h2 {
+    margin-left: -10rem;
+  }
+  .about_image {
+    flex-basis: 40%;
+  }
+  .about_image img {
+    width: 100%;
+    margin: 100px 0rem 0px -20rem;
+    height: 600px;
+    width: 500px;
+  }
+  .about_paragraph {
+    flex-basis: 60%;
+  }
+  
+  .about_paragraph {
+    margin-top: 250px;
+    margin-right: -12rem;
+    border: 1px solid black;
+    font-size: 17px;
+    font-weight: 100;
+    font-family: Verdana, sans-serif;
+  }
+  .about_myself {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    column-gap: 40px;
+  }
+  
+  :root {
+    --bg: white;
+    --color: #1a1e24;
+    --font: Montserrat, Roboto, Helvetica, Arial, sans-serif;
+  }
+  
+  .wrapper {
+    padding: 1.5rem 0;
+  }
+  
+  .button {
+    display: inline-block;
+    text-align: center;
+    background: var(--color);
+    color: var(--bg);
+    font-weight: medium;
+    padding: 1.18em 1.32em 1.03em;
+    line-height: 1;
+    border-radius: 1em;
+    position: relative;
+    min-width: 5em;
+    text-decoration: none;
+    font-family: var(--font);
+    font-size: 1.25rem;
+  }
+  
+  .button:before,
+  .button:after {
+    width: 4.4em;
+    height: 2.95em;
+    position: absolute;
+    content: "";
+    display: inline-block;
+    background: var(--color);
+    border-radius: 50%;
+    transition: transform 1s ease;
+    transform: scale(0);
+    z-index: -1;
+  }
+  
+  .button:before {
+    top: -25%;
+    left: 20%;
+  }
+  
+  .button:after {
+    bottom: -25%;
+    right: 20%;
+  }
+  
+  .button:hover:before,
+  .button:hover:after {
+    transform: none;
+  }
+  img {
+    height: 600px;
+    width: 600px;
+  }
+  /* 
+  img {
+      --m:
+        radial-gradient(circle farthest-side at right,#000 99%,#0000) 
+          0 100%/46% 92% no-repeat,
+        radial-gradient(circle farthest-side at left ,#000 99%,#0000) 
+          100% 0/46% 92% no-repeat;
+      -webkit-mask: var(--m);
+              mask: var(--m);
+      filter: grayscale(.5);
+      transition: .5s linear;
+      cursor: pointer;
+    }
+    img:hover {
+      -webkit-mask-position: 7.5% 50%,92.5% 50%;
+              mask-position: 7.5% 50%,92.5% 50%;
+      filter: grayscale(0);
+    } */
