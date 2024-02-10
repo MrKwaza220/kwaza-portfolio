@@ -6,11 +6,13 @@ function Aboutpage() {
     <div className="page">
       <div className="container">
         <div className="about_myself">
-          <h2>About Me</h2>
+          
           <div className="about_image">
             <img src="Messi.jpg" alt="messi"/>
           </div>
+          
           <div className="about_paragraph">
+          <h2>About Me</h2>
             <p>
               I am a Hardworking, highly motivated junior developer eager to
               lend combined knowledge and skills to enhance business
