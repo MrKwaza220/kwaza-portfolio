@@ -26,7 +26,7 @@ const Contactpage = () => {
       </div>
         <div className="my_contacts">
           <div className="contact_picture">
-            <img src="Messi.jpg" alt="Messi" />
+            <img src="Messi.jpg" alt="messi" />
           </div>
 
           <div className="contact_form">
