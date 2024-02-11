@@ -11,12 +11,12 @@ import Footerpage from './component/footer/Footerpage';
   return (
     <div className= "App">
       <Homepage/>
-      <Aboutpage/>
-      <Journeypage/>
-      {/* <Skillspage/> */}
-      <Projectpage/>
-      <Contactpage/>
-      <Footerpage/>
+      {/* <Aboutpage/> */}
+      {/* <Journeypage/> */}
+      <Skillspage/>
+      {/* <Projectpage/> */}
+      {/* <Contactpage/> */}
+      {/* <Footerpage/> */}
     </div>
   );
 }

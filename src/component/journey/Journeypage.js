@@ -10,7 +10,7 @@ function Journeypage() {
           <div>
             <div className="myjourneylist">
               {/* <i className="fa fa-school"></i> */}
-              <h2>HIGH SCHOOL</h2>
+              <h4>HIGH SCHOOL</h4>
               <p>Name of School: Ntsonkotha Senior</p>
               <p>Secondary School.</p>
               <p>Grade Passed: Grade 12</p>
@@ -22,7 +22,7 @@ function Journeypage() {
           <div>
             <div className="myjourneylist">
               {/* <i className="fa fa-building-columns"></i> */}
-              <h2>TERTIARY</h2>
+              <h4>TERTIARY</h4>
               <p>Institution: University of Fort Hare</p>
               <p>Degree Level: Bachelor of Science</p>
               <p>Course: Computer Science</p>
@@ -34,7 +34,7 @@ function Journeypage() {
           <div>
             <div className="myjourneylist">
               {/* <i className="fa fa-briefcase"></i> */}
-              <h2>EXPERIENCE</h2>
+              <h4>EXPERIENCE</h4>
               <p>Company: UVU AFRICA</p>
               <p>Job Title: Software Development</p>
               <p>Learnership.</p>

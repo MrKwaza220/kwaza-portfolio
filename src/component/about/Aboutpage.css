@@ -1,7 +1,10 @@
 .container {
     padding: 5px 0px;
+   
   }
-  
+  .page{
+    margin-top: 200px;
+  }
   .about_myself h2 {
     margin-left: -10rem;
   }
@@ -10,9 +13,10 @@
   }
   .about_image img {
     width: 100%;
-    margin: 100px 0rem 0px -7rem;
+    margin: 100px 0rem 0px 0rem;
     height: 500px;
-    width: 500px;
+    width: 450px;
+    border-radius: 10px;
   }
   .about_paragraph {
     flex-basis: 60%;
@@ -20,9 +24,9 @@
   
   .about_paragraph {
     margin-top: 250px;
-    margin-right: -6rem;
+    margin-right: 0rem;
     border: 1px solid black;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 100;
     font-family: Verdana, sans-serif;
   }

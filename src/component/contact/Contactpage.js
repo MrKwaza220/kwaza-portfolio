@@ -19,11 +19,9 @@ const Contactpage = () => {
   };
 
   return (
-    <div className="container">
-      
-      <div className="contact_heading">
-        Contact Me
-      </div>
+    <div className="contact_page">
+      <div className="container">
+        <div className="contact_heading">Contact Me</div>
         <div className="my_contacts">
           <div className="contact_picture">
             <img src="Messi.jpg" alt="messi" />
@@ -68,13 +66,13 @@ const Contactpage = () => {
           </div>
         </div>
       </div>
+    </div>
   );
 };
 
 export default Contactpage;
 
-
-  /* <i className="fa- fa-phone"></i>
+/* <i className="fa- fa-phone"></i>
             <i className="fa-fa-envelope"></i>
             <i className="fa fa-linkedin"></i>
             <i className="fa fa-github"></i> 
@@ -83,4 +81,3 @@ export default Contactpage;
             <FontAwesomeIcon icon="fa-solid fa-battery-half" />
             <FontAwesomeIcon icon="fa-solid fa-battery-three-quarters" />
             */
-
