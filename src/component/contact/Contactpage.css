@@ -9,11 +9,17 @@
     margin: 0 auto;
     padding: 2px;
   }
-  
+.contact_heading{
+    margin: 0px 0px 0px 0px;
+    font-size: 50px;
+}
   .my_contacts {
     display: flex;
     justify-content: space-between;
     border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+
   }
   
   .contact_picture{
@@ -40,8 +46,9 @@
     color: black;
     font-size: 18px;
     border: none;
+    background-color: #ccc;
     border-radius: 10px;
-    box-shadow: 0px 3px 10px -4px rgba(66, 68, 90, 1);
+    /* box-shadow: 0px 3px 10px -4px rgba(66, 68, 90, 1); */
   }
   textarea{
     height: 300px;
@@ -52,7 +59,7 @@
     color: #ccc;
     background-color: #000;
     border: none;
-    margin-right: 25rem;
+    margin-left: 0rem;
     border-radius: 10px;
     margin-top: 10px;
   }

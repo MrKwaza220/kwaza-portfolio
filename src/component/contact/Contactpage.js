@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './Contactpage.css';
+import "./Contactpage.css";
 
 const Contactpage = () => {
   const [formData, setFormData] = useState({
@@ -19,16 +19,14 @@ const Contactpage = () => {
   };
 
   return (
-    <div className="page">
-      <div className="container">
+    <div className="container">
+      <div className="contact_heading">
+        Contact Me
+      </div>
+      <div className="page">
         <div className="my_contacts">
           <div className="contact_picture">
-            <h2>Contact Me</h2>
             <img src="Messi.jpg" alter="Messi" />
-            {/* <i className="fa- fa-phone"></i>
-            <i className="fa-fa-envelope"></i>
-            <i className="fa fa-linkedin"></i>
-            <i className="fa fa-github"></i> */}
           </div>
 
           <div className="contact_form">
@@ -75,4 +73,10 @@ const Contactpage = () => {
 };
 
 export default Contactpage;
+
+
+  /* <i className="fa- fa-phone"></i>
+            <i className="fa-fa-envelope"></i>
+            <i className="fa fa-linkedin"></i>
+            <i className="fa fa-github"></i> */
 
