@@ -3,47 +3,56 @@ import "./Projectpage.css";
 
 function Projectpage() {
   return (
-    <div className="page">
+    <div className="my_project">
       <div className="container">
-        <h2 className="sub-title">Project</h2>
-        <div className="myproject_list">
-          <div>
-            <i className="fa-solid fa-hand-back-fist"></i>{" "}
-            <i className="fa-solid fa-hand"></i>{" "}
-            <i className="fa-solid fa-hand-scissors"></i>
-            <h2>Rock Paper Scissor Game</h2>
-            <p>This Game have Single Player</p>
-            <p>And Also have Multiplayer.</p>
-            <p>It uses two browsers for multiplayer</p>
-            <p>We use NodeJs as Server side</p>
-            <p>demo will be available</p>
-            <p>
-              {" "}
-            </p>
+        <h1 className="sub-title">My Projects</h1>
+        <div className="work-list">
+          <div className="work">
+            <img src="Messi.jpg" />
+            <div className="layer">
+              <h3>Pygame</h3>
+              <p>
+                Forms are created using the element, and they contain various
+                form controls like text labels, fields, radio buttons,
+                checkboxes, dropdowns, and buttons.
+              </p>
+              <a href="#">
+                <i className="fa fa-external-link-alt"></i>{" "}
+              </a>
+            </div>
           </div>
-          <div>
-            <i className="fa-solid fa-mug-hot"></i>
-            <h2>Coffee Shop Website</h2>
-            <p>This Website have User Interface.</p>
-            <p>This is individual project</p>
-            <p></p>
-            <p></p>
-            <p>Demo Will available Soon</p>
-            <p>
-              
-            </p>
+          <div className="work">
+            <img src="Messi.jpg" />
+            <div className="layer">
+              <h3>HTML Project</h3>
+              <p>
+                Forms are created using the element, and they contain various
+                form controls like text labels, fields, radio buttons,
+                checkboxes, dropdowns, and buttons.
+              </p>
+              <a href="#">
+                <i className="fa fa-external-link-alt"></i>{" "}
+              </a>
+            </div>
           </div>
-          <div>
-            <i className="fa-solid fa-car"></i>
-            <h2>Rental Car Website</h2>
-            <p>The Website have User Interface.</p>
-            <p>Is under development.</p>
-            <p>This is a group project</p>
-            <p>
-              
-            </p>
+          <div className="work">
+            <img src="Messi.jpg" />
+            <div className="layer">
+              <h3>Java Project</h3>
+              <p>
+                Forms are created using the element, and they contain various
+                form controls like text labels, fields, radio buttons,
+                checkboxes, dropdowns, and buttons.
+              </p>
+              <a href="#">
+                <i className="fa fa-external-link-alt"></i>{" "}
+              </a>
+            </div>
           </div>
         </div>
+        <a href="#" className="btn">
+          See More
+        </a>
       </div>
     </div>
   );
