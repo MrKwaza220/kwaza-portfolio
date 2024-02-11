@@ -4,6 +4,7 @@ import Aboutpage from './component/about/Aboutpage';
 import Journeypage from './component/journey/Journeypage';
 import Skillspage from './component/skills/Skillspage';
 import Projectpage from './component/project/Projectpage';
+import Contactpage from './component/contact/Contactpage';
 
  function App() {
   return (
@@ -13,6 +14,7 @@ import Projectpage from './component/project/Projectpage';
       {/* <Journeypage/> */}
       {/* <Skillspage/> */}
       <Projectpage/>
+      <Contactpage/>
     </div>
   );
 }
