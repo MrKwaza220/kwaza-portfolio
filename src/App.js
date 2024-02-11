@@ -8,10 +8,10 @@ import Projectpage from './component/project/Projectpage';
  function App() {
   return (
     <div className= "App">
-      <Homepage/>
-      <Aboutpage/>
-      <Journeypage/>
-      <Skillspage/>
+      {/* <Homepage/> */}
+      {/* <Aboutpage/> */}
+      {/* <Journeypage/> */}
+      {/* <Skillspage/> */}
       <Projectpage/>
     </div>
   );
