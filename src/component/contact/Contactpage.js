@@ -20,13 +20,13 @@ const Contactpage = () => {
 
   return (
     <div className="container">
+      
       <div className="contact_heading">
         Contact Me
       </div>
-      <div className="page">
         <div className="my_contacts">
           <div className="contact_picture">
-            <img src="Messi.jpg" alter="Messi" />
+            <img src="Messi.jpg" alt="Messi" />
           </div>
 
           <div className="contact_form">
@@ -68,7 +68,6 @@ const Contactpage = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 
