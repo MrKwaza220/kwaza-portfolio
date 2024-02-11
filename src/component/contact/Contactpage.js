@@ -77,5 +77,10 @@ export default Contactpage;
   /* <i className="fa- fa-phone"></i>
             <i className="fa-fa-envelope"></i>
             <i className="fa fa-linkedin"></i>
-            <i className="fa fa-github"></i> */
+            <i className="fa fa-github"></i> 
+            <FontAwesomeIcon icon="fa-solid fa-battery-full" />
+            <FontAwesomeIcon icon="fa-solid fa-battery-quarter" />
+            <FontAwesomeIcon icon="fa-solid fa-battery-half" />
+            <FontAwesomeIcon icon="fa-solid fa-battery-three-quarters" />
+            */
 
