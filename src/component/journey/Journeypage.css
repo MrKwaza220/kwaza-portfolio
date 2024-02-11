@@ -8,10 +8,16 @@ html {
   scroll-behavior: smooth;
   transition: 0.2s;
 }
-.page {
+.container{
+  padding: 5px 0;
+}
+.journey_heading{
+  font-size: 30px;
+}
+.journey_page {
     display: flex;
     padding: 30px 0;
-    margin-top: 200px;
+    margin-top: 0px;
     overflow: hidden;
     justify-content: center;
     align-items: center;

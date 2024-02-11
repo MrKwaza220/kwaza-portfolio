@@ -10,9 +10,9 @@ import Footerpage from './component/footer/Footerpage';
  function App() {
   return (
     <div className= "App">
-      {/* <Homepage/> */}
-      {/* <Aboutpage/> */}
-      {/* <Journeypage/> */}
+      <Homepage/>
+      <Aboutpage/>
+      <Journeypage/>
       {/* <Skillspage/> */}
       <Projectpage/>
       <Contactpage/>

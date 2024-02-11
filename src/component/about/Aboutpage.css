@@ -1,5 +1,5 @@
 .container {
-    padding: 10px 10%;
+    padding: 5px 0px;
   }
   
   .about_myself h2 {
@@ -10,9 +10,9 @@
   }
   .about_image img {
     width: 100%;
-    margin: 100px 0rem 0px -15rem;
-    height: 700px;
-    width: 700px;
+    margin: 100px 0rem 0px -7rem;
+    height: 500px;
+    width: 500px;
   }
   .about_paragraph {
     flex-basis: 60%;
@@ -20,7 +20,7 @@
   
   .about_paragraph {
     margin-top: 250px;
-    margin-right: -15rem;
+    margin-right: -6rem;
     border: 1px solid black;
     font-size: 17px;
     font-weight: 100;
@@ -59,7 +59,7 @@
     font-size: 1.25rem;
   }
   
-  .button:before,
+  /* .button:before,
   .button:after {
     width: 4.4em;
     height: 2.95em;
@@ -86,7 +86,7 @@
   .button:hover:before,
   .button:hover:after {
     transform: none;
-  }
+  } */
   img {
     height: 600px;
     width: 600px;
