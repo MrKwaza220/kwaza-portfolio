@@ -88,8 +88,24 @@ button:hover {
   margin-top: 20px;
 }
 
-@media only screen and (max-width: 1203px){
+@media only screen and (max-width: 1229px){
     .container{
-      
+      padding: 5px 5px;
+    }
+
+    /* .my_contacts{
+      display:grid;
+    } */
+
+}
+
+@media (max-width: 600px)
+{
+   form {
+      width: 90%;
+   }
+
+    .my_contacts{
+      display:grid;
     }
 }

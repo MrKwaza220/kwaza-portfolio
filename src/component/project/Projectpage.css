@@ -85,3 +85,13 @@ html {
 .btn:hover{
    background-color: rgb(218, 172, 87);
 }
+
+   
+@media only screen and (max-width: 1229) {
+   .work-list{
+      grid-gap: -10px;
+   }
+   .container{
+      padding: 10px 0;
+    }
+}
