@@ -1,7 +1,16 @@
-* {
+
+
+
+
+
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.container{
+  padding: 5px 0;
+  display: flex;
 }
 
 html {
@@ -164,4 +173,4 @@ html {
       margin: 0 2px;
     }
     
-   
+    */
