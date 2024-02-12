@@ -14,28 +14,28 @@ function Skillspage() {
               <h3>Front-End Development</h3>
               <p>
                 <i className="fa fa-html5" /> {" "}
-                HTML <i className=" fa fa-battery-full skills-icons"></i>
+                HTML <i className=" fa fa-battery-full skills-icons"></i>{" "}
               85%</p>
               <p>
                 <i className="fa fa-css3" />{" "}
-                CSS <i className="fa fa-battery-full skills-icons"></i>
+                CSS <i className="fa fa-battery-full skills-icons"></i>{" "}
                 80%
               </p>
               <p>
               <i className="fa fa-code" />{" "}
                  REACTJS
-                <i className="fa fa-battery-three-quarters skills-icons"></i>
+                <i className="fa fa-battery-three-quarters skills-icons"></i>{" "}
                 75%
               </p>
               <p>
               <i className="fa fa-code" />{" "}
-                JAVASCRIPT <i className="fa fa-solid fa-battery-half skills-icons"></i>
+                JAVASCRIPT <i className="fa fa-solid fa-battery-half skills-icons"></i>{" "}
                 50%
               </p>
 
               <p>
               <i className="fa fa-code" />{" "}
-                Visual Basic <i className="fa fa-solid fa-battery-half skills-icons"></i>
+                VISUAL BASIC <i className="fa fa-solid fa-battery-quarter skills-icons"></i>{" "}
                 50%
               </p>
               
@@ -50,23 +50,23 @@ function Skillspage() {
             </h3>
             <p>
               <i className="fa fa-server " />{" "}
-              SQL <i className="fa fa-battery-fa-solid fa-battery-half skills-icons"></i>
+              SQL <i className="fa fa-battery-fa-solid fa-battery-half skills-icons"></i>{" "}
               50%
             </p>
             <p>
               <i className="fa fa-database" /> {" "}
-              MYSQL <i className="fa fa-battery-three-quarters skills-icons"></i>
+              MYSQL <i className="fa fa-battery-three-quarters skills-icons"></i>{" "}
               60%
             </p>
             <p>
               <i className="fa fa-database" /> {" "}
-              Firebase <i className="fa fa-battery-three-quarters skills-icons"></i>
+              Firebase <i className="fa fa-battery-three-quarters skills-icons"></i>{" "}
               60%
             </p>
 
             <p>
             <i className="fa fa-coffee"></i>{" "}
-              JAVA <i className="fa fa-battery-three-quarters skills-icons"></i>
+              JAVA <i className="fa fa-battery-three-quarters skills-icons"></i>{" "}
               70%
             </p>
             <p>

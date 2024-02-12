@@ -10,7 +10,7 @@ import Footerpage from './component/footer/Footerpage';
  function App() {
   return (
     <div className= "App">
-      <Homepage/>
+      {/* <Homepage/> */}
       {/* <Aboutpage/> */}
       {/* <Journeypage/> */}
       <Skillspage/>
