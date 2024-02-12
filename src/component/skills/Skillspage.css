@@ -29,12 +29,47 @@ h2, h3 {
   border-radius: 20px 20px 200px 20px;
 }
 
-.skills-icons {
-  margin-left: 4rem; 
+/* front-end development icons */
+.html_icon{
+  margin-left: 6.8rem;
+}
+.css-icon{
+  margin-left: 7.8rem;
+}
+.react_icon{
+  margin-left: 5.0rem;
+}
+.javaScript_icon{
+  margin-left: 2.3rem;
+}
+.vb-icon{
+  margin-left: 1.0rem;
 }
 
+/* Backend development icons */
+.sql-icon{
+  margin-left: 4.8rem;
+}
+.mysql_icon{
+  margin-left: 2.8rem;
+}
+.firebase_icon{
+  margin-left: 1.5rem;
+}
+.java_icon{
+  margin-left: 4.3rem;
+}
+.python_icon{
+  margin-left: 1.7rem;
+}
+.cplus_plus_icon{
+  margin-left: 4.6rem;
+}
 .front p, .back p {
   text-align: left; 
+}
+.sql-icon{
+
 }
 
 /* Media queries for responsiveness */
