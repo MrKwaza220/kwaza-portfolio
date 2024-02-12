@@ -12,16 +12,23 @@
 
 .front{
   border: 1px solid black;
-  
-
+  font-size: 30px;
 }
+
 .back{
   border: 1px solid black;
+  font-size: 30px;
 }
+
 .skills-icons{
   margin-left: 5rem;
 }
-
+.front p{
+  text-align: start;
+}
+.back p{
+  text-align: start;
+}
 
 
 /* * {

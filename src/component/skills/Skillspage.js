@@ -20,14 +20,15 @@ function Skillspage() {
                 80%
               </p>
               <p>
-                <i className="fa fa-react" /> ReactJs{" "}
+                <i className="fa fa-react" />{" "}
+                 REACTJS
               
                 <i className="fa fa-battery-three-quarters skills-icons"></i>
                 75%
               </p>
               <p>
-                <i className="fa fa-js" />
-                JavaScript <i className="fa fa-solid fa-battery-half skills-icons"></i>
+                <i className="fa fa-js" />{" "}
+                JAVASCRIPT <i className="fa fa-solid fa-battery-half skills-icons"></i>
                 50%
               </p>
              
@@ -40,23 +41,23 @@ function Skillspage() {
               Backend Development
             </h3>
             <p>
-              <i className="fa fa-server " />
+              <i className="fa fa-server " />{" "}
               SQL <i className="fa fa-battery-fa-solid fa-battery-half skills-icons"></i>
               50%
             </p>
             <p>
-              <i className="fa fa-database" /> 
+              <i className="fa fa-database" /> {" "}
               MYSQL <i className="fa fa-battery-three-quarters skills-icons"></i>
               60%
             </p>
             <p>
-              <i className="fa fa-java" />
-              Java <i className="fa fa-battery-three-quarters skills-icons"></i>
+            <i className="fa fa-coffee"></i>{" "}
+              JAVA <i className="fa fa-battery-three-quarters skills-icons"></i>
               70%
             </p>
             <p>
-              <i className="fa fa-python" />
-              Python <i className="fa fa-fa-solid fa-battery-half skills-icons"></i>
+              <i className="fa fa-python" />{" "}
+              PYTHON <i className="fa fa-fa-solid fa-battery-half skills-icons"></i>
               60%
             </p>
           </div>
