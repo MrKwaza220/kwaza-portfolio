@@ -1,4 +1,23 @@
 
+.container{
+  padding: 5px 0px;
+}
+.front_back{
+  display: flex;
+  column-gap: 15rem;
+ align-content: center;
+ margin-left: 11rem;
+ 
+}
+
+.front{
+  border: 1px solid black;
+  
+
+}
+.back{
+  border: 1px solid black;
+}
 
 
 

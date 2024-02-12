@@ -9,12 +9,22 @@ function Skillspage() {
         <div className="front_back">
           <div className="front">
             <div>
-              <h3>Front</h3>
+              <h3>Front-End Development</h3>
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>ReactJs</p>
+              <p>JavaScript</p>
+              <p></p>
             </div>
           </div>
 
           <div className="back">
-            <h3>Back</h3>
+            <h3>Backend Development</h3>
+            <p>SQL</p>
+            <p>MYSQL</p>
+            <p>Java</p>
+            <p>Python</p>
+
           </div>
         </div>
       </div>
@@ -23,7 +33,10 @@ function Skillspage() {
 }
 export default Skillspage;
 
-
+{/* <FontAwesomeIcon icon="fa-solid fa-battery-full" />
+<FontAwesomeIcon icon="fa-solid fa-battery-quarter" />
+<FontAwesomeIcon icon="fa-solid fa-battery-half" />
+<FontAwesomeIcon icon="fa-solid fa-battery-three-quarters" /> */}
 
 // function Skillspage(){
 //     return(
@@ -161,3 +174,4 @@ export default Skillspage;
 //     );
 // }
 // export default Skillspage;
+
