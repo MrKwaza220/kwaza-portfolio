@@ -10,21 +10,55 @@ function Skillspage() {
           <div className="front">
             <div>
               <h3>Front-End Development</h3>
-              <p>HTML</p>
-              <p>CSS</p>
-              <p>ReactJs</p>
-              <p>JavaScript</p>
-              <p></p>
+              <p>
+                <i className="fa fa-html5" /> {" "}
+                HTML <i className=" fa fa-battery-full"></i>
+              85%</p>
+              <p>
+                <i className="fa fa-css3" />{" "}
+                CSS <i className="fa fa-battery-full"></i>
+                80%
+              </p>
+              <p>
+                <i className="fa fa-react" /> ReactJs{" "}
+              
+                <i className="fa fa-battery-three-quarters"></i>
+                75%
+              </p>
+              <p>
+                <i className="fa fa-js" />
+                JavaScript <i className="fa fa-solid fa-battery-half"></i>
+                50%
+              </p>
+             
             </div>
           </div>
 
           <div className="back">
-            <h3>Backend Development</h3>
-            <p>SQL</p>
-            <p>MYSQL</p>
-            <p>Java</p>
-            <p>Python</p>
-
+            <h3>
+              <i className="" />
+              Backend Development
+            </h3>
+            <p>
+              <i className="fa fa-server " />
+              SQL <i className="fa fa-battery-fa-solid fa-battery-half"></i>
+              50%
+            </p>
+            <p>
+              <i className="fa fa-database" /> 
+              MYSQL <i className="fa fa-battery-three-quarters"></i>
+              60%
+            </p>
+            <p>
+              <i className="fa fa-java" />
+              Java <i className="fa fa-battery-three-quarters"></i>
+              70%
+            </p>
+            <p>
+              <i className="fa fa-python" />
+              Python <i className="fa fa-fa-solid fa-battery-half"></i>
+              60%
+            </p>
           </div>
         </div>
       </div>
@@ -33,10 +67,12 @@ function Skillspage() {
 }
 export default Skillspage;
 
-{/* <FontAwesomeIcon icon="fa-solid fa-battery-full" />
+{
+  /* <FontAwesomeIcon icon="fa-solid fa-battery-full" />
 <FontAwesomeIcon icon="fa-solid fa-battery-quarter" />
 <FontAwesomeIcon icon="fa-solid fa-battery-half" />
-<FontAwesomeIcon icon="fa-solid fa-battery-three-quarters" /> */}
+<FontAwesomeIcon icon="fa-solid fa-battery-three-quarters" /> */
+}
 
 // function Skillspage(){
 //     return(
@@ -174,4 +210,3 @@ export default Skillspage;
 //     );
 // }
 // export default Skillspage;
-
