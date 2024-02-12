@@ -1,35 +1,32 @@
-
-.container{
+.container {
   padding: 5px 0px;
 }
-.front_back{
+.front_back {
   display: flex;
   column-gap: 15rem;
- align-content: center;
- margin-left: 11rem;
- 
+  align-content: center;
+  margin-left: 11rem;
 }
 
-.front{
+.front {
   border: 1px solid black;
-  font-size: 30px;
+  font-size: 20px;
 }
 
-.back{
+.back {
   border: 1px solid black;
-  font-size: 30px;
+  font-size: 20px;
 }
 
-.skills-icons{
+.skills-icons {
   margin-left: 5rem;
 }
-.front p{
+.front p {
   text-align: start;
 }
-.back p{
+.back p {
   text-align: start;
 }
-
 
 /* * {
   margin: 0;

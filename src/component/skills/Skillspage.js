@@ -1,6 +1,8 @@
 import React from "react";
 import "./Skillspage.css";
 
+
+
 function Skillspage() {
   return (
     <div className="skill_page">
@@ -20,17 +22,23 @@ function Skillspage() {
                 80%
               </p>
               <p>
-                <i className="fa fa-react" />{" "}
+              <i className="fa fa-code" />{" "}
                  REACTJS
-              
                 <i className="fa fa-battery-three-quarters skills-icons"></i>
                 75%
               </p>
               <p>
-                <i className="fa fa-js" />{" "}
+              <i className="fa fa-code" />{" "}
                 JAVASCRIPT <i className="fa fa-solid fa-battery-half skills-icons"></i>
                 50%
               </p>
+
+              <p>
+              <i className="fa fa-code" />{" "}
+                Visual Basic <i className="fa fa-solid fa-battery-half skills-icons"></i>
+                50%
+              </p>
+              
              
             </div>
           </div>
@@ -51,13 +59,24 @@ function Skillspage() {
               60%
             </p>
             <p>
+              <i className="fa fa-database" /> {" "}
+              Firebase <i className="fa fa-battery-three-quarters skills-icons"></i>
+              60%
+            </p>
+
+            <p>
             <i className="fa fa-coffee"></i>{" "}
               JAVA <i className="fa fa-battery-three-quarters skills-icons"></i>
               70%
             </p>
             <p>
-              <i className="fa fa-python" />{" "}
+              <i className="fa fa-code" /> {" "}
               PYTHON <i className="fa fa-fa-solid fa-battery-half skills-icons"></i>
+              60%
+            </p>
+            <p>
+              <i className="fa fa-code" /> {" "}
+              C++ <i className="fa fa-fa-solid fa-battery-half skills-icons"></i>
               60%
             </p>
           </div>
