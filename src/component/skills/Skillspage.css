@@ -26,7 +26,18 @@ h2, h3 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
   margin-bottom: 1rem; 
   padding: 1rem; 
-  border-radius: 20px 20px 200px 20px;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.front:hover{
+  -webkit-box-shadow: 31px 32px 16px -39px rgba(66, 68, 90, 1);
+-moz-box-shadow: 31px 32px 16px -39px rgba(66, 68, 90, 1);
+box-shadow: 31px 32px 16px -39px rgba(66, 68, 90, 1);
+}
+.back:hover{
+  -webkit-box-shadow: 31px 32px 16px -39px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 31px 32px 16px -39px rgba(66, 68, 90, 1);
+  box-shadow: 31px 32px 16px -39px rgba(66, 68, 90, 1);
 }
 
 /* front-end development icons */

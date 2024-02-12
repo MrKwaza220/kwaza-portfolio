@@ -71,12 +71,12 @@ function Skillspage() {
             </p>
             <p>
               <i className="fa fa-code" /> {" "}
-              PYTHON <i className="fa fa-fa-solid fa-battery-half python_icon"></i>
+              PYTHON <i className="fa fa-fa-solid fa-battery-half python_icon"></i>{" "}
               60%
             </p>
             <p>
               <i className="fa fa-code" /> {" "}
-              C++ <i className="fa fa-fa-solid fa-battery-half cplus_plus_icon"></i>
+              C++ <i className="fa fa-fa-solid fa-battery-half cplus_plus_icon"></i>{" "}
               60%
             </p>
           </div>
