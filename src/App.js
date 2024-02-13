@@ -13,7 +13,7 @@ import Footerpage from './component/footer/Footerpage';
       <Homepage/>
       {/* <Aboutpage/> */}
       {/* <Journeypage/> */}
-      <Skillspage/>
+      {/* <Skillspage/> */}
       {/* <Projectpage/> */}
       {/* <Contactpage/> */}
       {/* <Footerpage/> */}

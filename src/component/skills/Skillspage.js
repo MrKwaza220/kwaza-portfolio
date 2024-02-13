@@ -11,7 +11,7 @@ function Skillspage() {
         <div className="front_back">
           <div className="front">
             <div>
-              <h3>Front-End Development</h3>
+              <h3>Front-End</h3>
               <p>
                 <i className="fa fa-html5" /> {" "}
                 HTML <i className=" fa fa-battery-full html_icon"></i>{" "}
@@ -46,7 +46,7 @@ function Skillspage() {
           <div className="back">
             <h3>
               <i className="" />
-              Backend Development
+              Backend 
             </h3>
             <p>
               <i className="fa fa-server " />{" "}

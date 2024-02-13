@@ -65,9 +65,9 @@ export default function Homepage() {
             </a>
           </li>
           {/* <h2>View Count: <span id="viewCount">0</span></h2> */}
-          {/* <i className="fas fa-times"></i> */}
+          <i class="fa fa-times"></i>
         </ul>
-        {/* <i className="fas fa-bars" id="menu-icon"></i> */}
+        <i className="fa fa-burger" />
       </div>
 
       <div className="homepage_content">
