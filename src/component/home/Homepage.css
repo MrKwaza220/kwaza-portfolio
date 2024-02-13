@@ -370,8 +370,78 @@ ul {
     margin-left: -13rem;
   }
   
+}
+@media only screen and (max-width: 375px){
+  .homepage_logo{
+    margin-left: -17rem;
+    font-size: 25px;
+  }
+  .homepage_picture{
+    height: 350px;
+    width: 250px;
+    margin-left: -20rem;
+  }
+  .job_name {
+    margin-left: -16.5rem; 
+    font-size: 1.2rem; 
+  }
+  .my_name{
+    font-size: 28px;
+    margin-left: -15rem;
+  }
+  .homepage_icons{
+    margin-left: -16.5rem;
+    margin-top: 0rem;
+  }
+  .homepage_icons i{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: -3rem;
+  }
+  .homepage_icons button{
+    height: 35px;
+    margin-left: 10px;
+  }
 
 }
+@media only screen and (max-width: 425px){
+  .homepage_logo{
+    margin-left: -20rem;
+    font-size: 25px;
+  }
+  .homepage_picture{
+    height: 390px;
+    width: 280px;
+    margin-left: -20rem;
+  }
+  .homepage_names{
+    margin-top: 14rem;
+  }
+  .job_name {
+    margin-left: -16.5rem; 
+    font-size: 1.3rem; 
+  }
+  .my_name{
+    font-size: 35px;
+    margin-left: -13rem;
+  }
+  .homepage_icons{
+    margin-left: -16.5rem;
+    margin-top: 0rem;
+  }
+  .homepage_icons i{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: -3rem;
+  }
+  .homepage_icons button{
+    height: 35px;
+    margin-left: 10px;
+  }
+
+}
+
+
 @media only screen and (max-width: 320px){
   .homepage_logo{
     margin-left: -14rem;
@@ -396,7 +466,6 @@ ul {
     font-size: 20px;
     margin-left: 10px;
     margin-top: -2rem;
-    
   }
   .homepage_picture{
     height: 330px;
