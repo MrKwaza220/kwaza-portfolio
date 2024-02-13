@@ -11,7 +11,7 @@ export default function Homepage() {
 
 
       <div className="homepage_logo">
-        <p>Kwaza</p>
+        <p>KWAZA</p>
       </div>
 
       <div className="navigation">
