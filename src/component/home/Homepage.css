@@ -179,18 +179,18 @@ ul {
       margin-left: -70rem;
     }
     .navigation-bar {
-      margin-left: 37rem;
+      margin-left: 39rem;
       
     }
     .navigation-bar li {
-      margin-left: 25px;
+      margin-left: 20px;
     }
     
     .homepage_picture{
       border-radius: 0px 0px 0px 450px;
-      margin: -7.5rem 0px 0px -5.5rem;
+      margin: -7.5rem 0px 0px -4.0rem;
       height: 750px;
-      width: 760px;
+      width: 700px;
     }
     .homepage_picture_background img{
       border-radius: 0px 0px 0px 260px;
@@ -285,27 +285,38 @@ ul {
 }
 
 @media only screen and (max-width: 1024px){
+  .navigation-bar {
+    margin-left: 30rem;
+  }
   .navigation-bar li {
-    margin-left: -5rem; 
+    margin-left: -1.3rem; 
     margin-bottom: 1rem; 
     text-align: center; 
     width: 100%; 
 }
 
-
 .my_name {
-  margin-left: -5.5rem; 
-  font-size: 3.5rem;
+  margin-left: -7.5rem; 
+  font-size: 3.0rem;
 }
 
 .job_name {
-  margin-left: -13.5rem; 
-  font-size: 2.0rem; 
+  margin-left: -16.5rem; 
+  font-size: 1.5rem; 
 }
-
 
 .homepage_logo {
   margin-left: -55rem; 
+  
 }
-
+.homepage_icons {
+  margin-left: -13rem; 
+  margin-top: 1rem; 
+}
+.homepage_picture{
+  margin-left: -8rem;
+  width: 561px;
+  height: 700px;
+  border-radius: 0px;
+}
 }
