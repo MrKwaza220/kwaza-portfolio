@@ -14,7 +14,7 @@ import Footerpage from './component/footer/Footerpage';
       {/* <Aboutpage/> */}
       {/* <Journeypage/> */}
       {/* <Skillspage/> */}
-      {/* <Projectpage/> */}
+      <Projectpage/>
       {/* <Contactpage/> */}
       {/* <Footerpage/> */}
     </div>

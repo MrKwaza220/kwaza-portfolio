@@ -69,6 +69,7 @@ export default function Homepage() {
           
         </ul>
         <i className="fa fa-bars" />
+    
       </div>
 
       <div className="homepage_content">

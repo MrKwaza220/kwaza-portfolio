@@ -326,9 +326,9 @@ ul {
 }
 
 @media only screen and (max-width: 670px){
-  .navigation-bar .fa{
+  .navigation .fa{
     position: absolute;
-    top: 0px;
+    top: -3px;
     right: 0px;
     cursor: pointer;
   }
@@ -393,9 +393,6 @@ ul {
   .homepage_icons{
     font-size: 10px;
     
-  }
-  .homepage_picture_background{
-    border: 1px solid black;
   }
   .homepage_picture{
     height: 300px;
