@@ -65,9 +65,10 @@ export default function Homepage() {
             </a>
           </li>
           {/* <h2>View Count: <span id="viewCount">0</span></h2> */}
-          <i class="fa fa-times"></i>
+          {/* <i class="fa fa-times"></i> */}
+          
         </ul>
-        <i className="fa fa-burger" />
+        <i className="fa fa-bars" />
       </div>
 
       <div className="homepage_content">
@@ -75,7 +76,7 @@ export default function Homepage() {
           <div className="homepage_names">
             <div className="my_name">HI, I'M SAKHUMZI</div>
 
-            <div className="job_name"> A JUNIOR DEVELOPER</div>
+            <div className="job_name"> A JUNIOR DEVELOPER </div>
           </div>
           <div className="Icons_button">
 

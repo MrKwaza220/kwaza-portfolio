@@ -199,6 +199,7 @@ ul {
       width: 700px;
     }
     .homepage_picture_background img{
+      
       border-radius: 0px 0px 0px 260px;
       margin: 6.2rem 0px 0px 0rem;
       height: 650px;
@@ -292,8 +293,10 @@ ul {
       margin-left: -15rem;
     }
     .homepage_picture{
+      border: 1px solid black;
       height: 600px;
       margin-left: -11rem;
+      border-radius: 0px 0px 0px 450px;
     }
 
 }
@@ -322,6 +325,41 @@ ul {
 
 }
 
+@media only screen and (max-width: 670px){
+  .navigation-bar .fa{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+  }
+  .navigation .fa {
+    display: block;
+    font-size: 40px;
+  }
+  .navigation-bar {
+    position: fixed;
+    top: 0;
+    right: 100px;
+    width: 10px;
+    height: 30rem;
+    padding-top: 50px;
+    z-index: 2;
+    transition: 0.5s;
+  }
+  .navigation-bar{
+    display: flex; 
+  }
+  .navigation-bar {
+    display: none; 
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(24, 23, 23, 0.1);
+    transition: 0.5s;
+  }
+
+}
+
 @media only screen and (max-width: 425px){
   .job_name {
     margin-left: -16.5rem; 
@@ -332,4 +370,35 @@ ul {
     margin-left: -13rem;
   }
   
+
+}
+@media only screen and (max-width: 320px){
+  .homepage_logo{
+    margin-left: -14rem;
+    font-size: 25px;
+  }
+  .job_name {
+    margin-left: -14rem; 
+    font-size: 1.4rem; 
+  }
+  .my_name{
+    font-size: 20px;
+    margin-left: -14rem;
+    margin-top: -2rem;
+  }
+  .homepage_icons button{
+    width: 90px;
+    height: 30px;
+  }
+  .homepage_icons{
+    font-size: 10px;
+    
+  }
+  .homepage_picture_background{
+    border: 1px solid black;
+  }
+  .homepage_picture{
+    height: 300px;
+    margin-left: -17rem;
+  }
 }
