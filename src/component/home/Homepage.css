@@ -88,7 +88,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;  
-  /* border: 1px solid black; */
+  border: 1px solid black;
   border-radius: 0px 0px 0px 399px;
   background-color: white;
   /* background-color: #9FC5F8; */
@@ -220,4 +220,68 @@ ul {
       margin-top: -4rem;
     }
   } 
+/* Add a media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .homepage_logo {
+    margin-left: 2rem; 
+  }
+
+  .navigation-bar {
+    margin-left: 0; 
+    justify-content: center;
+    flex-wrap: wrap; 
+  }
+
+  .navigation-bar li {
+    margin-left: 0; 
+    margin-bottom: 1rem; 
+    text-align: center; 
+    width: 100%; 
+  }
+
+  .homepage_content {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .homepage_icons {
+    margin-left: 0; 
+    margin-top: 1rem;
+    text-align: center; 
+  }
+
+  .homepage_names {
+    text-align: center; 
+    margin-top: 3rem; 
+  }
+
+  .homepage_picture {
+    margin: 1rem 0; 
+    border-radius: 0; 
+    width: auto; 
+    height: auto;
+  }
+
+  .homepage_picture_background img {
+    margin: 0; 
+    width: 100%;
+    height: auto; 
+    border-radius: 0; 
+  }
+
+  .my_name {
+    margin-left: 0; 
+    font-size: 2rem;
+  }
+
+  .job_name {
+    margin-left: 0; 
+    font-size: 1.5rem; 
+  }
+
+  .homepage_icons button {
+    margin-left: 0; 
+    margin-top: 1rem; 
+  }
+}
 

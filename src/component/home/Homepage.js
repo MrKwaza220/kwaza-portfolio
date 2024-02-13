@@ -96,18 +96,8 @@ export default function Homepage() {
              </button>
             </a>
 
-            {/* <div className="downloadbtn">
-            <button>
-              <a href="Images/portfolio cv.pdf" download>
-                Download cv
-              </a>
-            </button>
-          </div> */}
+          
           </div>
-          {/* <i className="fa-brands fa-linkedin"></i>
-            <i className="fa-brands fa-github"></i>
-            <i className="fa-brands fa-facebook"></i>
-            <i className="fa-brands fa-instagram"></i> */}
 
           </div>
         </div>
