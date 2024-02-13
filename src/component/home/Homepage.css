@@ -274,8 +274,12 @@ ul {
       font-size: 25px;
       margin-left: -14rem;
     }
+    .homepage_icons button{
+      height: 40px;
+      width: 140px;
+    }
     .homepage_icons{
-      
+      margin-left: -10rem;
     }
 
 }
