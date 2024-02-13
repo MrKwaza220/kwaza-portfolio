@@ -108,25 +108,30 @@
 
 @media only screen and (max-width: 1024px){
  
-.my_name {
+ .homepage_names{
+  margin-left: 13rem;
+  margin-top: -4rem;
+ }
+  .my_name {
   margin-left: -7.5rem; 
-  font-size: 3.0rem;
+  font-size: 5.0rem;
 }
 
 .job_name {
-  margin-left: -16.5rem; 
-  font-size: 1.5rem; 
+  margin-left: -7.5rem; 
+  font-size: 2rem; 
 }
 
 
 .homepage_icons {
-  margin-left: -13rem; 
+  margin-left: -7.5rem; 
   margin-top: 1rem; 
 }
 .homepage_picture{
-  margin-left: -8rem;
+  margin-left: 18rem;
+ margin-top: -4rem;
   width: 561px;
-  height: 700px;
+  height: 400px;
   border-radius: 0px;
 }
 }
@@ -218,32 +223,45 @@
   
 }
 @media only screen and (max-width: 375px){
-
-  .homepage_picture{
-    height: 350px;
-    width: 250px;
-    margin-left: -20rem;
+  .homepage_names {
+    text-align: center; 
+    margin-top: 1rem; 
+    margin-left: 2rem;
   }
+  
   .job_name {
-    margin-left: -16.5rem; 
+    margin-left: 0rem; 
     font-size: 1.2rem; 
   }
   .my_name{
-    font-size: 28px;
-    margin-left: -15rem;
+    font-size: 30px;
+    margin-left: -0rem;
+  }
+  .homepage_icons button{
+    width: 130px;
+    height: 40px;
+    margin-top: -12px;
   }
   .homepage_icons{
-    margin-left: -16.5rem;
-    margin-top: 0rem;
+    margin-left: 2rem;
+    margin-top: 5rem;
   }
   .homepage_icons i{
     font-size: 25px;
-    margin-left: 10px;
-    margin-top: -3rem;
+    margin-left: 5px;
+    
   }
-  .homepage_icons button{
-    height: 35px;
-    margin-left: 10px;
+  .homepage_picture{
+    height: 366px;
+    width: 250px;
+    margin-left: -30rem;
+    margin-top: -1rem;
+    border-radius: 0px 0px 0px 100px;
+  }
+  .homepage_picture_background img{
+    margin-left: 4rem;
+    margin-top: 1rem;
+    height: 350px;
   }
 
 }
@@ -282,31 +300,45 @@
 }
 
 
-@media only screen and (max-width: 320px){
- 
+/* @media only screen and (max-width: 320px){
+  .homepage_names {
+    text-align: start; 
+    margin-top: 1rem; 
+    margin-left: 2rem;
+  }
+  
   .job_name {
-    margin-left: -16.5rem; 
+    margin-left: 0rem; 
     font-size: 1.2rem; 
   }
   .my_name{
-    font-size: 27px;
-    margin-left: -15rem;
+    font-size: 30px;
+    margin-left: -0rem;
   }
   .homepage_icons button{
-    width: 90px;
-    height: 30px;
+    width: 130px;
+    height: 40px;
+    margin-top: -12px;
   }
   .homepage_icons{
-    margin-left: -18rem
+    margin-left: 2rem;
+    margin-top: 2rem;
   }
   .homepage_icons i{
-    font-size: 20px;
-    margin-left: 10px;
-    margin-top: -2rem;
+    font-size: 25px;
+    margin-left: 5px;
+    
   }
   .homepage_picture{
-    height: 330px;
+    height: 366px;
     width: 250px;
-    margin-left: -23rem;
+    margin-left: 4.5rem;
+    margin-top: -6.5rem;
+    border-radius: 0px 0px 0px 100px;
   }
-}
+  .homepage_picture_background img{
+    margin-left: -20rem;
+    margin-top: 1rem;
+    height: 350px;
+  }
+} */
