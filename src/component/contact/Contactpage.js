@@ -24,42 +24,44 @@ const Contactpage = () => {
         <div className="contact_heading">Contact Me</div>
         <div className="my_contacts">
           <div className="contact_picture">
-            <img src="Messi.jpg" alt="messi" />
+            <img src="contact picture.png" alt="Picture" />
           </div>
 
           <div className="contact_form">
             <form onSubmit={handleSubmit}>
-              <label for="fname"></label>
+              <label htmlFor="fname"></label>
               <input
                 type="text"
                 id="fname"
-                name="Name"
+                name="name"
                 placeholder="Enter Full name here"
                 required
                 value={formData.name}
                 onChange={handleChange}
               />
 
-              <label for="email"></label>
+              <label htmlFor="email"></label>
               <input
                 type="text"
                 id="email"
-                name="Email"
+                name="email"
                 placeholder="Your Email Address"
                 required
                 value={formData.email}
                 onChange={handleChange}
               />
 
-              <label for="message"></label>
+              <label htmlFor="message"></label>
               <textarea
                 id="message"
-                name="Message"
+                name="message"
                 placeholder="Message..."
                 draggable="false"
+                value={formData.message}
+                onChange={handleChange}
               ></textarea>
 
-              <button type="submit" onclick="submitForm()">
+              <button type="submit">
                 Submit
               </button>
             </form>
@@ -71,13 +73,3 @@ const Contactpage = () => {
 };
 
 export default Contactpage;
-
-/* <i className="fa- fa-phone"></i>
-            <i className="fa-fa-envelope"></i>
-            <i className="fa fa-linkedin"></i>
-            <i className="fa fa-github"></i> 
-            <FontAwesomeIcon icon="fa-solid fa-battery-full" />
-            <FontAwesomeIcon icon="fa-solid fa-battery-quarter" />
-            <FontAwesomeIcon icon="fa-solid fa-battery-half" />
-            <FontAwesomeIcon icon="fa-solid fa-battery-three-quarters" />
-            */

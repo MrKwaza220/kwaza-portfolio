@@ -1,67 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  margin-top: 50px; 
+}
+
 .container {
-    padding: 5px 0px;
-   
-  }
-  .page{
-    margin-top: 200px;
-  }
-  .about_myself h2 {
-    margin-left: -10rem;
-  }
-  .about_image {
-    flex-basis: 40%;
-  }
-  .about_image img {
-    width: 100%;
-    margin: 100px 0rem 0px 0rem;
-    height: 500px;
-    width: 450px;
-    border-radius: 10px;
-  }
-  .about_paragraph {
-    flex-basis: 60%;
-  }
-  
-  .about_paragraph {
-    margin-top: 250px;
-    margin-right: 0rem;
-    border: 1px solid black;
-    font-size: 15px;
-    font-weight: 100;
-    font-family: Verdana, sans-serif;
-  }
+  padding: 5px;
+}
+
+.about_myself {
+  display: flex;
+  flex-direction: column; 
+  gap: 20px; 
+}
+
+.about_image img {
+  width: 100%; 
+  height: auto; 
+  border-radius: 10px;
+}
+
+.about_paragraph {
+  margin-top: 0; 
+  border: 1px solid black;
+  font-size: 15px;
+  font-weight: 100;
+  font-family: Verdana, sans-serif;
+}
+
+.wrapper {
+  text-align: center; /* Center button */
+}
+
+.button {
+  display: inline-block;
+  text-align: center;
+  background: #1a1e24; 
+  color: white; 
+  font-weight: medium;
+  padding: 10px 20px; 
+  border-radius: 10px; 
+  text-decoration: none;
+  font-family: Montserrat, Roboto, Helvetica, Arial, sans-serif;
+  font-size: 1rem; 
+}
+
+@media only screen and (min-width: 768px) {
   .about_myself {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    column-gap: 40px;
+    flex-direction: row; 
   }
-  
-  :root {
-    --bg: white;
-    --color: #1a1e24;
-    --font: Montserrat, Roboto, Helvetica, Arial, sans-serif;
+
+  .about_image {
+    flex-basis: 40%; 
   }
-  
-  .wrapper {
-    padding: 1.5rem 0;
+
+  .about_paragraph {
+    flex-basis: 60%; 
   }
-  
-  .button {
-    display: inline-block;
-    text-align: center;
-    background: var(--color);
-    color: var(--bg);
-    font-weight: medium;
-    padding: 1.18em 1.32em 1.03em;
-    line-height: 1;
-    border-radius: 1em;
-    position: relative;
-    min-width: 5em;
-    text-decoration: none;
-    font-family: var(--font);
-    font-size: 1.25rem;
-  }
+}
+
+
+
+
+
+
+
   
   /* .button:before,
   .button:after {
@@ -91,10 +98,23 @@
   .button:hover:after {
     transform: none;
   } */
-  img {
+
+
+
+
+
+
+
+
+
+
+
+  /* img {
     height: 600px;
     width: 600px;
   }
+
+
   /* 
   img {
       --m:
@@ -112,4 +132,4 @@
       -webkit-mask-position: 7.5% 50%,92.5% 50%;
               mask-position: 7.5% 50%,92.5% 50%;
       filter: grayscale(0);
-    } */
+    } */ 
