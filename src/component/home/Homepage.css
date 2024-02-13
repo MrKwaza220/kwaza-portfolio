@@ -378,24 +378,29 @@ ul {
     font-size: 25px;
   }
   .job_name {
-    margin-left: -14rem; 
-    font-size: 1.4rem; 
+    margin-left: -16.5rem; 
+    font-size: 1.2rem; 
   }
   .my_name{
-    font-size: 20px;
-    margin-left: -14rem;
-    margin-top: -2rem;
+    font-size: 27px;
+    margin-left: -15rem;
   }
   .homepage_icons button{
     width: 90px;
     height: 30px;
   }
   .homepage_icons{
-    font-size: 10px;
+    margin-left: -18rem
+  }
+  .homepage_icons i{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: -2rem;
     
   }
   .homepage_picture{
-    height: 300px;
-    margin-left: -17rem;
+    height: 330px;
+    width: 250px;
+    margin-left: -23rem;
   }
 }
