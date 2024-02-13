@@ -17,9 +17,9 @@
 
 .my_contacts {
   display: flex;
-  flex-wrap: wrap; /* Allow items to wrap */
-  justify-content: center; /* Center items horizontally */
-  gap: 20px; /* Add some spacing between items */
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 20px; 
 }
 
 .contact_picture {
@@ -28,7 +28,7 @@
 }
 
 .contact_picture img {
-  width: 100%; /* Make the image responsive */
+  width: 100%; 
   border-radius: 10px;
 }
 
@@ -39,7 +39,7 @@
 input[type="text"],
 select,
 textarea {
-  width: 100%; /* Make input fields take full width */
+  width: 100%;
   padding: 15px;
   margin: 10px 0px;
   color: black;
@@ -70,10 +70,10 @@ button:hover {
 @media only screen and (max-width: 600px) {
   .contact_picture,
   .contact_form {
-    flex-basis: 100%; /* Make both sections take full width on small screens */
+    flex-basis: 100%; 
   }
 
   .my_contacts {
-    display: block; /* Change to block layout on small screens */
+    display: block; 
   }
 }

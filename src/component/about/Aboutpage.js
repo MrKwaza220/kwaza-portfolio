@@ -27,9 +27,7 @@ function Aboutpage() {
               <a className="button" href="#contact">
                 Contact Me
               </a>
-              {/* <a className="button" href="#contact">
-                Download cv
-              </a> */}
+              
             </div>
           </div>
         </div>

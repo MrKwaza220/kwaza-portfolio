@@ -1,4 +1,5 @@
 import './App.css';
+import Navigationpage from './component/navigation/Navigationpage';
 import Homepage from './component/home/Homepage';
 import Aboutpage from './component/about/Aboutpage';
 import Journeypage from './component/journey/Journeypage';
@@ -10,6 +11,7 @@ import Footerpage from './component/footer/Footerpage';
  function App() {
   return (
     <div className= "App">
+      <Navigationpage/>
       <Homepage/>
       {/* <Aboutpage/> */}
       {/* <Journeypage/> */}
