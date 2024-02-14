@@ -139,29 +139,34 @@
  
  .homepage_names{
   margin-left: 13rem;
-  margin-top: -4rem;
+  margin-top: -18rem;
  }
-  .my_name {
-  margin-left: -7.5rem; 
-  font-size: 5.0rem;
+  .my_name { 
+  font-size: 3.0rem;
+  margin-left: -10rem;
+
 }
 
 .job_name {
-  margin-left: -7.5rem; 
-  font-size: 2rem; 
+  font-size: 1.5rem;
+  margin-left: -10rem; 
 }
-
 
 .homepage_icons {
-  margin-left: -7.5rem; 
-  margin-top: 1rem; 
+  margin-top: 1rem;
+  margin-left: 2rem;  
 }
 .homepage_picture{
-  margin-left: 18rem;
- margin-top: -4rem;
+  margin-left: 29rem;
+ margin-top: -7rem;
   width: 561px;
-  height: 400px;
+  height: 600px;
   border-radius: 0px;
+  border-radius: 0px 0px 0px 300px;
+}
+.homepage_picture_background img{
+  margin-top: -3rem;
+  margin-left: 2rem;
 }
 }
 
@@ -171,9 +176,11 @@
   }
 
   .homepage_names {
-    margin-top: 1rem; 
+    margin-top: -9rem; 
   }
-
+  .my_name{
+    font-size: 2.5rem;
+  }
   .homepage_icons {
     margin-top: 1rem; 
   }
@@ -188,7 +195,15 @@
   }
 
   .homepage_picture {
-    margin-top: 2rem; 
+    margin-top: -6.5rem;
+    margin-left: 20rem; 
+    height: 400px;
+    width: 450px;
+}
+.homepage_picture_background img{
+  height: 400px;
+  width: 400px;
+  margin-top: -0.1rem;
 }
 }
 /* 
