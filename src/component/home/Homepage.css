@@ -495,12 +495,18 @@
 @media only screen and (max-width: 425px){
   .homepage_names {
     margin-top: 1rem; 
-    margin-left: 2rem;
+    margin-left: 3rem;
+  }
+  .job_name{
+    margin-left: 0px;
+  }
+  .my_name{
+    margin-left: 0px;
   }
   .homepage_picture {
-    margin-left: 6.8rem; 
+    margin-left: 6.6rem; 
     height: 400px;
-    width: 320px;
+    width: 325px;
     border-radius: 0px 0px 0px 240px;
 }
 
@@ -513,8 +519,98 @@
 
 }
 
+@media only screen and (max-width: 410px){
+  .homepage_names {
+    margin-top: 1rem; 
+    margin-left: 3rem;
+  }
+  .job_name{
+    margin-left: 0px;
+  }
+  .my_name{
+    margin-left: 0px;
+  }
+  .homepage_picture {
+    margin-left: 5.6rem; 
+    height: 400px;
+    width: 330px;
+    border-radius: 0px 0px 0px 240px;
+}
 
-/* @media only screen and (max-width: 320px){
+.homepage_picture_background img{
+  margin-top: 0.5rem;
+  height: 390px;
+  width: 290px;
+  border-radius: 0px 0px 0px 180px;
+}
+
+}
+
+@media only screen and (max-width: 375px){
+  .homepage_names {
+    margin-top: 1rem; 
+    margin-left: 3rem;
+  }
+  .job_name{
+    margin-left: 0px;
+  }
+  .my_name{
+    margin-left: 0px;
+  }
+  .homepage_picture {
+    margin-left: 4.6rem;
+    margin-top: -6.5rem; 
+    height: 400px;
+    width: 300px;
+    border-radius: 0px 0px 0px 240px;
+
+}
+
+.homepage_picture_background img{
+  margin-top: 0.6rem;
+  margin-left: 1.0rem;
+  height: 390px;
+  width: 280px;
+  border-radius: 0px 0px 0px 200px;
+}
+
+}
+
+@media only screen and (max-width: 350px){
+  .homepage_names {
+    margin-top: 1rem; 
+    margin-left: -2rem;
+  }
+  .job_name{
+    margin-left: -2.8rem;
+  }
+  .my_name{
+    margin-left: 0px;
+  }
+  .homepage_picture {
+    margin-left: 3rem;
+    margin-top: -6.5rem; 
+    height: 400px;
+    width: 300px;
+    border-radius: 0px 0px 0px 240px;
+
+}
+
+.homepage_picture_background img{
+  margin-top: 0.6rem;
+  margin-left: 1.0rem;
+  height: 390px;
+  width: 280px;
+  border-radius: 0px 0px 0px 200px;
+}
+.homepage_icons{
+  margin-left: 2rem;
+  margin-top: 2.5rem;
+}
+
+}
+
+@media only screen and (max-width: 320px){
   .homepage_names {
     text-align: start; 
     margin-top: 1rem; 
@@ -551,8 +647,9 @@
     border-radius: 0px 0px 0px 100px;
   }
   .homepage_picture_background img{
-    margin-left: -20rem;
+    margin-left: 0rem;
     margin-top: 1rem;
     height: 350px;
+    border-radius: 0px 0px 0px 100px;
   }
-} */
+}
