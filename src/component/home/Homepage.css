@@ -50,13 +50,14 @@
 }
 
 .homepage_picture {
+  border: 1px solid black;
   text-align: center; 
   margin-top: -6.7rem;
   margin-left: 33.5rem;
   height: 635px;
   width: 850px;
   border-radius: 0 0 0 480px;
-  background-color: aliceblue; 
+  background-color: whitesmoke; 
 }
 
 .homepage_picture_background img {
@@ -68,36 +69,38 @@
 
 /* small screen devices */
 
-   @media only screen and (min-width: 2561px) {
-  
+   @media only screen and (max-width: 2561px) {
+    .homepage_names {
+      margin-left: 1rem;
+    }
     .homepage_picture{
       border-radius: 0px 0px 0px 450px;
-      margin: -7.5rem 0px 0px -4.0rem;
+      margin: -7.5rem 0px 0px 33rem;
       height: 750px;
       width: 700px;
     }
     .homepage_picture_background img{
       
       border-radius: 0px 0px 0px 260px;
-      margin: 6.2rem 0px 0px 0rem;
+      margin: 6.2rem 0px 0px 10rem;
       height: 650px;
       width: 550px;
     }
 
     .my_name {
-      margin-left: -5rem;
+      margin-left: 0rem;
       font-size: 57px;
       margin-top: 1rem;
     }
 
     .job_name {
       font-size: 25px;
-      margin-left: -18.3rem;
+      margin-left: 0rem;
       margin-top: 0.09rem;
 
     }
     .homepage_icons{
-      margin-left: -15rem;
+      margin-left: 0rem;
       margin-top: 2rem;
     }
     button {
@@ -106,6 +109,32 @@
     }
   } 
 
+  @media only screen and (max-width: 1440px){
+    
+     .homepage_picture{
+      margin-left: 39rem;
+      
+     }
+     
+  }
+  @media only screen and (max-width: 1314px){
+    .homepage_picture{
+      margin-left: 36rem;
+      
+     }
+  }
+
+@media only screen and (max-width: 1265px){
+    .homepage_content{
+      margin-left: 20rem;
+    }
+  }
+@media only screen and (max-width: 1215px) {
+  .homepage_picture{
+    margin-left: 32rem;
+    
+   }
+}
 @media only screen and (max-width: 1024px){
  
  .homepage_names{
