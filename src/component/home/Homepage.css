@@ -172,26 +172,31 @@
 
 @media only screen and (max-height: 768px) {
   .homepage_content {
-    flex-direction: column; /* Adjust layout for smaller screens */
+    flex-direction: column; 
   }
 
   .homepage_names {
-    margin-top: -9rem; 
+    margin-top: -10rem; 
   }
   .my_name{
-    font-size: 2.5rem;
+    font-size: 2.3rem;
+  }
+  .job_name{
+    font-size: 1.3rem;
   }
   .homepage_icons {
-    margin-top: 1rem; 
+    margin-top: 3rem; 
   }
 
   .homepage_icons i {
-    font-size: 1.5rem; 
+    font-size: 1.8rem; 
   }
 
   .homepage_icons button {
-    margin-top: 1rem; 
+    margin-top: -1rem; 
     font-size: 1rem; 
+    width: 150px;
+    height: 40px;
   }
 
   .homepage_picture {
@@ -206,6 +211,7 @@
   margin-top: -0.1rem;
 }
 }
+
 /* 
 @media only screen and (max-width: 768px){
  
@@ -242,20 +248,134 @@
 } */
 
 @media only screen and (max-width: 700px){
-  
+  .homepage_content {
+    flex-direction: column; 
+  }
+  .homepage_names{
+    margin-left: 2rem;
+  }
   .my_name{
     font-size: 33px;
-    margin-left: -13rem;
+    margin-left: 0rem;
   }
   .job_name{
     font-size: 20px;
-    margin-left: -17rem;
+    margin-left: -0rem;
   }
+  .homepage_icons{
+    margin-left: 2rem;
+    margin-top: 3rem;
+  } 
+  .homepage_picture {
+    margin-left: 17rem; 
+    height: 400px;
+    width: 425px;
+    border-radius: 0px 0px 0px 270px;
+}
+.homepage_picture_background img{
+  height: 400px;
+  width: 350px;
+  border-radius: 1px 0px 0px 180px;
+  margin-top: 0rem;
+}
+}
 
+@media only screen and (max-width: 660px){
+  .homepage_names{
+    margin-top: -7rem;
+  }
+  .homepage_content {
+    flex-direction: column; 
+  }
+  .homepage_picture {
+    margin-left: 15rem; 
+    height: 400px;
+    width: 425px;
+    border-radius: 0px 0px 0px 270px;
+}
+.homepage_picture_background img{
+  height: 400px;
+  width: 350px;
+  border-radius: 1px 0px 0px 180px;
+  margin-top: 0rem;
+}
+}
+@media only screen and (max-width: 640px){
+  .homepage_picture_background img{
+    margin-top: 0rem;
+    height: 400px;
+    width: 300px;
+  }
+  
+  .homepage_picture {
+    margin-left: 15rem; 
+    height: 400px;
+    width: 405px;
+    border-radius: 0px 0px 0px 270px;
+}
+.homepage_names{
+  margin-top: -3rem;
+}
+}
+
+@media only screen and (max-width: 616px){
+  .homepage_picture {
+    margin-left: 15rem; 
+    height: 400px;
+    width: 383px;
+    border-radius: 0px 0px 0px 270px;
+}
+.homepage_picture_background img{
+  margin-top: 0rem;
+  height: 400px;
+  width: auto;
+}
+}
+@media only screen and (max-width: 600px){
+  .homepage_picture {
+    margin-left: 15rem; 
+    height: 400px;
+    width: auto;
+    border-radius: 0px 0px 0px 270px;
+}
+}
+
+@media only screen and (max-width: 560px){
+  .homepage_picture {
+    margin-left: 15rem; 
+    height: 400px;
+    width: 320px;
+    border-radius: 0px 0px 0px 240px;
+}
+.homepage_picture_background img{
+  margin-top: 0.5rem;
+  height: 390px;
+  width: 290px;
+  border-radius: 0px 0px 0px 180px;
+}
 
 }
 
+@media only screen and (max-width: 488px){
+  .homepage_picture {
+    margin-left: 10.5rem; 
+    height: 400px;
+    width: 320px;
+    border-radius: 0px 0px 0px 240px;
+}
+
+.homepage_picture_background img{
+  margin-top: 0.5rem;
+  height: 390px;
+  width: 290px;
+  border-radius: 0px 0px 0px 180px;
+}
+}
+
 @media only screen and (max-width: 425px){
+  .homepage_content {
+    flex-direction: column; 
+  }
   .job_name {
     margin-left: -16.5rem; 
     font-size: 1.4rem; 
@@ -267,6 +387,9 @@
   
 }
 @media only screen and (max-width: 375px){
+  .homepage_content {
+    flex-direction: column; 
+  }
   .homepage_names {
     text-align: center; 
     margin-top: 1rem; 
@@ -309,37 +432,84 @@
   }
 
 }
+@media only screen and (max-width: 464px){
+  .homepage_names {
+    margin-top: 1rem; 
+    margin-left: 2rem;
+  }
+  .homepage_picture {
+    margin-left: 9rem; 
+    height: 400px;
+    width: 320px;
+    border-radius: 0px 0px 0px 240px;
+}
+
+.homepage_picture_background img{
+  margin-top: 0.5rem;
+  height: 390px;
+  width: 290px;
+  border-radius: 0px 0px 0px 180px;
+}
+}
+
+@media only screen and (max-width: 455px){
+  .homepage_names {
+    margin-top: 1rem; 
+    margin-left: 2rem;
+  }
+  .homepage_picture {
+    margin-left: 8rem; 
+    height: 400px;
+    width: 320px;
+    border-radius: 0px 0px 0px 240px;
+}
+
+.homepage_picture_background img{
+  margin-top: 0.5rem;
+  height: 390px;
+  width: 290px;
+  border-radius: 0px 0px 0px 180px;
+}
+}
+
+@media only screen and (max-width: 431px){
+  .homepage_names {
+    margin-top: 1rem; 
+    margin-left: 2rem;
+  }
+  .homepage_picture {
+    margin-left: 7.4rem; 
+    height: 400px;
+    width: 320px;
+    border-radius: 0px 0px 0px 240px;
+}
+
+.homepage_picture_background img{
+  margin-top: 0.5rem;
+  height: 390px;
+  width: 290px;
+  border-radius: 0px 0px 0px 180px;
+}
+}
+
 @media only screen and (max-width: 425px){
-  
-  .homepage_picture{
-    height: 390px;
-    width: 280px;
-    margin-left: -20rem;
+  .homepage_names {
+    margin-top: 1rem; 
+    margin-left: 2rem;
   }
-  .homepage_names{
-    margin-top: 14rem;
-  }
-  .job_name {
-    margin-left: -16.5rem; 
-    font-size: 1.3rem; 
-  }
-  .my_name{
-    font-size: 35px;
-    margin-left: -13rem;
-  }
-  .homepage_icons{
-    margin-left: -16.5rem;
-    margin-top: 0rem;
-  }
-  .homepage_icons i{
-    font-size: 25px;
-    margin-left: 10px;
-    margin-top: -3rem;
-  }
-  .homepage_icons button{
-    height: 35px;
-    margin-left: 10px;
-  }
+  .homepage_picture {
+    margin-left: 6.8rem; 
+    height: 400px;
+    width: 320px;
+    border-radius: 0px 0px 0px 240px;
+}
+
+.homepage_picture_background img{
+  margin-top: 0.5rem;
+  height: 390px;
+  width: 290px;
+  border-radius: 0px 0px 0px 180px;
+}
 
 }
 
