@@ -73,20 +73,24 @@ ul {
   display: none;
 }
 
-@media only screen and (min-width: 2561px) {
+@media only screen and (max-width: 2560px) {
   .homepage_logo {
-    margin-left: -68rem;
+    margin-left: -170rem;
     margin-top: 5px;
+    font-size: 60px;
   }
   .navigation {
     margin-top: 20px;
-    margin-left: 0rem;
+    margin-left: 35rem;
+    font-size: 50px;
   }
+
   .navigation-bar {
     margin-left: 39rem;
   }
+  
   .navigation-bar li {
-    margin-left: 20px;
+    margin-left: 40px;
   }
 }
 @media only screen and (max-width: 1440px) {

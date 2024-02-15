@@ -50,7 +50,7 @@
 }
 
 .homepage_picture {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   text-align: center; 
   margin-top: -6.7rem;
   margin-left: 33.5rem;
@@ -70,14 +70,17 @@
 /* small screen devices */
 
    @media only screen and (max-width: 2560px) {
+    /* .container{
+      padding: 10px 10%;
+    } */
     .homepage_names {
       margin-left: 1rem;
     }
     .homepage_picture{
       border-radius: 0px 0px 0px 450px;
-      margin: -7.5rem 0px 0px 33rem;
-      height: 750px;
-      width: 700px;
+      margin: -11rem 0px 0px 20rem;
+      height: 1350px;
+      width: 1555px;
     }
     .homepage_picture_background img{
       
@@ -113,8 +116,9 @@
     
      .homepage_picture{
       margin-left: 39rem;
-      
      }
+
+
      
   }
   @media only screen and (max-width: 1314px){
