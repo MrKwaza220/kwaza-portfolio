@@ -115,6 +115,36 @@
     }
   }  */
 
+  @media only screen and (max-width: 1600px){
+    .homepage_picture{
+      border-radius: 0px 0px 0px 450px;
+      margin: -14rem 0px 0px 37.6rem;
+      height: 900px;
+      width: 800px;
+    }
+    .homepage_names {
+      margin-left: -8rem;
+      margin-top: -30rem;
+    }
+
+    .my_name {
+      margin-left: 0rem;
+      font-size: 5rem;
+      margin-top: -5rem;
+    }
+
+
+    .job_name {
+      font-size: 2.5rem;
+      margin-left: 0rem;
+      margin-top: 0.09rem;
+    }
+    .homepage_icons{
+      margin-left: -8.7rem;
+      margin-top: 4rem;
+    }
+  }
+
   @media only screen and (max-width: 1440px){
     
      .homepage_picture{
