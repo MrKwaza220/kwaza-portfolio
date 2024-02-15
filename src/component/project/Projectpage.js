@@ -10,7 +10,7 @@ function Projectpage() {
           <div className="work">
             <img src="Messi.jpg" />
             <div className="layer">
-              <h3>Pygame</h3>
+              <h3>Rock, Paper and Scissor</h3>
               <p>
                 Forms are created using the element, and they contain various
                 form controls like text labels, fields, radio buttons,
@@ -24,7 +24,7 @@ function Projectpage() {
           <div className="work">
             <img src="Messi.jpg" />
             <div className="layer">
-              <h3>HTML Project</h3>
+              <h3>Car Rental Website</h3>
               <p>
                 Forms are created using the element, and they contain various
                 form controls like text labels, fields, radio buttons,
@@ -38,7 +38,7 @@ function Projectpage() {
           <div className="work">
             <img src="Messi.jpg" />
             <div className="layer">
-              <h3>Java Project</h3>
+              <h3>Coffee Shop</h3>
               <p>
                 Forms are created using the element, and they contain various
                 form controls like text labels, fields, radio buttons,
