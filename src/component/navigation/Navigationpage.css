@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 .homepage_logo {
-  font-size: 35px;
+  font-size: 35px;y
   margin: 2rem 0px 0px -90rem;
   cursor: pointer;
   font-family: "Rampart One", sans-serif;
@@ -23,11 +23,12 @@ ul {
 .navigation-bar {
   margin-top: -59px;
   display: flex;
-  margin-left: 55rem;
+  font-size: 25px;
+  margin-left: 33rem;
   /* justify-content: flex-end; */
 }
 .navigation-bar li {
-  margin-left: 30px;
+  margin-left: 10px;
 }
 .navigation-bar li {
   display: block;

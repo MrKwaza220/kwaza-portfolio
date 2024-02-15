@@ -19,11 +19,11 @@
 .homepage_names {
   text-align: start; 
   margin-top: -24rem; 
-  margin-left: -8rem;
+  margin-left: 0rem;
 }
 
 .my_name {
-  font-size: 5rem; 
+  font-size: 2rem; 
 }
 
 .job_name {
@@ -174,7 +174,7 @@
      }
   }
   @media only screen and (max-width: 1280px){
-    
+
   }
 
 @media only screen and (max-width: 1265px){
