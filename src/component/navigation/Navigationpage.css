@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 .homepage_logo {
-  font-size: 35px;y
+  font-size: 35px;
   margin: 2rem 0px 0px -90rem;
   cursor: pointer;
   font-family: "Rampart One", sans-serif;
@@ -23,12 +23,11 @@ ul {
 .navigation-bar {
   margin-top: -59px;
   display: flex;
-  font-size: 25px;
-  margin-left: 33rem;
+  margin-left: 55rem;
   /* justify-content: flex-end; */
 }
 .navigation-bar li {
-  margin-left: 10px;
+  margin-left: 30px;
 }
 .navigation-bar li {
   display: block;
@@ -96,7 +95,7 @@ ul {
 } */
 @media only screen and (max-width: 1440px) {
   .homepage_logo {
-    margin-left: -65rem;
+    margin-left: -60rem;
     font-size: 50px;
   }
  
