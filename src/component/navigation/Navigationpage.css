@@ -174,7 +174,7 @@ ul {
 
 @media only screen and (max-width: 768px) {
   .homepage_logo {
-    margin-left: 3rem;
+    margin-left: -43rem;
     font-size: 33px;
     margin-top: -2px;
   }
