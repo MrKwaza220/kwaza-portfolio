@@ -293,13 +293,13 @@ ul {
 
 @media only screen and (max-width: 375px) {
   .homepage_logo {
-    margin-left: -17rem;
+    margin-left: -15rem;
     font-size: 25px;
   }
 }
 @media only screen and (max-width: 425px) {
   .homepage_logo {
-    margin-left: -20rem;
-    font-size: 25px;
+    margin-left: -23rem;
+    font-size: 30px;
   }
 }
