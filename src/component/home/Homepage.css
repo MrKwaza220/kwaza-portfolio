@@ -320,7 +320,7 @@
   height: 505px;
   width: 350px;
   margin-top: -0.1rem;
-  border-radius: 0px 0px 0px 240px;
+  border-radius: 0px 0px 0px 24px;
 }
 }
 
@@ -468,7 +468,7 @@
 }
 
 }
-@media only screen and (max-width: 375px){
+/* @media only screen and (max-width: 375px){
   
   .homepage_names {
     margin-top: 1rem; 
@@ -528,7 +528,7 @@
   width: 290px;
   border-radius: 0px 0px 0px 180px;
 }
-}
+} */
 
 @media only screen and (max-width: 455px){
   .homepage_names {
@@ -667,7 +667,7 @@
     margin-left: 4.6rem;
     margin-top: -6.5rem; 
     height: 400px;
-    width: 300px;
+    width: 350px;
     border-radius: 0px 0px 0px 240px;
 
 }
