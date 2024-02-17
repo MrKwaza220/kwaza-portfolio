@@ -159,10 +159,10 @@
     }
     .homepage_picture_background img{
       
-      border-radius: 0px 0px 0px 260px;
-      margin: 6.2rem 0px 0px 10rem;
-      height: 650px;
-      width: 550px;
+      border-radius: 0px 0px 0px 200px;
+      margin: 9.5rem 0px 0px 5rem;
+      height: 750px;
+      width: 600px;
     }
     .homepage_names {
       margin-left: -5rem;
