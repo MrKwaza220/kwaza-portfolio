@@ -267,13 +267,15 @@
 }
 .homepage_picture{
   border-radius: 0px 0px 0px 300px;
-  margin: -9rem 0px 0px 30rem;
-  height: 600px;
+  margin: -9.5rem 0px 0px 30rem;
+  height: 550px;
   width: 550px;
 }
 .homepage_picture_background img{
-  margin-top: -3rem;
+  margin-top: 3.1rem;
   margin-left: 2rem;
+  height: 500px;
+  width: 450px;
 }
 }
 
@@ -284,15 +286,17 @@
 
   .homepage_names {
     margin-top: -13rem; 
+    margin-left: 12rem;
   }
   .my_name{
-    font-size: 2.3rem;
+    font-size: 2.8rem;
   }
   .job_name{
     font-size: 1.3rem;
   }
   .homepage_icons {
     margin-top: 3rem; 
+    margin-left: 1.5rem;
   }
 
   .homepage_icons i {
@@ -308,14 +312,15 @@
 
   .homepage_picture {
     margin-top: -8.0rem;
-    margin-left: 25rem; 
+    margin-left: 23rem; 
     height: 500px;
     width: 400px;
 }
 .homepage_picture_background img{
   height: 505px;
-  width: 390px;
+  width: 350px;
   margin-top: -0.1rem;
+  border-radius: 0px 0px 0px 240px;
 }
 }
 
