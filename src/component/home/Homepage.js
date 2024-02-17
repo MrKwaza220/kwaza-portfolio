@@ -1,7 +1,9 @@
 import React from "react";
 import "./Homepage.css";
 
-export default function Homepage() {
+
+function Homepage (){
+
   return (
     <div className="homepage_active">
       <div className="container">
@@ -39,3 +41,4 @@ export default function Homepage() {
     </div>
   );
 }
+export default Homepage;

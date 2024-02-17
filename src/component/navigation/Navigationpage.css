@@ -93,6 +93,11 @@ ul {
     margin-left: 40px;
   }
 } */
+@media only screen and (max-width: 1600px){
+  .homepage_logo{
+    margin-left: -87rem;
+  }
+}
 @media only screen and (max-width: 1440px) {
   .homepage_logo {
     margin-left: -60rem;
