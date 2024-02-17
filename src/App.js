@@ -13,13 +13,12 @@ import Footerpage from './component/footer/Footerpage';
     <div className= "App">
       <Navigationpage/>
       <Homepage/>
-      <Projectpage/>
-      {/* <Aboutpage/>
+      <Aboutpage/>
       <Journeypage/>
       <Skillspage/>
-      
+      <Projectpage/>
       <Contactpage/>
-      <Footerpage/> */}
+      <Footerpage/>
     </div>
   );
 }
