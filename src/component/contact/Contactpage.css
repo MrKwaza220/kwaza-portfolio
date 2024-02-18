@@ -24,7 +24,11 @@
 
 .contact_picture {
   flex-basis: 40%;
-  border: 1px solid black;
+ background-color: #78A2DA;
+  border-radius: 20px 0px 0px 20px;
+  -webkit-box-shadow: -18px 0px 23px -14px rgba(66, 68, 90, 1);
+  -moz-box-shadow: -18px 0px 23px -14px rgba(66, 68, 90, 1);
+  box-shadow: -18px 0px 23px -14px rgba(66, 68, 90, 1);
 }
 
 .contact_picture img {
@@ -34,27 +38,36 @@
 
 .contact_form {
   flex-basis: 50%;
+  margin-left: -20px;
+  background-color: white;
+  border-radius: 0px 20px 20px 0px;
+  -webkit-box-shadow: 18px 0px 23px -14px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 18px 0px 23px -14px rgba(66, 68, 90, 1);
+  box-shadow: 18px 0px 23px -14px rgba(66, 68, 90, 1);
 }
 
 input[type="text"],
 select,
 textarea {
-  width: 100%;
+  width: 80%;
   padding: 15px;
   margin: 10px 0px;
   color: black;
   font-size: 18px;
   border: none;
-  background-color: white;
+  background-color: whitesmoke;
   border-radius: 5px;
 }
 
+ .contact_page{
+  
+ }
 textarea {
   height: 250px;
 }
 
 button {
-  width: 100%;
+  width: 80%;
   height: 50px;
   color: #ccc;
   background-color: #000;
