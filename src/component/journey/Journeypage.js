@@ -28,6 +28,7 @@ function Journeypage() {
               <p>Course: Computer Science</p>
               <p>Year Started: 2018</p>
               <p>Year ended: 2021</p>
+              <p><span> myjourney list </span></p>
             </div>
           </div>
 

@@ -10,6 +10,18 @@ html {
 }
 .container{
   padding: 5px 0;
+  
+}
+.journey_page .container{
+  -webkit-box-shadow: 0px 0px 19px -3px rgba(66, 68, 90, 1);
+-moz-box-shadow: 0px 0px 19px -3px rgba(66, 68, 90, 1);
+box-shadow: 0px 0px 19px -3px rgba(66, 68, 90, 1);
+border-radius: 20px;
+}
+.journey_page .container:hover{
+  -webkit-box-shadow: 8px 11px 18px -6px rgba(66, 68, 90, 1);
+-moz-box-shadow: 8px 11px 18px -6px rgba(66, 68, 90, 1);
+box-shadow: 8px 11px 18px -6px rgba(66, 68, 90, 1);
 }
 .journey_heading{
   font-size: 35px;
@@ -22,6 +34,7 @@ html {
     justify-content: center;
     align-items: center;
     
+    
   }
   .myjourney_list{
     display: grid;
@@ -33,12 +46,9 @@ html {
     text-align: start;
     padding: 50 0;
     /* border: 1px solid black; */
-    border-radius: 10px;
-   
-  
   }
-   .page .my_journey {
-    margin: -23rem 0px 0px -0rem;
+   .journey_page {
+    margin: -15rem 0px 0px -0rem;
     font-size: 40px;
   }
   .myjourney_list div i{
@@ -50,6 +60,10 @@ html {
     list-style-type: none;
     margin: 0 20px;
     
+  }
+  p span{
+    color: #9FC5F8;
+
   }
   
   div:nth-child(1) .myjourneylist {
