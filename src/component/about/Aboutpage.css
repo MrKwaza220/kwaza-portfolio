@@ -46,7 +46,14 @@
   font-family: Verdana, sans-serif;
   height: 250px;
 }
-
+.symbol{
+  color: #5c5c5c41;
+  font-size: 100px;
+  text-align: center;
+}
+.my_paragraph{
+  margin-top: -7rem;
+}
 .wrapper {
   text-align: center; /* Center button */
 }

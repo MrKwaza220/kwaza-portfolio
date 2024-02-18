@@ -12,9 +12,9 @@ function Aboutpage() {
           </div>
           
           <div className="about_paragraph">
-          <h2>About Me</h2>
-            <div className="symbol">S</div>
-            <p>
+          <h2>WHO I AM?</h2>
+            <div className="symbol">SAKHUMZI</div>
+            <p className="my_paragraph">
 
               I am a Hardworking, highly motivated junior developer eager to
               lend combined knowledge and skills to enhance business
