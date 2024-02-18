@@ -13,7 +13,9 @@ function Aboutpage() {
           
           <div className="about_paragraph">
           <h2>About Me</h2>
+            <div className="symbol">S</div>
             <p>
+
               I am a Hardworking, highly motivated junior developer eager to
               lend combined knowledge and skills to enhance business
               performance. Operates well in both individual and team capacities,
