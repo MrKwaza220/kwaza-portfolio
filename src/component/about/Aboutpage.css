@@ -35,12 +35,13 @@
   border: 10px solid black;
   height: 550px;
   margin-top: -1.5rem;
+  
 }
 
 .about_paragraph {
+  border-radius: 5px;
   text-align: start;
-  margin-top: 0;
-  border: 1px solid black;
+  margin-top: 3rem;
   font-size: 15px;
   font-weight: 100;
   font-family: Verdana, sans-serif;
