@@ -6,6 +6,7 @@
 
 .page {
   margin-top: 20rem; 
+ 
 }
 
 .container {
@@ -20,17 +21,39 @@
 
 .about_image img {
   width: 100%; 
-  height: 65%; 
-  border-radius: 10px;
+  height: 550px;
+  margin-top: 1rem; 
+  margin-left: 1rem;
+  background-color: black;
+  transition: transform 0.5s;
 }
 
+/* .about_image img:hover{
+  transform: scaleY(1.1);
+  border: none;
+  } */
+
+.about_image{
+  border: 10px solid black;
+  height: 550px;
+  margin-top: -1.5rem;
+ 
+  transition: transform 1s;
+  background-color: #78A2DA;
+}
+
+.about_image:hover{
+  transition: transform 0.5s;
+  background-color: #9FC5F8;
+}
 .about_paragraph {
   text-align: start;
   margin-top: 0; 
-  /* border: 1px solid black; */
+  border: 1px solid black;
   font-size: 15px;
   font-weight: 100;
   font-family: Verdana, sans-serif;
+  height: 250px;
 }
 
 .wrapper {

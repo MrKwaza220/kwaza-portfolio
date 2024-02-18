@@ -8,7 +8,7 @@ function Aboutpage() {
         <div className="about_myself">
           
           <div className="about_image">
-            <img src="Messi.jpg" alt="messi"/>
+            <img src="sakhumzi.png" alt="messi"/>
           </div>
           
           <div className="about_paragraph">
