@@ -6,7 +6,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-section .animate{
+/* section .animate{
   opacity: 0;
   transition: 0.8s;
   filter: blur(5px);
@@ -21,7 +21,7 @@ section.show_animate .animate{
 }
 .sec_1.show_animate .animate{
   transform: scale(1.0);
-}
+} */
 
 .container {
   padding: 5px;

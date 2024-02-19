@@ -4,18 +4,15 @@
   box-sizing: border-box;
 }
 section .animate{
-  opacity: 0;
+  
   transition: 1s;
-  filter: blur(5px);
+  
 }
-section.about_animate .animate{
-  opacity: 1;
-  filter: blur(0);
-}
+
 .sec_2 .animate{
   transform: translateX(-100%);
 }
-.sec_2.about_animate .animate{
+.sec_2.show_animate .animate{
   transform: translateX(0);
 }
 

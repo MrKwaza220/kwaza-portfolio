@@ -11,28 +11,27 @@ window.onscroll = () => {
     let height = sec.offsetHeight;
   
     if(top >= offset && top < offset + height){
-      sec.classList.add('about_animate');
+      sec.classList.add('show_animate');
 
     }
     else{
-      sec.classList.add('about_animate')
+      sec.classList.add('show_animate')
     }
   });
 }
 
 
   return (
-    <section className="sec_2 about_animate">
-
-    <div className="page">
-      <div className="container">
-        <div className="about_myself">
+    <section className="sec_2 show_animate">
+    <div className="page animate">
+      <div className="container animate">
+        <div className="about_myself animate">
           
           <div className="about_image animate">
             <img src="sakhumzi.png " alt="messi" className="animate"/>
           </div>
           
-          <div className="about_paragraph">
+          <div className="about_paragraph animate">
           <h2 className="animate">WHO I AM?</h2>
             {/* <div className="symbol">SAKHUMZI</div> */}
             <p className="my_paragraph animate">

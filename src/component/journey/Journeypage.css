@@ -4,6 +4,20 @@
   box-sizing: border-box;
 }
 
+/* .sec_3 .showRight_animate{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: #78A2DA;
+  transition: width 1s;
+}
+
+.sec_3.journey_animate .showRight_animate{
+  width: 0;
+} */
+
 html {
   scroll-behavior: smooth;
   transition: 0.2s;
