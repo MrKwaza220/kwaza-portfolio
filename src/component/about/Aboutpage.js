@@ -1,20 +1,41 @@
 import React from "react";
 import "./Aboutpage.css";
 
-function Aboutpage() {
+const Aboutpage =()=> {
+let sections = document.querySelectorAll('section');
+
+window.onscroll = () => {
+  sections.forEach(sec => {
+    let top = window.scrollY;
+    let offset = sec.offsetTop -150;
+    let height = sec.offsetHeight;
+  
+    if(top >= offset && top < offset + height){
+      sec.classList.add('show_animate');
+
+    }
+    else{
+      sec.classList.add('show_animate')
+    }
+  });
+}
+
+
   return (
+    <section className="sec_2 show_animate">
+
     <div className="page">
       <div className="container">
         <div className="about_myself">
           
-          <div className="about_image">
-            <img src="sakhumzi.png" alt="messi"/>
+          <div className="about_image animate">
+            <img src="sakhumzi.png " alt="messi" className="animate"/>
           </div>
           
           <div className="about_paragraph">
-          <h2>WHO I AM?</h2>
+          <h2 className="animate">WHO I AM?</h2>
             {/* <div className="symbol">SAKHUMZI</div> */}
-            <p className="my_paragraph">
+            <p className="my_paragraph animate">
 
               I am a Hardworking, highly motivated junior developer eager to
               lend combined knowledge and skills to enhance business
@@ -25,8 +46,8 @@ function Aboutpage() {
               company needs and increase service value.
             </p>
 
-            <div className="wrapper">
-              <a className="button" href="#contact">
+            <div className="wrapper animate">
+              <a className="button animate" href="#contact">
                 Contact Me
               </a>
               
@@ -35,6 +56,7 @@ function Aboutpage() {
         </div>
       </div>
     </div>
+    </section>
   );
 }
 export default Aboutpage;

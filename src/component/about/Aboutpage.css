@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.sec_2 .animate{
+  transform: translateX(-100%);
+}
+
 .page {
   margin-top: 20rem;
 }
