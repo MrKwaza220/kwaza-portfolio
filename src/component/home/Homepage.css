@@ -6,6 +6,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+section .animate{
+  transition: 2s;
+}
+.sec_1 .animate{
+  transform: translateX(-100%);
+}
+.sec_1.show_animate .animate{
+  transform: translateX(0);
+}
 
 .container {
   padding: 5px;

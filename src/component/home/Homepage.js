@@ -2,25 +2,41 @@ import React from "react";
 import "./Homepage.css";
 
 
-function Homepage (){
+const Homepage = () => {
+  let sections = document.querySelectorAll('section');
+
+  window.onscroll = () => {
+    sections.forEach(sec => {
+      let top = window.scrollY;
+      let offset = sec.offsetTop - 150;
+      let height = sec.offsetHeight;
+  
+      if (top >= offset && top < offset + height) {
+        sec.classList.add('show_animate');
+      } else {
+        sec.classList.remove('show_animate');
+      }
+    });
+  };
 
   return (
-    <div className="homepage_active">
-      <div className="container">
-        <div className="homepage_picture">
-          <div className="homepage_picture_background">
-            <img className="homepage_image" alt="" src="sakhumzi.png"></img>
+  <section className="show_animate sec_1">
+    <div className="homepage_active animate">
+      <div className="container animate" >
+        <div className="homepage_picture animate">
+          <div className="homepage_picture_background animate">
+            <img className="homepage_image animate" alt="" src="sakhumzi.png"></img>
           </div>
         </div>
 
-        <div className="homepage_left-content">
-          <div className="homepage_names">
-            <div className="my_name">HI, I'M SAKHUMZI</div>
+        <div className="homepage_left-content animate">
+          <div className="homepage_names animate">
+            <div className="my_name animate">HI, I'M SAKHUMZI</div>
 
-            <div className="job_name">A JUNIOR DEVELOPER</div>
+            <div className="job_name animate">A JUNIOR DEVELOPER</div>
           </div>
-          <div className="Icons_button">
-            <div className="homepage_icons">
+          <div className="Icons_button animate">
+            <div className="homepage_icons animate">
               <a href="#">
                 <i className="fa fa-instagram"></i>
               </a>
@@ -39,6 +55,7 @@ function Homepage (){
         </div>
       </div>
     </div>
+    </section>
   );
 }
 export default Homepage;
