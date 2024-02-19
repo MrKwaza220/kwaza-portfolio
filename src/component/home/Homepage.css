@@ -7,10 +7,17 @@
   box-sizing: border-box;
 }
 section .animate{
+  opacity: 0;
   transition: 2s;
+  filter: blur(5px);
+}
+section.show_animate .animate{
+  opacity: 1;
+  filter: blur(0);
 }
 .sec_1 .animate{
   transform: translateX(-100%);
+  transition-delay: calc(.2s * var(--i));
 }
 .sec_1.show_animate .animate{
   transform: translateX(0);
