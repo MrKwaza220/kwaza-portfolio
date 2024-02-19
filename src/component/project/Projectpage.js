@@ -17,7 +17,7 @@ function Projectpage() {
                 checkboxes, dropdowns, and buttons.
               </p>
               <a href="#">
-                <i className="fa fa-external-link-alt"></i>{" "}
+              <i className="fa fa-link"></i>{" "}
               </a>
             </div>
           </div>
@@ -45,7 +45,7 @@ function Projectpage() {
                 checkboxes, dropdowns, and buttons.
               </p>
               <a href="#">
-                <i className="fa fa-external-link-alt"></i>{" "}
+              <i className="fa fa-link"></i>{" "}
               </a>
             </div>
           </div>
