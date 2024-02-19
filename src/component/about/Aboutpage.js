@@ -11,18 +11,18 @@ window.onscroll = () => {
     let height = sec.offsetHeight;
   
     if(top >= offset && top < offset + height){
-      sec.classList.add('show_animate');
+      sec.classList.add('about_animate');
 
     }
     else{
-      sec.classList.add('show_animate')
+      sec.classList.add('about_animate')
     }
   });
 }
 
 
   return (
-    <section className="sec_2 show_animate">
+    <section className="sec_2 about_animate">
 
     <div className="page">
       <div className="container">
