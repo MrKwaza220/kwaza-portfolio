@@ -13,7 +13,7 @@ function Aboutpage() {
           
           <div className="about_paragraph">
           <h2>WHO I AM?</h2>
-            <div className="symbol">SAKHUMZI</div>
+            {/* <div className="symbol">SAKHUMZI</div> */}
             <p className="my_paragraph">
 
               I am a Hardworking, highly motivated junior developer eager to
