@@ -8,7 +8,7 @@ function Projectpage() {
         <h1 className="sub-title">My Projects</h1>
         <div className="work-list">
           <div className="work">
-            <img src="Messi.jpg" />
+            <img src="rockpaperscissors.jpg" height={"550"} />
             <div className="layer">
               <h3>Rock, Paper and Scissor</h3>
               <p>
@@ -22,7 +22,7 @@ function Projectpage() {
             </div>
           </div>
           <div className="work">
-            <img src="Renting black.jpg" />
+            <img src="Renting black.jpg" height={"550"}/>
             <div className="layer">
               <h3>Car Rental Website</h3>
               <p>
@@ -31,12 +31,12 @@ function Projectpage() {
                 checkboxes, dropdowns, and buttons.
               </p>
               <a href="#">
-                <i className="fa fa-external-link-alt"></i>{" "}
+              <i className="fa fa-link"></i>{" "}
               </a>
             </div>
           </div>
           <div className="work">
-            <img src="Messi.jpg" />
+            <img src="coffee.png" height={550}/>
             <div className="layer">
               <h3>Coffee Shop</h3>
               <p>
