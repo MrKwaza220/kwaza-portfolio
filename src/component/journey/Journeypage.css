@@ -10,19 +10,28 @@ html {
 }
 .container{
   padding: 5px 0;
-  
+}
+ 
+.journey_page{
+  background: linear-gradient( to left, white 50%, #78A2DA 50%);
+  box-shadow: 0px 0px 19px -3px rgba(66, 68, 90, 1);
+ 
+}
+/* }
+.journey_page{
+  background: ;
 }
 .journey_page .container{
-  -webkit-box-shadow: 0px 0px 19px -3px rgba(66, 68, 90, 1);
+  /* -webkit-box-shadow: 0px 0px 19px -3px rgba(66, 68, 90, 1);
 -moz-box-shadow: 0px 0px 19px -3px rgba(66, 68, 90, 1);
 box-shadow: 0px 0px 19px -3px rgba(66, 68, 90, 1);
-border-radius: 20px;
+border-radius: 20px; 
 }
 .journey_page .container:hover{
   -webkit-box-shadow: 8px 11px 18px -6px rgba(66, 68, 90, 1);
 -moz-box-shadow: 8px 11px 18px -6px rgba(66, 68, 90, 1);
 box-shadow: 8px 11px 18px -6px rgba(66, 68, 90, 1);
-}
+} */
 .journey_heading{
   font-size: 35px;
 }

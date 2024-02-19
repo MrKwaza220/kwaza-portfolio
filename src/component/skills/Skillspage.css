@@ -8,7 +8,14 @@
 .container {
   padding: 5px 0;
 }
-
+.skill_page{
+  background: linear-gradient( to left, white 50%, #78A2DA 50%);
+  /* -webkit-box-shadow: 0px 0px 19px -3px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 0px 0px 19px -3px rgba(66, 68, 90, 1);
+  box-shadow: 0px 0px 19px -3px rgba(66, 68, 90, 1);
+  */
+  box-shadow: 0px 10px 24px -18px rgba(66, 68, 90, 1);
+}
 
 h2, h3 {
   font-size: 2rem; 

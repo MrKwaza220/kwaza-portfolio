@@ -8,7 +8,7 @@
 }
 section .animate{
   opacity: 0;
-  transition: 2s;
+  transition: 0.8s;
   filter: blur(5px);
 }
 section.show_animate .animate{
@@ -16,11 +16,11 @@ section.show_animate .animate{
   filter: blur(0);
 }
 .sec_1 .animate{
-  transform: translateX(-100%);
+  transform: scale(0.9);
   transition-delay: calc(.2s * var(--i));
 }
 .sec_1.show_animate .animate{
-  transform: translateX(0);
+  transform: scale(1.0);
 }
 
 .container {
