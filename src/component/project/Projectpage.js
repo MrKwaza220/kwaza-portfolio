@@ -22,7 +22,7 @@ function Projectpage() {
             </div>
           </div>
           <div className="work">
-            <img src="Messi.jpg" />
+            <img src="Renting black.jpg" />
             <div className="layer">
               <h3>Car Rental Website</h3>
               <p>
