@@ -3,6 +3,7 @@ import "./Skillspage.css";
 
 
 
+
 function Skillspage() {
   return (
     <div className="skill_page">  
@@ -13,28 +14,34 @@ function Skillspage() {
             <div>
               <h3>Front-End</h3>
               <p>
-                <i className="fa fa-html5" /> {" "}
+              <img src="html-50.png" alt="" height={""}/>
                 HTML <i className=" fa fa-battery-full html_icon"></i>{" "}
               85%</p>
               <p>
-                <i className="fa fa-css3" />{" "}
+              <img src="css-50.png" alt="" height={""} />
                 CSS <i className="fa fa-battery-full css-icon"></i>{" "}
                 80%
               </p>
               <p>
-              <i className="fa fa-code" />{" "}
+               <img src="reactjs.png" alt="" height={50}/>
                  REACTJS
                 <i className="fa fa-battery-three-quarters react_icon"></i>{" "}
                 60%
               </p>
               <p>
-              <i className="fa fa-code" />{" "}
+               <img src="flutter.png" alt="" height={50}/>
+                 FLUTTER
+                <i className="fa fa-battery-three-quarters react_icon"></i>{" "}
+                60%
+              </p>
+              <p>
+              <img src="javascript.png" alt="" />
                 JAVASCRIPT <i className="fa fa-solid fa-battery-half javaScript_icon"></i>{" "}
                 50%
               </p>
 
               <p>
-              <i className="fa fa-code" />{" "}
+              <img src="visualbasic.png" alt="" />
                 VISUAL BASIC <i className="fa fa-solid fa-battery-quarter vb-icon"></i>{" "}
                 20%
               </p>
@@ -48,29 +55,39 @@ function Skillspage() {
               <i className="" />
               Backend 
             </h3>
+
             <p>
-              <i className="fa fa-server " />{" "}
+            <img src="sql.png" alt="" />
               SQL <i className="fa fa-battery-fa-solid fa-battery-half sql-icon"></i>{" "}
               50%
             </p>
             <p>
-              <i className="fa fa-database" /> {" "}
+            <img src="mysql.png" alt="" />
               MYSQL <i className="fa fa-battery-three-quarters mysql_icon"></i>{" "}
               60%
             </p>
             <p>
-              <i className="fa fa-database" /> {" "}
+            <img src="firebase.png" alt="" height={50} />
               FIREBASE <i className="fa fa-battery-three-quarters firebase_icon"></i>{" "}
               60%
             </p>
 
             <p>
-            <i className="fa fa-coffee"></i>{" "}
+            <img src="java.png
+            " alt="" />
               JAVA <i className="fa fa-battery-three-quarters java_icon"></i>{" "}
               70%
             </p>
+
             <p>
-              <i className="fa fa-code" /> {" "}
+            <img src="dart-50.png
+            " alt="" />
+              DART <i className="fa fa-battery-three-quarters java_icon"></i>{" "}
+              70%
+            </p>
+            
+            <p>
+            <img src="python.png" alt="" />
               PYTHON <i className="fa fa-fa-solid fa-battery-half python_icon"></i>{" "}
               60%
             </p>
