@@ -1,7 +1,6 @@
 import React from "react";
 import "./Journeypage.css";
 
-
 const Journeypage = () => {
   let sections = document.querySelectorAll("section");
 
@@ -29,8 +28,7 @@ const Journeypage = () => {
           <div className="myjourney_list animate">
             <div>
               <div className="myjourneylist ">
-              
-                {/* <i className="fa fa-school" beat></i> */}
+                <img src="school.png" alt="" height={""} width={""} />
                 <h4>HIGH SCHOOL</h4>
                 <p>Name of School: Ntsonkotha Senior</p>
                 <p>Secondary School.</p>
@@ -42,7 +40,7 @@ const Journeypage = () => {
 
             <div>
               <div className="myjourneylist">
-                {/* <i className="fa fa-building-columns"></i> */}
+                <img src="gradua.png" alt="" height={""} width={""} />
                 <h4>TERTIARY</h4>
                 <p>Institution: University of Fort Hare</p>
                 <p>Degree Level: Bachelor of Science</p>
@@ -57,7 +55,7 @@ const Journeypage = () => {
 
             <div>
               <div className="myjourneylist">
-                {/* <i className="fa fa-briefcase"></i> */}
+                <img src="work.png" alt="" height={""} width={""} />
                 <h4>EXPERIENCE</h4>
                 <p>Company: UVU AFRICA</p>
                 <p>Job Title: Software Development</p>
