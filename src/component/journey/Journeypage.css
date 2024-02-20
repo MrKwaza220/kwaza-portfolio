@@ -30,7 +30,7 @@ html {
   margin-top: 2rem;
 }
 .journey_page {
-  background: linear-gradient( to left, white 50%, #78A2DA 50%);
+  background: linear-gradient( to left, white 50%, #9FC5F8 50%);
   box-shadow: 0px 0px 19px -3px rgba(66, 68, 90, 1);
 }
 
@@ -58,21 +58,20 @@ box-shadow: 8px 11px 18px -6px rgba(66, 68, 90, 1);
     margin-top: 0px;
     overflow: hidden;
     justify-content: center;
-    align-items: center;
-    
-    
-  }
+    align-items: center;  
+}
   .myjourney_list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
     margin-top: 20px; 
   }
-  .myjourney_list {
+  .myjourney_list  {
     text-align: start;
     padding: 50 0;
-    /* border: 1px solid black; */
+   
   }
+ 
    .journey_page {
     margin: 10rem 0px 0px -0rem;
     font-size: 20px;
@@ -85,6 +84,8 @@ box-shadow: 8px 11px 18px -6px rgba(66, 68, 90, 1);
     display: inline-block;
     list-style-type: none;
     margin: 0 20px;
+
+   
     
   }
   p span{

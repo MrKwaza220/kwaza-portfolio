@@ -1,6 +1,7 @@
 import React from "react";
 import "./Journeypage.css";
 
+
 const Journeypage = () => {
   let sections = document.querySelectorAll("section");
 
@@ -28,7 +29,8 @@ const Journeypage = () => {
           <div className="myjourney_list animate">
             <div>
               <div className="myjourneylist ">
-                {/* <i className="fa fa-school"></i> */}
+              
+                {/* <i className="fa fa-school" beat></i> */}
                 <h4>HIGH SCHOOL</h4>
                 <p>Name of School: Ntsonkotha Senior</p>
                 <p>Secondary School.</p>
