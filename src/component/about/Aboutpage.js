@@ -28,7 +28,7 @@ window.onscroll = () => {
         <div className="about_myself animate">
           
           <div className="about_image animate">
-            <img src="sakhumzi.png " alt="messi" className="animate"/>
+            <img src="sakhumzi.png " alt="" className="animate"/>
           </div>
           
           <div className="about_paragraph animate">
