@@ -23,7 +23,7 @@ const Journeypage = () => {
       <div className="journey_page">
         <div className="container">
           <div className="journey_heading animate">
-            Journey <span className="showRight_animate"></span>
+            JOURNEY <span className="showRight_animate"></span>
           </div>
           <div className="myjourney_list animate">
             <div>

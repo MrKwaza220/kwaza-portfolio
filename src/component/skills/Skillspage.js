@@ -5,9 +5,9 @@ import "./Skillspage.css";
 
 function Skillspage() {
   return (
-    <div className="skill_page">
-      <h2>Skills</h2>
+    <div className="skill_page">  
       <div className="container">
+      <h2>SKILLS</h2>
         <div className="front_back">
           <div className="front">
             <div>
