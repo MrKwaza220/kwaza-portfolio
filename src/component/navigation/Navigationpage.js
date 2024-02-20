@@ -35,7 +35,7 @@ function Navigationpage(){
               </a>
             </li>
             <li>
-              <a href="#my_skills" className="underline">
+              <a href="#myskills" className="underline">
                 <span>Skills</span>
                 <span>
                   <i className="fa-solid fa-laptop-code" aria-hidden="true"></i>

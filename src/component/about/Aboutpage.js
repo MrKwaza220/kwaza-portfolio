@@ -22,7 +22,7 @@ window.onscroll = () => {
 
 
   return (
-    <section className="sec_2 show_animate">
+    <section className="sec_2 show_animate" id="about">
     <div className="page animate">
       <div className="container animate">
         <div className="about_myself animate">

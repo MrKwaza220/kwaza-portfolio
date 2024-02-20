@@ -20,7 +20,7 @@ const Homepage = () => {
   };
 
   return (
-  <section className="show_animate sec_1">
+  <section className="show_animate sec_1" id="home">
     <div className="homepage_active animate">
       <div className="container animate" >
         <div className="homepage_picture animate" style={{ 'i':0}}>

@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-section .animate{
+/* section .animate{
   
   transition: 1s;
   
@@ -14,7 +14,7 @@ section .animate{
 }
 .sec_2.show_animate .animate{
   transform: translateX(0);
-}
+} */
 
 .page {
   margin-top: 20rem;

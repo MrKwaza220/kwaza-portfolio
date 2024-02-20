@@ -19,7 +19,7 @@ const Journeypage = () => {
   };
 
   return (
-    <section className="sect_3 journey_animate">
+    <section className="sect_3 journey_animate"  id="myjourney">
       <div className="journey_page">
         <div className="container">
           <div className="journey_heading animate">

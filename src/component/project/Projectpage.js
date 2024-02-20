@@ -3,6 +3,8 @@ import "./Projectpage.css";
 
 function Projectpage() {
   return (
+    <section id="myproject">
+
     <div className="my_project">
       <div className="container">
         <h1 className="sub-title">My Projects</h1>
@@ -55,6 +57,7 @@ function Projectpage() {
         </a>
       </div>
     </div>
+    </section>
   );
 }
 export default Projectpage;

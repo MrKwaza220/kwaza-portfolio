@@ -6,6 +6,7 @@ import "./Skillspage.css";
 
 function Skillspage() {
   return (
+    <section id="myskills">
     <div className="skill_page">  
       <div className="container">
       <h2>SKILLS</h2>
@@ -100,6 +101,7 @@ function Skillspage() {
         </div>
       </div>
     </div>
+    </section>
   );
 }
 export default Skillspage;
