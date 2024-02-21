@@ -1,31 +1,27 @@
 import React, { useState } from "react";
 import "./Contactpage.css";
-import ReCAPTCHA from 'react-google-recaptcha';
+import { db } from ".../firebase/Firebase";
 
 const Contactpage = () => {
-  const recaptchaRef = React.createRef();
+  // const [formData, setFormData] = useState({
+  //   name: "",
+  //   email: "",
+  //   message: "",
+  // });
 
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
+  // const handleChange = (e) => {
+  //   setFormData({ ...formData, [e.target.name]: e.target.value });
+  // };
 
-  const handleSubmitForm = (e) => {
+
+  const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData);
-  };
 
-  const handleSubmitWithCaptcha = async () => {
-    const token = await recaptchaRef.current.executeAsync();
-    // Send the token to your backend for verification
-    console.log(token);
-    // Once you've got the token, you can proceed with form submission
-    handleSubmitForm();
+    console.log(formData);
   };
 
   return (
@@ -39,16 +35,16 @@ const Contactpage = () => {
             </div>
 
             <div className="contact_form">
-              <form onSubmit={handleSubmitWithCaptcha}>
+              <form onSubmit={handleSubmit}>
                 <label htmlFor="fname"></label>
                 <input
                   type="text"
                   id="fname"
                   name="name"
+                  value={name}
                   placeholder="Enter Full name here"
                   required
-                  value={formData.name}
-                  onChange={handleChange}
+                  onChange={(e) => setName(e.target.value)}
                 />
 
                 <label htmlFor="email"></label>
@@ -58,8 +54,8 @@ const Contactpage = () => {
                   name="email"
                   placeholder="Your Email Address"
                   required
-                  value={formData.email}
-                  onChange={handleChange}
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                 />
 
                 <label htmlFor="message"></label>
@@ -68,17 +64,10 @@ const Contactpage = () => {
                   name="message"
                   placeholder="Message..."
                   draggable="false"
-                  value={formData.message}
-                  onChange={handleChange}
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
                 ></textarea>
 
-                {/* <ReCAPTCHA
-                {/* <ReCAPTCHA
-                  ref={recaptchaRef}
-                  size="invisible"
-                  sitekey="6LczU3opAAAAAEYbO-S2q32v7xMpgQ7x5TvE9cti"
-                  onChange={(token) => console.log(token)} 
-                /> */}
                 <button type="submit">Submit</button>
               </form>
             </div>
