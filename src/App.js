@@ -11,12 +11,12 @@ import Footerpage from './component/footer/Footerpage';
  function App() {
   return (
     <div className= "App">
-      {/* <Navigationpage/>
+      <Navigationpage/>
       <Homepage/>
       <Aboutpage/>
       <Journeypage/>
       <Skillspage/>
-      <Projectpage/> */}
+      <Projectpage/>
       <Contactpage/>
       <Footerpage/>
     </div>

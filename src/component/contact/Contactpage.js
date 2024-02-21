@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Contactpage.css";
-import { db } from ".../firebase/Firebase";
+import { db } from "./Firebase";
 
 const Contactpage = () => {
   // const [formData, setFormData] = useState({
@@ -21,7 +21,23 @@ const Contactpage = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    console.log(formData);
+    // console.log(formData);
+    db.collection('contacts').add({
+      name: name,
+      eami: email,
+      message: message
+    })
+    .then(() => {
+      alert("Message has been summited ");
+    })
+    .catch(error => {
+      alert(error.message);
+    });
+
+    setName("")
+    setEmail("")
+    setMessage("")
+
   };
 
   return (
