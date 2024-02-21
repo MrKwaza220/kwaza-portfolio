@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Contactpage.css";
 import { db } from "./Firebase";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const Contactpage = () => {
   // const [formData, setFormData] = useState({
@@ -20,11 +21,27 @@ const Contactpage = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    
+    // emailjs
+    //   .sendForm('gmail', 'mycontactform', form.current, {
+    //     publicKey: 'ENANb1VwvDT8DjX6r',
+    //   })
+    //   .then(
+    //     () => {
+    //       console.log('SUCCESS!');
+    //     },
+    //     (error) => {
+    //       console.log('FAILED...', error.text);
+    //     },
+    //     e.target.reset()
+    //   );
+    
+
 
     // console.log(formData);
     db.collection('contacts').add({
       name: name,
-      eami: email,
+      email: email,
       message: message
     })
     .then(() => {
@@ -83,7 +100,9 @@ const Contactpage = () => {
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                 ></textarea>
-
+                <ReCAPTCHA
+                  sitekey="6LczU3opAAAAAEYbO-S2q32v7xMpgQ7x5TvE9cti"
+                />,
                 <button type="submit">Submit</button>
               </form>
             </div>
