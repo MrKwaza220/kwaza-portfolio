@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import "./Contactpage.css";
+import ReCAPTCHA from 'react-google-recaptcha';
 
 const Contactpage = () => {
+  const recaptchaRef = React.createRef();
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -12,10 +15,17 @@ const Contactpage = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmitForm = (e) => {
     e.preventDefault();
-
     console.log(formData);
+  };
+
+  const handleSubmitWithCaptcha = async () => {
+    const token = await recaptchaRef.current.executeAsync();
+    // Send the token to your backend for verification
+    console.log(token);
+    // Once you've got the token, you can proceed with form submission
+    handleSubmitForm();
   };
 
   return (
@@ -29,7 +39,7 @@ const Contactpage = () => {
             </div>
 
             <div className="contact_form">
-              <form onSubmit={handleSubmit}>
+              <form onSubmit={handleSubmitWithCaptcha}>
                 <label htmlFor="fname"></label>
                 <input
                   type="text"
@@ -62,6 +72,13 @@ const Contactpage = () => {
                   onChange={handleChange}
                 ></textarea>
 
+                {/* <ReCAPTCHA
+                {/* <ReCAPTCHA
+                  ref={recaptchaRef}
+                  size="invisible"
+                  sitekey="6LczU3opAAAAAEYbO-S2q32v7xMpgQ7x5TvE9cti"
+                  onChange={(token) => console.log(token)} 
+                /> */}
                 <button type="submit">Submit</button>
               </form>
             </div>
