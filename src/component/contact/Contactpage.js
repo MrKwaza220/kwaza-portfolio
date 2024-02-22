@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import "./Contactpage.css";
 import { db } from "./Firebase";
 import ReCAPTCHA from "react-google-recaptcha";
+import emailjs from '@emailjs/browser';
 
 const Contactpage = () => {
   // const [formData, setFormData] = useState({
@@ -9,7 +10,7 @@ const Contactpage = () => {
   //   email: "",
   //   message: "",
   // });
-
+  const formRef = useRef(null);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
@@ -22,19 +23,19 @@ const Contactpage = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    // emailjs
-    //   .sendForm('gmail', 'mycontactform', form.current, {
-    //     publicKey: 'ENANb1VwvDT8DjX6r',
-    //   })
-    //   .then(
-    //     () => {
-    //       console.log('SUCCESS!');
-    //     },
-    //     (error) => {
-    //       console.log('FAILED...', error.text);
-    //     },
-    //     e.target.reset()
-    //   );
+    emailjs
+      .sendForm('gmail', 'mycontactform', formRef.current, {
+        publicKey: 'ENANb1VwvDT8DjX6r',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+        e.target.reset()
+      );
     
 
 
@@ -68,7 +69,7 @@ const Contactpage = () => {
             </div>
 
             <div className="contact_form">
-              <form onSubmit={handleSubmit}>
+              <form ref={formRef} onSubmit={handleSubmit}>
                 <label htmlFor="fname"></label>
                 <input
                   type="text"
