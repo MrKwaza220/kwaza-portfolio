@@ -24,7 +24,7 @@ const Contactpage = () => {
     e.preventDefault();
     
     emailjs
-      .sendForm('gmail', 'mycontactform', formRef.current, {
+      .sendForm('service_yf0mprm', 'mycontactform', formRef.current, {
         publicKey: 'ENANb1VwvDT8DjX6r',
       })
       .then(
