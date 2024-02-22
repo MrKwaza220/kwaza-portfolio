@@ -52,7 +52,7 @@ const Aboutpage = () => {
                 opportunities to further enhance my skills and make a meaningful
                 impact in the field.
               </p>
-              <div className="myboxes">
+              {/* <div className="myboxes">
               <h5>SERVICES</h5>
               <div className="boxes">
                 
@@ -72,11 +72,11 @@ const Aboutpage = () => {
 
                 <div className="boxes_3">
                   <div className="box_5">
-                  <h6>Graphic Design</h6>
+                  <h6>Backend developer</h6>
                   </div>
                 </div>
               </div>
-              </div>
+              </div> */}
 
               {/* <div className="wrapper animate">
               <a className="button animate" href="#contact">

@@ -13,7 +13,7 @@ function Skillspage() {
         <div className="front_back">
           <div className="front">
             <div>
-              <h3>Front-End</h3>
+              <h3>FRONT-END</h3>
               <p>
               <img src="html-50.png" alt="" height={""}/>
                 HTML <i className=" fa fa-battery-full html_icon"></i>{" "}
@@ -54,7 +54,7 @@ function Skillspage() {
           <div className="back">
             <h3>
               <i className="" />
-              Backend 
+              BACKEND
             </h3>
 
             <p>

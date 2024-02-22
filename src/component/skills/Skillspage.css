@@ -5,7 +5,7 @@
   scroll-behavior: smooth;
 }
 .skill_page{
-  height: 40rem;
+  height: 50rem;
 }
 
 .container {
@@ -88,9 +88,6 @@ box-shadow: 31px 32px 16px -39px rgba(66, 68, 90, 1);
 .front p, .back p {
   text-align: left; 
 }
-.sql-icon{
-
-}
 
 /* Media queries for responsiveness */
 @media screen and (min-width: 768px) {
@@ -103,4 +100,10 @@ box-shadow: 31px 32px 16px -39px rgba(66, 68, 90, 1);
     width: 45%; 
     border-radius: block;
   }
+}
+@media only screen and (max-width: 320px){
+  .front, .back{
+    font-size: 20px;
+  }
+  
 }

@@ -5,24 +5,20 @@ import ReCAPTCHA from "react-google-recaptcha";
 import emailjs from '@emailjs/browser';
 
 const Contactpage = () => {
-  // const [formData, setFormData] = useState({
-  //   name: "",
-  //   email: "",
-  //   message: "",
-  // });
   const formRef = useRef(null);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-
-  // const handleChange = (e) => {
-  //   setFormData({ ...formData, [e.target.name]: e.target.value });
-  // };
-
+  const [captchaChecked, setCaptchaChecked] = useState(false); // State variable to track CAPTCHA check
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    
+
+    if (!captchaChecked) {
+      alert('Please check CAPTCHA before submitting.');
+      return;
+    }
+
     emailjs
       .sendForm('service_yf0mprm', 'mycontactform', formRef.current, {
         publicKey: 'ENANb1VwvDT8DjX6r',
@@ -36,26 +32,22 @@ const Contactpage = () => {
         },
         e.target.reset()
       );
-    
 
-
-    // console.log(formData);
     db.collection('contacts').add({
       name: name,
       email: email,
       message: message
     })
     .then(() => {
-      alert("Message has been summited ");
+      alert("Message has been submitted ");
     })
     .catch(error => {
       alert(error.message);
     });
 
-    setName("")
-    setEmail("")
-    setMessage("")
-
+    setName("");
+    setEmail("");
+    setMessage("");
   };
 
   return (
@@ -102,9 +94,10 @@ const Contactpage = () => {
                   onChange={(e) => setMessage(e.target.value)}
                 ></textarea>
                 <div className="captcha">
-                <ReCAPTCHA
-                  sitekey="6LczU3opAAAAAEYbO-S2q32v7xMpgQ7x5TvE9cti"
-                />
+                  <ReCAPTCHA
+                    sitekey="6LczU3opAAAAAEYbO-S2q32v7xMpgQ7x5TvE9cti"
+                    onChange={() => setCaptchaChecked(true)} // Set captchaChecked to true on change
+                  />
                 </div>
                 <button type="submit">Submit</button>
               </form>

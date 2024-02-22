@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 /* section .animate{
   
   transition: 1s;
@@ -17,7 +18,8 @@
 } */
 
 .page {
-  margin-top: 20rem;
+  margin-top: 10rem;
+
  
 }
 .container {
@@ -59,6 +61,7 @@
   height: 250px;
 }
 .myboxes{
+  display: grid;
   text-align: start;
   margin-top: 20px;
   align-content: center;
@@ -82,6 +85,7 @@ row-gap: 10px;
 }
 .box_1{
   /* border: 1px solid black; */
+  text-align: center;
   height: 200px;
   width: 200px;
   background-color: #78A2DA;
@@ -92,6 +96,7 @@ row-gap: 10px;
 }
 .box_3{
   /* border: 1px solid black; */
+  text-align: center;
   height: 200px;
   width: 200px;
   background-color: #78A2DA;
@@ -102,6 +107,7 @@ row-gap: 10px;
 }
 .box_5{
   /* border: 1px solid black; */
+  text-align: center;
   height: 200px;
   width: 200px;
   background-color: #78A2DA;
@@ -145,6 +151,7 @@ row-gap: 10px;
     flex-basis: 60%;
   }
 }
+
 
 /* .button:before,
   .button:after {

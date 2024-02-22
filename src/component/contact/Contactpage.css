@@ -80,6 +80,7 @@ button:hover {
 }
 .captcha{
   margin-left: 3rem;
+  
 }
 
 @media only screen and (max-width: 600px) {
@@ -91,4 +92,13 @@ button:hover {
   .my_contacts {
     display: block; 
   }
+}
+@media only screen and (max-width: 425px){
+  
+  .captcha{
+   margin-left: 35px;
+  }
+}
+@media only screen and (max-width: 320px){
+ 
 }
