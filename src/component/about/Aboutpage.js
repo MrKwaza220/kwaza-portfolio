@@ -52,21 +52,30 @@ const Aboutpage = () => {
                 opportunities to further enhance my skills and make a meaningful
                 impact in the field.
               </p>
+              <div className="myboxes">
+              <h5>SERVICES</h5>
               <div className="boxes">
+                
                 <div className="boxes_1">
-                  <div className="box_1"></div>
+                  <div className="box_1">
+                    <h6>Graphic Design</h6>
+                  </div>
               
                 </div>
 
                 <div className="boxes_2">
-                  <div className="box_3"></div>
+                  <div className="box_3">
+                  <h6>Front End</h6>
+                  </div>
                  
                 </div>
 
                 <div className="boxes_3">
-                  <div className="box_5"></div>
-                 
+                  <div className="box_5">
+                  <h6>Graphic Design</h6>
+                  </div>
                 </div>
+              </div>
               </div>
 
               {/* <div className="wrapper animate">
