@@ -11,14 +11,14 @@ import Footerpage from './component/footer/Footerpage';
  function App() {
   return (
     <div className= "App">
-      <Navigationpage/>
-      <Homepage/>
+      {/* <Navigationpage/>
+      <Homepage/> */}
       <Aboutpage/>
-      <Journeypage/>
+      {/* <Journeypage/>
       <Skillspage/>
       <Projectpage/>
       <Contactpage/>
-      <Footerpage/>
+      <Footerpage/> */}
     </div>
   );
 }
