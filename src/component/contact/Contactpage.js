@@ -101,9 +101,11 @@ const Contactpage = () => {
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                 ></textarea>
+                <div className="captcha">
                 <ReCAPTCHA
                   sitekey="6LczU3opAAAAAEYbO-S2q32v7xMpgQ7x5TvE9cti"
-                />,
+                />
+                </div>
                 <button type="submit">Submit</button>
               </form>
             </div>
