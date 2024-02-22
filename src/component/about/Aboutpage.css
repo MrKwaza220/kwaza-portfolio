@@ -87,7 +87,9 @@ row-gap: 10px;
   background-color: #78A2DA;
   border-radius: 10px;
 }
-
+.box_1:hover{
+  box-shadow: 8px 8px 24px -5px rgba(66, 68, 90, 1);
+}
 .box_3{
   /* border: 1px solid black; */
   height: 200px;
@@ -95,7 +97,9 @@ row-gap: 10px;
   background-color: #78A2DA;
   border-radius: 10px;
 }
-
+.box_3:hover{
+  box-shadow: 8px 8px 24px -5px rgba(66, 68, 90, 1);
+}
 .box_5{
   /* border: 1px solid black; */
   height: 200px;
@@ -103,7 +107,9 @@ row-gap: 10px;
   background-color: #78A2DA;
   border-radius: 10px;
 }
-
+.box_5:hover{
+  box-shadow: 8px 8px 24px -5px rgba(66, 68, 90, 1);
+}
 
 
 .my_paragraph{
