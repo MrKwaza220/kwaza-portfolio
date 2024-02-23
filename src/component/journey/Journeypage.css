@@ -124,6 +124,11 @@ box-shadow: 8px 11px 18px -6px rgba(66, 68, 90, 1);
       height: 53rem;
     }
   }
+  @media only screen and (max-width: 375px){
+    .journey_page{
+      height: 65rem;
+    }
+  }
   @media only screen and (max-width: 320px){
     .journey_page{
       height: 80rem;
