@@ -31,10 +31,10 @@ const Homepage = () => {
 
         <div className="homepage_left-content animate" >
           <div className="homepage_names animate " style={{ 'i':2}}>
-            <div className="my_name animate" >HI, I'M SAKHUMZI</div>
-
+            <div className="my_name animate" >HI, I'M SAKHUMZI </div>
             <div className="job_name animate" >A JUNIOR DEVELOPER</div>
           </div>
+      
           <div className="Icons_button animate  ">
             <div className="homepage_icons animate" style={{ 'i':3}}>
               <a href="#">
