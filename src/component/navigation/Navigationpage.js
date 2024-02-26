@@ -25,7 +25,9 @@ const Navigationpage = () => {
           <a href="#home" className="underline">
             <span>Home</span>
             <span>
-              <i className="fa-solid fa-house" aria-hidden="true"></i>
+              <i  aria-hidden="true">
+              <img src="home.png" alt="home icon" height={40} width={40}/>
+              </i>
             </span>
           </a>
         </li>
@@ -34,9 +36,11 @@ const Navigationpage = () => {
             <span>About</span>
             <span>
               <i
-                className="fa-solid fa-address-card"
+                
                 aria-hidden="true"
-              ></i>
+              >
+                <img src="about.png" alt="about icon" height={40} width={40}/>
+              </i>
             </span>
           </a>
         </li>
@@ -44,7 +48,9 @@ const Navigationpage = () => {
           <a href="#myjourney" className="underline">
             <span>Journey</span>
             <span>
-              <i className="fa-solid fa-school" aria-hidden="true"></i>
+              <i aria-hidden="true">
+              <img src="journey.png" alt="journey icon" height={40} width={40}/>
+              </i>
             </span>
           </a>
         </li>
@@ -52,7 +58,9 @@ const Navigationpage = () => {
           <a href="#myskills" className="underline">
             <span>Skills</span>
             <span>
-              <i className="fa-solid fa-laptop-code" aria-hidden="true"></i>
+              <i aria-hidden="true">
+              <img src="skills.png" alt="skills icon" height={40} width={40}/>
+              </i>
             </span>
           </a>
         </li>
@@ -60,7 +68,9 @@ const Navigationpage = () => {
           <a href="#myproject" className="underline">
             <span>Project</span>
             <span>
-              <i className="fa-solid fa-code" aria-hidden="true"></i>
+              <i  aria-hidden="true">
+              <img src="projects.png" alt="project icon" height={40} width={40}/>
+              </i>
             </span>
           </a>
         </li>
@@ -69,9 +79,11 @@ const Navigationpage = () => {
             <span>Contact</span>
             <span>
               <i
-                className="fa-solid fa-address-book"
+                
                 aria-hidden="true"
-              ></i>
+              >
+                <img src="contact.png" alt="contact icon" height={40} width={40}/>
+              </i>
             </span>
           </a>
         </li>
