@@ -12,7 +12,7 @@
 
 .myjourney{
     display: flex;
-    column-gap: 5rem;
+    column-gap: 2rem;
     margin-top: 3rem;
 }
 
@@ -27,36 +27,39 @@
 
 }
 .journey_containers_2{
-    margin-top: 3rem;
+    margin-top: 4rem;
 }
 .container_one{
-    border: 1px solid black;
     height: 200px;
     width: 300px;
     border-radius: 20px;
+    background-color: #78A2DA;
 }
 .container_two{
-    border: 1px solid black;
     height: 200px;
     width: 300px;
     margin-top: 2rem;
     border-radius: 20px;
+    background-color: #78A2DA;
 }
 .container_three{
-    border: 1px solid black;
     height: 200px;
     width: 300px;
+    background-color: #78A2DA;
     border-radius: 20px;
 }
 .container_four{
-    border: 1px solid black;
     height: 200px;
     width: 300px;
     margin-top: 2rem;
     border-radius: 20px;
+    background-color: #78A2DA;
 }
 .journey_description{
     border: 1px solid black;
-    height: 300px;
+    height: 400px;
     width: 300px;
+    border-radius: 10px;
+    background-color: #78A2DA
 }
+
