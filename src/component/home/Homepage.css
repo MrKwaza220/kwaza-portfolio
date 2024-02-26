@@ -6,7 +6,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+#home{
+  height: 40rem;
+}
 /* section .animate{
   opacity: 0;
   transition: 0.8s;
@@ -157,14 +159,17 @@ section.show_animate .animate{
 
 @media only screen and (max-width: 1600px) {
   .homepage_picture {
-    border-radius: 0px 0px 0px 450px;
+    background-image: url("");
+    border-radius: 0px 0px 0px 280px;
     margin: -14rem 0px 0px 36.6rem;
     height: 800px;
     width: 800px;
   }
   .homepage_picture_background img {
-    margin: 6.4rem 0px 0px 4rem;
-    border-radius: 0px 0px 0px 200px;
+    margin:0rem 0px 0px 0rem;
+    border-radius: 0px 0px 0px 280px;
+    height: 800px;
+    width: 800px;
   }
   .homepage_names {
     margin-left: -8rem;
@@ -185,6 +190,11 @@ section.show_animate .animate{
   .homepage_icons {
     margin-left: -8.7rem;
     margin-top: 4rem;
+  }
+  .homepage_icons button{
+    width: 200px;
+    align-items: center;
+    color: #9FC5F8;
   }
 }
 
