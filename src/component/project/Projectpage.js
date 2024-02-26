@@ -14,11 +14,16 @@ function Projectpage() {
             <div className="layer">
               <h3>Rock, Paper and Scissor</h3>
               <p>
-                Forms are created using the element, and they contain various
-                form controls like text labels, fields, radio buttons,
-                checkboxes, dropdowns, and buttons.
+              Rock-paper-scissors is a simple fun hand game usually played between two people,
+               where each player simultaneously select one of three shapes with their hand.
+               Tools we used
+               <ul>
+                <li>HTML, CSS and JavaScript</li>
+                <li>NodeJs</li>
+               </ul>
+
               </p>
-              <a href="#">
+              <a href="https://github.com/MrKwaza220/Rock-paper-scissors-Multiplayer-" target="_blank">
               <i className="fa fa-link"></i>{" "}
               </a>
             </div>
@@ -27,12 +32,10 @@ function Projectpage() {
             <img src="Renting black.jpg" height={"550"}/>
             <div className="layer">
               <h3>Car Rental Website</h3>
-              <p>
-                Forms are created using the element, and they contain various
-                form controls like text labels, fields, radio buttons,
-                checkboxes, dropdowns, and buttons.
-              </p>
-              <a href="#">
+                <p>The Website have User Interface.</p>
+                <p>View our demo</p>
+                
+              <a href="https://rentalcarswebsite.netlify.app" target="_blank">
               <i className="fa fa-link"></i>{" "}
               </a>
             </div>
@@ -41,12 +44,13 @@ function Projectpage() {
             <img src="coffee.png" height={550}/>
             <div className="layer">
               <h3>Coffee Shop</h3>
-              <p>
-                Forms are created using the element, and they contain various
-                form controls like text labels, fields, radio buttons,
-                checkboxes, dropdowns, and buttons.
-              </p>
-              <a href="#">
+                <p>This Website have User Interface.</p>
+                <p>This is individual project</p>
+                <p></p>
+                <p></p>
+                <p>Demo Will available Soon</p>
+               
+              <a href="https://github.com/MrKwaza220/coffeewebsite" target="_blank">
               <i className="fa fa-link"></i>{" "}
               </a>
             </div>
