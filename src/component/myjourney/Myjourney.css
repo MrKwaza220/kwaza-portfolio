@@ -7,7 +7,7 @@
     height: 50rem;
 }
 .container{
-    padding: 5px 5%;
+    padding: 10px 0;
 }
 
 .myjourney{
@@ -18,10 +18,10 @@
 
 .journey_containers{
     display: flex;
-    column-gap: 3rem;
+    column-gap: 2.5rem;
     border: 1px solid black;
     height: 500px;
-    width: 650px;
+    width: 900px;
 }
 .journey_containers_1{
 
@@ -31,26 +31,26 @@
 }
 .container_one{
     height: 200px;
-    width: 300px;
+    width: 400px;
     border-radius: 20px;
     background-color: #78A2DA;
 }
 .container_two{
     height: 200px;
-    width: 300px;
+    width: 400px;
     margin-top: 2rem;
     border-radius: 20px;
     background-color: #78A2DA;
 }
 .container_three{
     height: 200px;
-    width: 300px;
+    width: 400px;
     background-color: #78A2DA;
     border-radius: 20px;
 }
 .container_four{
     height: 200px;
-    width: 300px;
+    width: 400px;
     margin-top: 2rem;
     border-radius: 20px;
     background-color: #78A2DA;
