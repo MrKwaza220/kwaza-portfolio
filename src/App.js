@@ -7,6 +7,7 @@ import Skillspage from './component/skills/Skillspage';
 import Projectpage from './component/project/Projectpage';
 import Contactpage from './component/contact/Contactpage';
 import Footerpage from './component/footer/Footerpage';
+import Myjourney from './component/myjourney/Myjourney';
 
  function App() {
   return (
@@ -16,7 +17,7 @@ import Footerpage from './component/footer/Footerpage';
       <Aboutpage/>
       <Journeypage/>
       <Skillspage/>
-      <Projectpage/>
+      <Projectpage/> 
       <Contactpage/>
       <Footerpage/>
     </div>

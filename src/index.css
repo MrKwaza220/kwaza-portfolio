@@ -6,7 +6,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #9FC5F8;
+  /* background-color: #78A2DA; */
   /* background-color: #9FB1BCFF; */
+  width: 100%;
+  background-repeat: no-repeat;
+
 }
 
 code {
