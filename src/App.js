@@ -13,12 +13,13 @@ import Myjourney from './component/myjourney/Myjourney';
   return (
     <div className= "App">
       <Navigationpage/>
-      <Homepage/>
+      <Myjourney />
+      {/* <Homepage/>
       <Aboutpage/>
-      <Journeypage/>
-      <Skillspage/>
-      <Projectpage/> 
-      <Contactpage/>
+      <Journeypage/> */}
+      {/* {/* <Skillspage/>
+      <Projectpage/>  */}
+      <Contactpage/> 
       <Footerpage/>
     </div>
   );
