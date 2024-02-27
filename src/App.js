@@ -8,11 +8,13 @@ import Projectpage from './component/project/Projectpage';
 import Contactpage from './component/contact/Contactpage';
 import Footerpage from './component/footer/Footerpage';
 import Myjourney from './component/myjourney/Myjourney';
+import Navigationbar from './component/navigationbar/Navigationbar';
 
  function App() {
   return (
     <div className= "App">
-      <Navigationpage/>
+      {/* <Navigationpage/> */}
+      <Navigationbar />
       <Myjourney />
       {/* <Homepage/>
       <Aboutpage/>

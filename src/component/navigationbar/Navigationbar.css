@@ -2,20 +2,24 @@
 
 
 header {
-  background-color: #141b25;
+  /* background-color: #141b25; */
+  background-color: #78A2DA;
+  width: 100%;
+
 }
 
 .main-nav {
   height: 90px;
+  margin-top: -2rem;
 }
 
 .logo {
-  color: white;
+  color: black; 
   line-height: 90px;
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
-  margin-left: 30px;
+  margin-left: -27rem;
   font-family: "AstroSpace", sans-serif;
 }
 
@@ -33,29 +37,22 @@ header {
 }
 
 .navlinks li a {
-  color: white;
+  color: black;
   text-decoration: none;
   font-size: 18px;
   transition: all 0.3s linear 0s;
-  text-transform: uppercase;
+  /* text-transform: uppercase;
+} */
 }
 
 .navlinks li a:hover {
-  color: #7ebcb9;
+  color: black;
   padding-bottom: 7px;
-  border-bottom: 2px solid #7ebcb9;
-}
-
-li a.contact {
-  background-color: #00adb5;
-  padding: 9px 20px;
-  border-radius: 50px;
-  transition: all 0.3s ease 0s;
-  border-bottom: none;
+  border-bottom: 2px solid #78A2DA;
 }
 
 li a.contact:hover {
-  background-color: #047e85;
+  background-color: #78A2DA;
   color: white;
   border-bottom: none;
 }
@@ -66,7 +63,7 @@ li a.contact:hover {
 
 .menu-btn {
   font-size: 25px;
-  color: white;
+  color: black;
   float: right;
   line-height: 90px;
   margin-right: 40px;
@@ -75,14 +72,19 @@ li a.contact:hover {
 }
 
 @media (max-width: 800px) {
+.logo{
+   margin-left: -34rem;
+}
   .navlinks {
     position: fixed;
-    width: 100%;
-    height: 100vh;
+    width: 50%;
+    height: 70vh;
     text-align: center;
-    transition: all 0.5s;
+    transition: all 0.7s;
     right: -100%;
-    background: #222831;
+    background: white;
+    box-shadow: 5px 5px 5px 5px #78A2DA;
+    border-radius: 20px 0px 0px 20px;
   }
 
   .navlinks li {
@@ -105,7 +107,18 @@ li a.contact:hover {
     right: 0;
   }
 }
-
+@media screen and (max-width: 425px){
+    .logo{
+        margin-left: -15rem;
+        font-size: 25px;
+    }
+}
+@media (max-width: 375px){
+    .logo{
+        margin-left: -13rem;
+        font-size: 25px;
+    }
+}
 @media (max-width: 360px) {
   .logo {
     margin-left: 10px;
@@ -120,4 +133,9 @@ li a.contact:hover {
   .menu-btn:focus {
     color: blue;
   }
+}
+@media (max-width: 360px){
+    .logo{
+        margin-left: -10rem;
+    }
 }

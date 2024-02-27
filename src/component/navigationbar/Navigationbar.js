@@ -3,37 +3,42 @@ import "./Navigationbar.css";
 
 const Navigationbar = () => {
   return (
-    <div classNameName="container">
-      <header>
-        <nav class="main-nav">
+    <header>
+      <nav className="main-nav">
+        <div className="container">
           <input type="checkbox" id="check" />
-          <label for="check" class="menu-btn">
-            <i class="fa fa-bars">
 
-            </i>
+          <label for="check" className="menu-btn">
+            <i className="fa fa-bars"></i>
           </label>
-          <a href="index.html" class="logo">
+          <a href="" className="logo">
             Kwaza
           </a>
-          <ul class="navlinks">
+
+          <ul className="navlinks">
             <li>
-              <a href="#">Services</a>
-            </li>
-            <li>
-              <a href="#">Projects</a>
+              <a href="#home">Home</a>
             </li>
             <li>
               <a href="#">About</a>
             </li>
             <li>
-              <a href="#" class="contact">
-                Contact
-              </a>
+              <a href="#">Journey</a>
             </li>
+            <li>
+              <a href="#">Skills</a>
+            </li>
+            <li>
+              <a href="#">Projects</a>
+            </li>
+            <li>
+              <a href="#Contacts">Contact</a>
+            </li>
+
           </ul>
-        </nav>
-      </header>
-    </div>
+        </div>
+      </nav>
+    </header>
   );
 };
 export default Navigationbar;
