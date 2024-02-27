@@ -17,10 +17,16 @@ header {
   color: black; 
   line-height: 90px;
   font-size: 30px;
-  font-weight: bold;
-  text-decoration: none;
+  font-weight: 550;
+  border-radius: 10px;
+  border: 8px solid #9FC5F8;
+  
   margin-left: -27rem;
   font-family: "AstroSpace", sans-serif;
+}
+.logo span{
+    color: #9FC5F8;
+    text-decoration: underline;
 }
 
 .navlinks {

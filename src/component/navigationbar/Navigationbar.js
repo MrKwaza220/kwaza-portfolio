@@ -12,7 +12,7 @@ const Navigationbar = () => {
             <i className="fa fa-bars"></i>
           </label>
           <a href="" className="logo">
-            Kwaza
+            <span>"</span>kwaza<span>"</span>
           </a>
 
           <ul className="navlinks">
