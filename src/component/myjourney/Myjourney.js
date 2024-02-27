@@ -5,6 +5,8 @@ const Myjourney = () => {
   return (
     <section>
       <div className="myjourney_page">
+        <div className="journey">
+
         <div className="container">
           <h3>JOURNEY</h3>
 
@@ -13,7 +15,6 @@ const Myjourney = () => {
               <div className="journey_container_1">
                 <div className="container_one">
                   <h4>Ntsonkotha Senior Secondary School</h4>
-                  <p>Name of School: Ntsonkotha Senior Secondary School</p>
                   <p>Secondary School.</p>
                   <p>Grade Passed: Grade 12</p>
                   <p>Year Started: 2015</p>
@@ -34,14 +35,14 @@ const Myjourney = () => {
                   <p>Job Title: Software Development</p>
                   <p>Learnership.</p>
                   <p>Duration: 6 Months</p>
-                  <p>Year Started: July 2023 - Present</p>
+                  <p>Year Started: July 2023 - January 2024</p>
                 </div>
                 <div className="container_four">
                   <h4>Younglings Africa</h4>
                   <p>Job Title: Software Development</p>
                   <p>Learnership.</p>
                   <p>Duration: 12 Months</p>
-                  <p>Year Started: January 2023 - Present</p>
+                  <p>Year Started: January 2024 - Present</p>
                 </div>
               </div>
             </div>
@@ -50,6 +51,7 @@ const Myjourney = () => {
               <img src="Qoutes.png" alt="quotes " />
             </div>
           </div>
+        </div>
         </div>
       </div>
     </section>
