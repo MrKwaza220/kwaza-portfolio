@@ -58,7 +58,7 @@ box-shadow: 8px 11px 18px -6px rgba(66, 68, 90, 1);
     margin-top: 0px;
     overflow: hidden;
     justify-content: center;
-    align-items: center;  
+    align-items: center; 
 }
   .myjourney_list{
     display: grid;
