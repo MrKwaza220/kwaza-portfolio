@@ -30,12 +30,16 @@
     margin-top: 4rem;
 }
 .container_one{
+    text-align: start;
+    padding: 5px;
     height: 200px;
     width: 400px;
     border-radius: 20px;
     background-color: #78A2DA;
 }
 .container_two{
+    text-align: start;
+    padding: 5px;
     height: 200px;
     width: 400px;
     margin-top: 2rem;
@@ -43,12 +47,16 @@
     background-color: #78A2DA;
 }
 .container_three{
+    text-align: start;
+    padding: 5px;
     height: 200px;
     width: 400px;
     background-color: #78A2DA;
     border-radius: 20px;
 }
 .container_four{
+    text-align: start;
+    padding: 5px;
     height: 200px;
     width: 400px;
     margin-top: 2rem;
@@ -61,5 +69,11 @@
     width: 300px;
     border-radius: 10px;
     background-color: #78A2DA
+}
+.journey_description img{
+    margin-top: 5rem;
+    height: 300px;
+    width: 300px;
+    opacity: 0.4;
 }
 

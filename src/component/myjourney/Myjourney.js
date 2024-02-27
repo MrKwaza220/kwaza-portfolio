@@ -12,16 +12,15 @@ const Myjourney = () => {
             <div className="journey_containers">
               <div className="journey_container_1">
                 <div className="container_one">
-                  <h4>High School</h4>
-                  <p>Name of School: Ntsonkotha Senior</p>
+                  <h4>Ntsonkotha Senior Secondary School</h4>
+                  <p>Name of School: Ntsonkotha Senior Secondary School</p>
                   <p>Secondary School.</p>
                   <p>Grade Passed: Grade 12</p>
                   <p>Year Started: 2015</p>
                   <p>Year ended: 2017</p>
                 </div>
                 <div className="container_two">
-                  <h4>Tertiary</h4>
-                  <p>Institution: University of Fort Hare</p>
+                  <h4>University of Fort Hare</h4>
                   <p>Degree Level: Bachelor of Science</p>
                   <p>Course: Computer Science</p>
                   <p>Year Started: 2018</p>
@@ -47,7 +46,9 @@ const Myjourney = () => {
               </div>
             </div>
 
-            <div className="journey_description"></div>
+            <div className="journey_description">
+              <img src="Qoutes.png" alt="quotes " />
+            </div>
           </div>
         </div>
       </div>
