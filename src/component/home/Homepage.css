@@ -7,7 +7,8 @@
   box-sizing: border-box;
 }
 #home{
-  height: 40rem;
+  height: 50rem;
+  background-color: #78A2DA;
 }
 /* section .animate{
   opacity: 0;
@@ -159,17 +160,16 @@ section.show_animate .animate{
 
 @media only screen and (max-width: 1600px) {
   .homepage_picture {
-    background-image: url("");
     border-radius: 0px 0px 0px 280px;
     margin: -14rem 0px 0px 36.6rem;
     height: 800px;
     width: 800px;
   }
   .homepage_picture_background img {
-    margin:0rem 0px 0px 0rem;
+    margin:-12rem 0px 0px 0rem;
     border-radius: 0px 0px 0px 280px;
     height: 800px;
-    width: 800px;
+    width: 100%;
   }
   .homepage_names {
     margin-left: -8rem;
@@ -204,16 +204,16 @@ section.show_animate .animate{
   }
 
   .homepage_picture {
-    border-radius: 0px 0px 0px 450px;
-    margin: -14rem 0px 0px 30rem;
+    border-radius: 0px 0px 0px 280px;
+    margin: -14rem 0px 0px 29rem;
     height: 900px;
     width: 850px;
   }
   .homepage_picture_background img {
-    border-radius: 0px 0px 0px 200px;
-    margin: 9.5rem 0px 0px 5rem;
-    height: 750px;
-    width: 600px;
+    border-radius: 0px 0px 0px 280px;
+    margin: -5.7rem 0px 0px 0rem;
+    height: 800px;
+    width: 100%;
   }
   .homepage_names {
     margin-left: -5rem;
@@ -268,13 +268,13 @@ section.show_animate .animate{
     margin-top: 0.09rem;
   }
   .homepage_picture {
-    border-radius: 0px 0px 0px 450px;
+    border-radius: 0px 0px 0px 280px;
     margin: -14rem 0px 0px 34.1rem;
     height: 700px;
     width: 680px;
   }
   .homepage_picture_background img {
-    border-radius: 0px 0px 0px 250px;
+    border-radius: 0px 0px 0px 280px;
     margin: 3.3rem 0px 0px 5rem;
     height: 650px;
     width: 500px;
@@ -821,16 +821,17 @@ section.show_animate .animate{
     margin-left: 5px;
   }
   .homepage_picture {
-    height: 366px;
+    height: 350px;
     width: 250px;
-    margin-left: 4.5rem;
-    margin-top: -6.5rem;
-    border-radius: 0px 0px 0px 200px;
+    margin-left: 3.7rem;
+    margin-top: -7.5rem;
+    border-radius: 0px 0px 0px 150px;
   }
   .homepage_picture_background img {
     margin-left: 0rem;
-    margin-top: 1rem;
+    margin-top: -6rem;
     height: 350px;
-    border-radius: 0px 0px 0px 200px;
+    width: 100%;
+    border-radius: 0px 0px 0px 150px;
   }
 }

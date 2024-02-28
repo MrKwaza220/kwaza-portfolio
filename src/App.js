@@ -15,12 +15,11 @@ import Navigationbar from './component/navigationbar/Navigationbar';
     <div className= "App">
       {/* <Navigationpage/> */}
       <Navigationbar />
-      <Myjourney />
-      {/* <Homepage/>
+      <Homepage/>
       <Aboutpage/>
-      <Journeypage/> */}
-      {/* {/* <Skillspage/>
-      <Projectpage/>  */}
+      <Journeypage/>
+       <Skillspage/>
+      <Projectpage/> 
       <Contactpage/> 
       <Footerpage/>
     </div>
