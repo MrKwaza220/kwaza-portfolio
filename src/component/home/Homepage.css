@@ -8,7 +8,7 @@
 }
 #home{
   height: 50rem;
-  background-color: #78A2DA;
+  /* background-color: #78A2DA; */
 }
 /* section .animate{
   opacity: 0;
@@ -28,7 +28,7 @@ section.show_animate .animate{
 } */
 
 .container {
-  padding: 5px;
+  padding: 5px 0;
 }
 
 .homepage_content {
@@ -78,6 +78,7 @@ section.show_animate .animate{
   width: 850px;
   border-radius: 0 0 0 480px;
   background-color: white;
+  /* background: linear-gradient(to right, white 60%, #9FC5F8); */
 }
 
 .homepage_picture_background img {
@@ -232,7 +233,7 @@ section.show_animate .animate{
   }
 
   .homepage_icons {
-    margin-left: -5.7rem;
+    margin-left: -5.8rem;
     margin-top: 4rem;
   }
   .homepage_icons i {
@@ -259,25 +260,25 @@ section.show_animate .animate{
 
   .my_name {
     margin-left: 0rem;
-    font-size: 4rem;
+    font-size: 3.4rem;
     margin-top: -5rem;
   }
   .job_name {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-left: 0.2rem;
     margin-top: 0.09rem;
   }
   .homepage_picture {
     border-radius: 0px 0px 0px 280px;
-    margin: -14rem 0px 0px 34.1rem;
-    height: 700px;
-    width: 680px;
+    margin: -14rem 0px 0px 29.9rem;
+    height: 800px;
+    width: 650px;
   }
   .homepage_picture_background img {
     border-radius: 0px 0px 0px 280px;
-    margin: 3.3rem 0px 0px 5rem;
-    height: 650px;
-    width: 500px;
+    margin: -12rem 0px 0px 0rem;
+    height: 800px;
+    width: 100%;
   }
   .homepage_icons {
     margin-left: -0.5rem;
@@ -302,29 +303,30 @@ section.show_animate .animate{
   }
   .my_name {
     font-size: 3rem;
-    margin-left: -10rem;
+    margin-left: -12rem;
   }
 
   .job_name {
     font-size: 1.5rem;
-    margin-left: -10rem;
-  }
+    margin-left: -12rem;
+  } 
 
   .homepage_icons {
     margin-top: 2.5rem;
-    margin-left: 2rem;
-  }
+    margin-left: 0rem;
+  } 
   .homepage_picture {
-    border-radius: 0px 0px 0px 300px;
+    border-radius: 0px 0px 0px 200px;
     margin: -9.5rem 0px 0px 30rem;
     height: 550px;
-    width: 550px;
+    width: 500px;
   }
   .homepage_picture_background img {
-    margin-top: 3.1rem;
-    margin-left: 2rem;
-    height: 500px;
-    width: 450px;
+    margin-top: -7.6rem;
+    margin-left: 0rem;
+    height: 550px;
+    width: 100%;
+    border-radius: 0px 0px 0px 200px;
   }
 }
 
@@ -338,18 +340,18 @@ section.show_animate .animate{
     margin-left: 12rem;
   }
   .my_name {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
   }
   .job_name {
     font-size: 1.3rem;
   }
   .homepage_icons {
     margin-top: 3rem;
-    margin-left: 1.5rem;
+    margin-left: -1rem;
   }
 
   .homepage_icons i {
-    font-size: 1.8rem;
+    font-size: 2.0rem;
   }
 
   .homepage_icons button {
@@ -362,14 +364,15 @@ section.show_animate .animate{
   .homepage_picture {
     margin-top: -8rem;
     margin-left: 23rem;
-    height: 500px;
-    width: 400px;
+    height: 450px;
+    width: 350px;
+    border-radius: 0px 0px 0px 200px;
   }
   .homepage_picture_background img {
-    height: 505px;
-    width: 340px;
-    margin-top: -0.1rem;
-    border-radius: 0px 0px 0px 235px;
+    height: 450px;
+    width: 100%;
+    margin-top: -6.5rem;
+    border-radius: 0px 0px 0px 200px;
   }
 }
 @media screen and (max-width: 702px){
@@ -644,15 +647,15 @@ section.show_animate .animate{
   .homepage_picture {
     margin-left: 6.6rem;
     height: 400px;
-    width: 325px;
-    border-radius: 0px 0px 0px 240px;
+    width: 280px;
+    border-radius: 0px 0px 0px 140px;
   }
 
   .homepage_picture_background img {
-    margin-top: 0.5rem;
-    height: 390px;
-    width: 290px;
-    border-radius: 0px 0px 0px 180px;
+    margin-top: -6.5rem;
+    height: 400px;
+    width: 100%;
+    border-radius: 0px 0px 0px 140px;
   }
 }
 
@@ -700,41 +703,14 @@ section.show_animate .animate{
   }
 
   .homepage_picture_background img {
-    margin-top: 3rem;
+    margin-top: -3rem;
     height: 350px;
     width: 250px;
     border-radius: 0px 0px 0px 180px;
   }
 }
 
-@media only screen and (max-width: 375px) {
-  .homepage_names {
-    margin-top: 1rem;
-    margin-left: 3rem;
-  }
-  .job_name {
-    margin-left: 0px;
-  }
-  .my_name {
-    margin-left: 0px;
-  }
-  .homepage_picture {
-    margin-left: 4.6rem;
-    margin-top: -6.5rem;
-    height: 400px;
-    width: 350px;
-    border-radius: 0px 0px 0px 240px;
-  }
-
-  .homepage_picture_background img {
-    margin-top: 0.6rem;
-    margin-left: 1rem;
-    height: 390px;
-    width: 280px;
-    border-radius: 0px 0px 0px 200px;
-  }
-}
-@media only screen and (max-width: 388px) {
+@media screen and (max-width: 388px) {
   .homepage_names {
     margin-top: 1rem;
     margin-left: 3rem;
@@ -759,6 +735,35 @@ section.show_animate .animate{
     border-radius: 0px 0px 0px 180px;
   }
 }
+@media screen and (max-width: 375px) {
+  .homepage_names {
+    margin-top: 1rem;
+    margin-left: 3rem;
+  }
+  .job_name {
+    margin-left: 0px;
+  }
+  .my_name {
+    margin-left: 0px;
+  }
+
+  .homepage_picture {
+    margin-left: 4.6rem;
+    margin-top: -7.6rem;
+    height: 400px;
+    width: 250px;
+    border-radius: 0px 0px 0px 100px;
+  }
+
+  .homepage_picture_background img {
+    margin-top: -7.6rem;
+    margin-left: 1rem;
+    height: 400px;
+    width: 100%;
+    border-radius: 0px 0px 0px 100px;
+  }
+}
+
 
 @media only screen and (max-width: 350px) {
   .homepage_names {
@@ -813,7 +818,7 @@ section.show_animate .animate{
     margin-top: -12px;
   }
   .homepage_icons {
-    margin-left: 2rem;
+    margin-left: 1rem;
     margin-top: 2rem;
   }
   .homepage_icons i {
@@ -823,7 +828,7 @@ section.show_animate .animate{
   .homepage_picture {
     height: 350px;
     width: 250px;
-    margin-left: 3.7rem;
+    margin-left: 2.4rem;
     margin-top: -7.5rem;
     border-radius: 0px 0px 0px 150px;
   }

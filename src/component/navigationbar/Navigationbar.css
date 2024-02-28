@@ -3,7 +3,6 @@
 
 header {
   /* background-color: #141b25; */
-  background-color: #78A2DA;
   width: 100%;
 
 }
@@ -39,7 +38,7 @@ header {
 
 .navlinks li {
   display: inline-block;
-  margin: 0px 20px;
+  margin: 0px 10px;
 }
 
 .navlinks li a {
@@ -88,6 +87,7 @@ li a.contact:hover {
     text-align: center;
     transition: all 0.7s;
     right: -100%;
+    top: 0x;
     background: white;
     box-shadow: 5px 5px 5px 5px #78A2DA;
     border-radius: 20px 0px 0px 20px;
