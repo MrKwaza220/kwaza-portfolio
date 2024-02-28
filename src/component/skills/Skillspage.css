@@ -105,5 +105,8 @@ box-shadow: 31px 32px 16px -39px rgba(66, 68, 90, 1);
   .front, .back{
     font-size: 20px;
   }
+  .skill_page{
+    height: 60rem;
+  }
   
 }
