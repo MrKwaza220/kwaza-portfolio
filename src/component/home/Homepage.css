@@ -746,18 +746,21 @@ section.show_animate .animate{
   .my_name {
     margin-left: 0px;
   }
-
+  .homepage_icons{
+    margin-left: 0rem;
+  }
+  
   .homepage_picture {
     margin-left: 4.6rem;
     margin-top: -7.6rem;
     height: 400px;
-    width: 250px;
+    width: 270px;
     border-radius: 0px 0px 0px 100px;
   }
 
   .homepage_picture_background img {
-    margin-top: -7.6rem;
-    margin-left: 1rem;
+    margin-top: -6.3rem;
+    margin-left: 0rem;
     height: 400px;
     width: 100%;
     border-radius: 0px 0px 0px 100px;
@@ -830,13 +833,13 @@ section.show_animate .animate{
     width: 250px;
     margin-left: 2.4rem;
     margin-top: -7.5rem;
-    border-radius: 0px 0px 0px 150px;
+    border-radius: 0px 0px 0px 100px;
   }
   .homepage_picture_background img {
     margin-left: 0rem;
     margin-top: -6rem;
     height: 350px;
     width: 100%;
-    border-radius: 0px 0px 0px 150px;
+    border-radius: 0px 0px 0px 100px;
   }
 }
