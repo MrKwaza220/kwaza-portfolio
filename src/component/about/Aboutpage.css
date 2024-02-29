@@ -18,8 +18,8 @@
 } */
 
 .page {
-  margin-top: 10rem;
-  height: 40rem;
+  margin-top: 0rem;
+  height: 50rem;
  
 }
 .container {
@@ -170,7 +170,13 @@ row-gap: 10px;
     transition: transform 0.5s;
   }
 }
+ @media only screen and(max-width: 320px) {
 
+  .about_image img{
+    height: 300px;
+  }
+  
+ }
 
 /* .button:before,
   .button:after {

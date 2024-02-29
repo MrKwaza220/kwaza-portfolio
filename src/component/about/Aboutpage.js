@@ -46,11 +46,11 @@ const Aboutpage = () => {
                 experiences like the MTN App Academy and hackathons, enables me
                 to navigate diverse programming environments effortlessly.
                 Beyond coding, I find relaxation in watching football and
-                engaging in FIFA gaming during weekends. Eager to contribute my
+                 engaging in FIFA gaming during weekends.{/* Eager to contribute my
                 technical proficiency and passion for innovation to challenging
-                software development endeavors, I am actively seeking
+                software development endeavors, I am actively seeking 
                 opportunities to further enhance my skills and make a meaningful
-                impact in the field.
+                impact in the field.*/}
               </p>
               {/* <div className="myboxes">
               <h5>SERVICES</h5>
