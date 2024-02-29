@@ -324,11 +324,53 @@ section.show_animate .animate{
     width: 500px;
   }
   .homepage_picture_background img {
-    margin-top: -7.6rem;
+    margin-top: 0rem;
     margin-left: 0rem;
     height: 550px;
     width: 100%;
     border-radius: 0px 0px 0px 200px;
+  }
+}
+
+@media screen and (max-width: 853px) {
+  .homepage_names {
+    margin-left: 0rem;
+    margin-top: -12rem;
+  }
+  .my_name {
+    font-size: 2.5rem;
+    margin-left: 0rem;
+  }
+
+  .job_name {
+    font-size: 1.3rem;
+    margin-left: 0rem;
+  } 
+
+  .homepage_icons {
+    margin-top: 2.5rem;
+    margin-left: -.5rem;
+  } 
+  .homepage_icons i{
+    font-size: 30px;
+  }
+  .homepage_icons button {
+    margin-top: -1rem;
+    font-size: 1rem;
+    width: 150px;
+    height: 40px;
+  }
+
+  .homepage_picture{
+      border-radius: 0px 0px 0px 200px;
+      margin: -9.5rem 0px 0px 20rem;
+      height: 500px;
+      width: 450px;
+    }
+  .homepage_picture_background img{
+    margin-top: -7.5rem;
+    height: 500px;
+      width: 450px;
   }
 }
 @media screen and (max-width: 800px) {
@@ -344,7 +386,7 @@ section.show_animate .animate{
 
   .homepage_names {
     margin-top: -13rem;
-    margin-left: 12rem;
+    margin-left: 0rem;
   }
   .my_name {
     font-size: 2.5rem;
