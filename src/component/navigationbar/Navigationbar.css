@@ -80,7 +80,6 @@ li a.contact:hover {
   display: none;
   cursor: pointer;
 }
-
 @media (max-width: 1024px) {
 .logo{
    margin-left: -55rem;
