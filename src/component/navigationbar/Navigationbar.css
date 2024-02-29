@@ -19,7 +19,7 @@ header {
   font-size: 30px;
   font-weight: 550;
   border-radius: 15px;
-  margin-left: -27rem;
+  margin-left: -2rem;
   font-family: "AstroSpace", sans-serif;
 }
 .logo span{
@@ -35,11 +35,13 @@ header {
   line-height: 90px;
   margin: 0;
   padding: 0;
+  cursor: pointer;
 }
 
 .navlinks li {
   display: inline-block;
   margin: 0px 22px;
+  cursor: pointer;
 }
 
 .navlinks li a {
@@ -47,8 +49,8 @@ header {
   text-decoration: none;
   font-size: 18px;
   transition: all 0.3s linear 0s;
-  /* text-transform: uppercase;
-} */
+  text-transform: uppercase;
+
 }
 
 .navlinks li a:hover {
