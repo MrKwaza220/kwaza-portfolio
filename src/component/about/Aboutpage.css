@@ -19,14 +19,13 @@
 
 .page {
   margin-top: 10rem;
-
+  height: 40rem;
  
 }
 .container {
   padding: 5px;
 
 }
-
 
 .about_myself {
   display: flex;
@@ -149,6 +148,17 @@ row-gap: 10px;
 
   .about_paragraph {
     flex-basis: 60%;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .page{
+    height: 50rem;
+  }
+}
+@media only screen and (max-width: 425px){
+  .page{
+    height: 50rem;
   }
 }
 
