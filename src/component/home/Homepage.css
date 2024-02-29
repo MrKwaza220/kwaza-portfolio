@@ -80,7 +80,7 @@ section.show_animate .animate{
   width: 850px;
   border-radius: 0 0 0 480px;
   background-color: white;
-  /* background: linear-gradient(to right, white 60%, #9FC5F8); */
+  background: linear-gradient(to right, white 60%, #9FC5F8);
 }
 
 .homepage_picture_background img {
@@ -897,7 +897,7 @@ section.show_animate .animate{
     width: 100%;
     border-radius: 0px 0px 0px 100px;
   }
-  
+
 }
 @media only screen and (max-width: 280px){
   .homepage_names {

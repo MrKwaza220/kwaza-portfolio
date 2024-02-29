@@ -19,8 +19,7 @@ header {
   font-weight: 550;
   border-radius: 10px;
   border: 8px solid #9FC5F8;
-  
-  margin-left: -27rem;
+  margin-left: -48rem;
   font-family: "AstroSpace", sans-serif;
 }
 .logo span{
@@ -29,6 +28,7 @@ header {
 }
 
 .navlinks {
+ 
   list-style: none;
   float: right;
   line-height: 90px;
@@ -38,7 +38,7 @@ header {
 
 .navlinks li {
   display: inline-block;
-  margin: 0px 10px;
+  margin: 0px 22px;
 }
 
 .navlinks li a {
@@ -83,7 +83,7 @@ li a.contact:hover {
   .navlinks {
     position: fixed;
     width: 50%;
-    height: 70vh;
+    height: 80vh;
     text-align: center;
     transition: all 0.7s;
     right: -100%;
@@ -107,6 +107,8 @@ li a.contact:hover {
 
   .menu-btn {
     display: block;
+    right: 0;
+    position: absolute;
   }
 
   #check:checked ~ .navlinks {
