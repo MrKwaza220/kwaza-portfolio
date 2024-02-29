@@ -17,7 +17,7 @@ import Navigationbar from './component/navigationbar/Navigationbar';
       <Navigationbar />
       <Homepage/>
       <Aboutpage/>
-      <Journeypage/>
+      <Myjourney />
        <Skillspage/>
       <Projectpage/> 
       <Contactpage/> 

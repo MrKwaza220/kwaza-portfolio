@@ -9,7 +9,7 @@
   width: 100%;
 }
 .container {
-  padding: 10px 0;
+  padding: 10px 10%;
 }
 .myjourney {
   display: flex;
@@ -20,55 +20,78 @@
 .journey_containers {
   display: flex;
   column-gap: 2.5rem;
-  border: 1px solid black;
   height: 500px;
   width: 800px;
 }
-.journey_containers_1 {
+.journey_containers {
+  flex-basis: 70%;
+}
+.journey_description{
+  flex-basis: 40%;
 }
 .journey_containers_2 {
   margin-top: 4rem;
 }
 .container_one {
+  font-size: 20px;
   text-align: start;
   padding: 10px;
   height: 200px;
   width: 350px;
-  border-radius: 20px;
+  border-radius: 5px;
   background-color: #78a2da;
+}
+.container_one:hover{
+ box-shadow: 13px 24px 23px -15px rgba(66, 68, 90, 1);
 }
 .container_two {
+  font-size: 20px;
   text-align: start;
   padding: 5px;
   height: 200px;
   width: 350px;
   margin-top: 2rem;
-  border-radius: 20px;
+  border-radius: 5px;
   background-color: #78a2da;
+}
+.container_two:hover{
+ box-shadow: 13px 24px 23px -15px rgba(66, 68, 90, 1);
 }
 .container_three {
+  font-size: 20px;
   text-align: start;
   padding: 5px;
   height: 200px;
   width: 350px;
+  border-radius: 5px;
   background-color: #78a2da;
-  border-radius: 20px;
+}
+.container_three:hover{
+ box-shadow: 13px 24px 23px -15px rgba(66, 68, 90, 1);
 }
 .container_four {
+  font-size: 20px;
   text-align: start;
   padding: 5px;
   height: 200px;
   width: 350px;
+  border-radius: 5px;
   margin-top: 2rem;
-  border-radius: 20px;
   background-color: #78a2da;
+}
+.container_four:hover{
+  box-shadow: 13px 24px 23px -15px rgba(66, 68, 90, 1);
 }
 .journey_description {
   border: 1px solid black;
   height: 400px;
-  width: 350px;
+  width: 400px;
   border-radius: 10px;
   background-color: #78a2da;
+}
+
+.container_four:hover{
+ box-shadow: 13px 24px 23px -15px rgba(66, 68, 90, 1);
 }
 .journey_description img {
   margin-top: 5rem;
@@ -77,10 +100,27 @@
   opacity: 0.4;
 }
 
+@media screen and (max-width: 1440px){
+  .container{
+    padding: 10px 10%;
+  }
+  .journey_description{
+    flex-basis: 50%;
+  }
+}
 @media screen and (max-width: 1280px){
 .container{
     padding: 4px 4%;
 }
+}
+@media screen and (max-width: 1024px){
+  .myjourney {
+    flex-direction: column;
+   
+  }
+  .journey_description{
+    
+  }
 }
 @media screen and (max-width: 768px) {
     .myjourney_page {
@@ -89,7 +129,6 @@
   
     .myjourney {
       flex-direction: column;
-      align-items: center; 
     }
   
     .journey_containers {
@@ -102,7 +141,7 @@
     .container_three,
     .container_four,
     .journey_description {
-      width: 350px; 
+      width: 100%; 
       margin: 1rem 0;
     }
   
@@ -112,3 +151,35 @@
       margin-top: 2rem; 
     }
   }
+ @media screen and (max-width: 425px) {
+  .container_one,
+  .container_two,
+  .container_three,
+  .container_four,
+  .journey_description {
+    width: 100%; 
+    margin: 1rem 0;
+  }
+ }
+ @media  screen and (max-width: 375px) {
+ 
+  .container_one,
+    .container_two,
+    .container_three,
+    .container_four,
+    .journey_description {
+      width: 100%; 
+      margin: 1rem 0;
+    }
+ }
+ @media  screen and (max-width: 320px) {
+  .container_one,
+    .container_two,
+    .container_three,
+    .container_four,
+    .journey_description {
+      width: 100%; 
+      margin: 1rem 0;
+    }
+ }
+ 
