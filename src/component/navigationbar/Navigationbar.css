@@ -13,22 +13,23 @@ header {
 }
 
 .logo {
-  color: black; 
+  color: #78A2DA; 
+  border: 5px solid black;
   line-height: 90px;
   font-size: 30px;
   font-weight: 550;
-  border-radius: 10px;
-  border: 8px solid #9FC5F8;
-  margin-left: -48rem;
+  border-radius: 15px;
+  margin-left: -27rem;
   font-family: "AstroSpace", sans-serif;
 }
 .logo span{
-    color: #9FC5F8;
-    text-decoration: underline;
+    color: black;
+    text-decoration: none;
 }
-
+.logo span a:hover{
+  text-decoration: none;
+}
 .navlinks {
- 
   list-style: none;
   float: right;
   line-height: 90px;
@@ -76,7 +77,7 @@ li a.contact:hover {
   cursor: pointer;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1024px) {
 .logo{
    margin-left: -34rem;
 }
@@ -88,7 +89,7 @@ li a.contact:hover {
     transition: all 0.7s;
     right: -100%;
     top: 0x;
-    background: white;
+    background: linear-gradient(to right, white 60%, #78A2DA);
     box-shadow: 5px 5px 5px 5px #78A2DA;
     border-radius: 20px 0px 0px 20px;
   }

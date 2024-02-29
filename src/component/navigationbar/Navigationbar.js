@@ -11,8 +11,8 @@ const Navigationbar = () => {
           <label for="check" className="menu-btn">
             <i className="fa fa-bars"></i>
           </label>
-          <a href="" className="logo">
-            <span>"</span>kwaza<span>"</span>
+          <a href="#home" className="logo">
+            <span>SK</span>
           </a>
 
           <ul className="navlinks">
@@ -20,19 +20,19 @@ const Navigationbar = () => {
               <a href="#home">Home</a>
             </li>
             <li>
-              <a href="#">About</a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a href="#">Journey</a>
+              <a href="#myjourney">Journey</a>
             </li>
             <li>
-              <a href="#">Skills</a>
+              <a href="#myskills">Skills</a>
             </li>
             <li>
-              <a href="#">Projects</a>
+              <a href="#myproject">Projects</a>
             </li>
             <li>
-              <a href="#Contacts">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
 
           </ul>
