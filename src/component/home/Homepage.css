@@ -87,6 +87,7 @@ section.show_animate .animate{
   height: 700px;
   border-radius: 0 0 0 100px;
   margin: -4rem -20rem 0px 0px;
+  background: transparent;
 }
 
 /* .homepage_picture_background img {
