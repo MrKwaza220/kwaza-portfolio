@@ -1,14 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navigationbar.css";
 
 const Navigationbar = () => {
+  const [isChecked, setIsChecked] = useState(false);
+
+  const handleLinkClick = () => {
+    setIsChecked(false);
+  };
+
   return (
     <header>
       <nav className="main-nav">
         <div className="container">
-          <input type="checkbox" id="check" />
+          <input
+            type="checkbox"
+            id="check"
+            checked={isChecked}
+            onChange={() => setIsChecked(!isChecked)}
+          />
 
-          <label for="check" className="menu-btn">
+          <label htmlFor="check" className="menu-btn">
             <i className="fa fa-bars"></i>
           </label>
           <a href="#home" className="logo">
@@ -17,24 +28,35 @@ const Navigationbar = () => {
 
           <ul className="navlinks">
             <li>
-              <a href="#home">Home</a>
+              <a href="#home" onClick={handleLinkClick}>
+                Home
+              </a>
             </li>
             <li>
-              <a href="#about">About</a>
+              <a href="#about" onClick={handleLinkClick}>
+                About
+              </a>
             </li>
             <li>
-              <a href="#myjourney">Journey</a>
+              <a href="#myjourney" onClick={handleLinkClick}>
+                Journey
+              </a>
             </li>
             <li>
-              <a href="#myskills">Skills</a>
+              <a href="#myskills" onClick={handleLinkClick}>
+                Skills
+              </a>
             </li>
             <li>
-              <a href="#myproject">Projects</a>
+              <a href="#myproject" onClick={handleLinkClick}>
+                Projects
+              </a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="#contact" onClick={handleLinkClick}>
+                Contact
+              </a>
             </li>
-
           </ul>
         </div>
       </nav>

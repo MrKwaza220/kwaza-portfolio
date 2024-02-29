@@ -36,6 +36,8 @@ header {
   margin: 0;
   padding: 0;
   cursor: pointer;
+  position: relative;
+  z-index: 1001;
 }
 
 .navlinks li {
@@ -81,7 +83,8 @@ li a.contact:hover {
 
 @media (max-width: 1024px) {
 .logo{
-   margin-left: -34rem;
+   margin-left: -55rem;
+
 }
   .navlinks {
     position: fixed;
@@ -118,15 +121,22 @@ li a.contact:hover {
     right: 0;
   }
 }
+@media screen and (max-width: 768px){
+  .logo{
+    margin-left: -41rem;
+    font-size: 25px;
+}
+}
 @media screen and (max-width: 425px){
     .logo{
-        margin-left: -15rem;
+        margin-left: -21rem;
         font-size: 25px;
     }
 }
+
 @media (max-width: 375px){
     .logo{
-        margin-left: -13rem;
+        margin-left: -18rem;
         font-size: 25px;
     }
 }
@@ -145,8 +155,8 @@ li a.contact:hover {
     color: blue;
   }
 }
-@media (max-width: 360px){
+@media (max-width: 320px){
     .logo{
-        margin-left: -10rem;
+        margin-left: -15rem;
     }
 }
