@@ -97,8 +97,8 @@ const Contactpage = () => {
                   <ReCAPTCHA
                     sitekey="6LczU3opAAAAAEYbO-S2q32v7xMpgQ7x5TvE9cti"
                     onChange={() => setCaptchaChecked(true)} // Set captchaChecked to true on change
-                    size='compact'
-                    explicit
+                    // size='compact'
+                    // explicit
                   />
                 </div>
                 <button type="submit">Submit</button>
