@@ -30,7 +30,7 @@ section.show_animate .animate{
 
 
 .container {
-  padding: 5px 0;
+  padding: 10px 10%;
 }
 
 .homepage_content {
@@ -45,7 +45,7 @@ section.show_animate .animate{
 }
 
 .my_name {
-  font-size: 2rem;
+  font-size: 4rem;
 }
 
 .job_name {
@@ -56,7 +56,7 @@ section.show_animate .animate{
   display: flex;
   justify-content: flex-start;
   margin-top: 1rem;
-  margin-left: -9rem;
+  margin-left: 0%;
 }
 
 .homepage_icons i {
@@ -72,21 +72,21 @@ section.show_animate .animate{
 }
 
 .homepage_picture {
-  /* border: 1px solid black; */
+
   text-align: center;
   margin-top: -6.7rem;
-  margin-left: 33.5rem;
-  height: 635px;
-  width: 850px;
-  border-radius: 0 0 0 480px;
+  margin-left: 35rem;
+  height: 700px;
+  width: 500px;
+  border-radius: 0 0 0 150px;
   background: linear-gradient(to right, white 60%, #9FC5F8);
 }
 
 .homepage_picture_background img {
   max-width: 100%;
   height: 700px;
-  border-radius: 0 0 0 100px;
-  margin: -4rem -20rem 0px 0px;
+  border-radius: 0 0 0 150px;
+  margin: 0rem 0rem 0px 0px;
   background: transparent;
 }
 
@@ -161,15 +161,15 @@ section.show_animate .animate{
     }
   }  */
 
-@media only screen and (max-width: 1600px) {
+/* @media only screen and (max-width: 1600px) {
   .homepage_picture {
     border-radius: 0px 0px 0px 280px;
-    margin: -14rem 0px 0px 36.6rem;
+    margin: -10rem 0px 0px 30.6rem;
     height: 800px;
-    width: 800px;
+    width: 600px;
   }
   .homepage_picture_background img {
-    margin:-12rem 0px 0px 0rem;
+    margin:0rem 0px 0px 0rem;
     border-radius: 0px 0px 0px 280px;
     height: 800px;
     width: 100%;
@@ -199,7 +199,7 @@ section.show_animate .animate{
     align-items: center;
     color: #9FC5F8;
   }
-}
+} */
 
 @media only screen and (max-width: 1440px) {
   .homepage_picture {
