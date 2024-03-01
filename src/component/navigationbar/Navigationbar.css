@@ -2,8 +2,10 @@
 
 
 header {
-  /* background-color: #141b25; */
+  background-color: #78A2DA;
   width: 100%;
+  position: fixed;
+  margin-top: -2rem;
 
 }
 
@@ -80,7 +82,7 @@ li a.contact:hover {
   display: none;
   cursor: pointer;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1600px) {
 .logo{
    margin-left: -55rem;
 
@@ -92,7 +94,7 @@ li a.contact:hover {
     text-align: center;
     transition: all 0.7s;
     right: -100%;
-    top: 0x;
+    top: 0;
     background: linear-gradient(to right, white 60%, #78A2DA);
     box-shadow: 5px 5px 5px 5px #78A2DA;
     border-radius: 20px 0px 0px 20px;
