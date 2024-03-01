@@ -55,13 +55,13 @@ section.show_animate .animate{
 .homepage_icons {
   display: flex;
   justify-content: flex-start;
-  margin-top: 1rem;
-  margin-left: 0%;
+  margin-top: 3rem;
+  margin-left: -1.5rem;
 }
 
 .homepage_icons i {
   font-size: 2.5rem;
-  margin: 0 13px;
+  margin: 0 25px;
   color: black;
 }
 
@@ -69,6 +69,7 @@ section.show_animate .animate{
   margin-top: -0.5rem;
   padding: 0.5rem 1rem;
   font-size: 1.5rem;
+  width: 200px;
 }
 
 .homepage_picture {
