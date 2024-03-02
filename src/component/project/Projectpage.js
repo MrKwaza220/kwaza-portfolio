@@ -10,7 +10,7 @@ function Projectpage() {
         <h1 className="sub-title">My Projects</h1>
         <div className="work-list">
           <div className="work">
-            <img src="rockpaperscissors.jpg" height={"550"} />
+            <img src="rockpaperscissors.jpg" height={"500"} />
             <div className="layer">
               <h3>Rock, Paper and Scissor</h3>
               <p>
@@ -29,7 +29,7 @@ function Projectpage() {
             </div>
           </div>
           <div className="work">
-            <img src="Renting black.jpg" height={"550"}/>
+            <img src="Renting black.jpg" height={"500"}/>
             <div className="layer">
               <h3>Car Rental Website</h3>
                 <p>The Website have User Interface.</p>
@@ -41,7 +41,7 @@ function Projectpage() {
             </div>
           </div>
           <div className="work">
-            <img src="coffee.png" height={550}/>
+            <img src="coffee.png" height={500}/>
             <div className="layer">
               <h3>Coffee Shop</h3>
                 <p>This Website have User Interface.</p>

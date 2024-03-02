@@ -119,6 +119,10 @@
   .journey_description{
     flex-basis: 50%;
   }
+  .myjourney_page {
+  height: 50rem;
+  width: 100%;
+}
 }
 @media screen and (max-width: 1280px){
 .container{
@@ -128,6 +132,9 @@
 @media screen and (max-width: 1024px){
   .myjourney {
     flex-direction: column;
+  }
+  .myjourney_page {
+    height: 60rem;
    
   }
 }
