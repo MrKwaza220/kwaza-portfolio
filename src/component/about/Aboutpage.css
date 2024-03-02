@@ -35,7 +35,7 @@
 
 .about_image img {
   width: 100%;
-  height: 550px;
+  height: 500px;
   margin-top: 1rem;
   margin-left: 1rem;
   background-color: #78A2DA;
@@ -43,7 +43,7 @@
 }
 .about_image {
   border: 10px solid #78A2DA;
-  height: 550px;
+  height: 500px;
   margin-top: -1.5rem;
   
 }
