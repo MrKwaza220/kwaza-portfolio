@@ -4,10 +4,14 @@
   box-sizing: border-box;
 }
 
-.container {
+/* .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2px;
+} */
+
+.container{
+  padding: 10px 10%;
 }
 
 .contact_heading {
@@ -49,8 +53,8 @@ input[type="text"],
 select,
 textarea {
   width: 80%;
-  padding: 15px;
-  margin: 10px 0px;
+  padding: 20px;
+  margin: 10px 10%;
   color: black;
   font-size: 18px;
   border: none;
@@ -73,13 +77,14 @@ button {
   border: none;
   border-radius: 5px;
   margin-top: 10px;
+  margin: 10px 10%;
 }
 
 button:hover {
   background-color: #2e2d2d;
 }
 .captcha{
-  margin-left: 3rem;
+  margin-left: 2.8rem;
   
 }
 
@@ -87,16 +92,27 @@ button:hover {
   .contact_picture,
   .contact_form {
     flex-basis: 100%; 
+    
   }
-
+  .contact_form{
+    margin: 1px 1%;
+    border-radius: 0px 0px 20px 20px;
+  }
+  .contact_picture{
+    border-radius: 20px 20px 0px 0px;
+  }
   .my_contacts {
     display: block; 
   }
+  
 }
 @media only screen and (max-width: 425px){
   
   .captcha{
    margin-left: 35px;
+  }
+  .contact_form{
+
   }
 }
 @media only screen and (max-width: 320px){
