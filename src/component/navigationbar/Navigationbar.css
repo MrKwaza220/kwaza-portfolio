@@ -6,6 +6,7 @@ header {
   width: 100%;
   position: fixed;
   margin-top: -2rem;
+  z-index: 1001;
 
 }
 
@@ -82,9 +83,9 @@ li a.contact:hover {
   display: none;
   cursor: pointer;
 }
-@media (max-width: 1600px) {
+@media (max-width: 1024px) {
 .logo{
-   margin-left: -55rem;
+   margin-left: 0rem;
 
 }
   .navlinks {
@@ -124,20 +125,20 @@ li a.contact:hover {
 }
 @media screen and (max-width: 768px){
   .logo{
-    margin-left: -41rem;
+    margin-left: 0rem;
     font-size: 25px;
 }
 }
 @media screen and (max-width: 425px){
     .logo{
-        margin-left: -21rem;
+        margin-left:0rem;
         font-size: 25px;
     }
 }
 
 @media (max-width: 375px){
     .logo{
-        margin-left: -18rem;
+        margin-left: 0rem;
         font-size: 25px;
     }
 }
@@ -158,6 +159,6 @@ li a.contact:hover {
 }
 @media (max-width: 320px){
     .logo{
-        margin-left: -15rem;
+        margin-left: 0rem;
     }
 }
