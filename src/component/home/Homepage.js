@@ -47,7 +47,7 @@ const Homepage = () => {
               <a href="https://github.com/MrKwaza220?tab=repositories">
                 <i className="fa fa-github animate"></i>
               </a>
-              <a href="#" download className="animate" style={{ 'i':4}}>
+              <a href="Sakhumzi cv.pdf" download className="animate" style={{ 'i':4}}>
                 <button>Download cv</button>
               </a>
             </div>
