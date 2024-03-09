@@ -54,7 +54,9 @@ const Contactpage = () => {
     <section id="contact">
       <div className="contact_page">
         <div className="container">
-          <div className="contact_heading">CONTACT</div>
+          <div className="contact_heading">
+            <h2>CONTACT</h2>
+          </div>
           <div className="my_contacts">
             <div className="contact_picture">
               <img src="contact picture.png" alt="Picture" />

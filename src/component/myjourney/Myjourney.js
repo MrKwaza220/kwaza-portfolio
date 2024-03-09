@@ -7,7 +7,7 @@ const Myjourney = () => {
       <div className="myjourney_page">
         <div className="journey">
           <div className="container">
-            <h3>JOURNEY</h3>
+            <h2>JOURNEY</h2>
 
             <div className="myjourney">
               <div className="journey_containers">

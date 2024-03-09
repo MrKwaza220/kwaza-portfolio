@@ -7,7 +7,7 @@ function Projectpage() {
 
     <div className="my_project">
       <div className="container">
-        <h1 className="sub-title">My Projects</h1>
+        <h1 className="sub-title">PROJECTS</h1>
         <div className="work-list">
           <div className="work">
             <img src="rockpaperscissors.jpg" height={"500"} />
