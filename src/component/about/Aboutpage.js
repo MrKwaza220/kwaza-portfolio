@@ -19,76 +19,87 @@ const Aboutpage = () => {
   };
 
   return (
-    <section className="sec_2 show_animate" id="about">
-      <div className="page animate">
-        <div className="container animate">
-          <div className="about_myself animate">
-            <div className="about_image animate">
-              <img src="sakhumzi.png " alt="" className="animate" />
-            </div>
+    <section class="sec_2 show_animate" id="about">
+    <div class="page animate">
+      <div class="container animate">
+        <div class="about_myself animate">
+          <div class="about_image animate">
+            <img src="sakhumzi.png " alt="" class="animate" />
+          </div>
+          
+          <div class="about_paragraph animate">
+            <h2 class="animate">WHO I AM?</h2>
+            <p class="my_paragraph animate">
+             
+              Hi, I am Kwaza Sakhumzi a Computer Science graduate with a software
+              development Learnership at Capaciti, I possess a versatile skill
+              set encompassing languages like HTML, CSS, JavaScript, ReactJs, 
+              Flutter, Dart, Arduino, C++, VB.NET, Java, and Python. My adaptability,
+              fostered through experiences like the MTN App Academy and hackathons, enables me
+              to navigate diverse programming environments effortlessly.
 
-            <div className="about_paragraph animate">
-              <h2 className="animate">WHO I AM?</h2>
-              {/* <div className="symbol">SAKHUMZI</div> */}
-              <p className="my_paragraph animate">
-                {/* I am a Hardworking, highly motivated junior developer eager to
-                lend combined knowledge and skills to enhance business
-                performance. Operates well in both individual and team
-                capacities, leveraging seasoned work ethic to quickly adapt to
-                different processes and drive company objectives. Resourceful
-                and results-driven with a passion for growth and efficiency to
-                meet company needs and increase service value. */}
-                Hi, I am recent Computer Science graduate with a software
-                development learnership at Capaciti, I possess a versatile skill
-                set encompassing languages like HTML, CSS, JavaScript, ReactJs, 
-                Flutter, Dart, Arduino, C++,
-                VB.NET, Java, and Python. My adaptability, fostered through
-                experiences like the MTN App Academy and hackathons, enables me
-                to navigate diverse programming environments effortlessly.
-                Beyond coding, I find relaxation in watching football and
-                 engaging in FIFA gaming during weekends.{/* Eager to contribute my
-                technical proficiency and passion for innovation to challenging
-                software development endeavors, I am actively seeking 
-                opportunities to further enhance my skills and make a meaningful
-                impact in the field.*/}
+              {/* Beyond coding, I find relaxation in watching football and
+              engaging in FIFA gaming during weekends. */}
+              Eager to contribute my technical proficiency and passion for innovation to challenging
+              software development endeavors, I am actively seeking 
+              opportunities to further enhance my skills and make a meaningful
+              impact in the field.
+
+              <p class="services">
+                <h5>WHAT I CAN OFFER?</h5>
+                <ul>
+                  {/* <li>
+                    <div class="myservices">
+                      <h6>GRAPHICS DESIGNER</h6>
+                      <p>Elevating brands with visually 
+                        captivating designs that 
+                        communicate messages 
+                        effectively and leave 
+                        lasting impressions.</p>
+                    </div>
+                  </li> */}
+                  <li>
+                    <div class="myservices">
+                      <h6>FRONTEND DEVELOPERMENT</h6>
+                      <p>Crafting intuitive and seamless user interfaces.</p>
+                      <p>Enhancing user experience and engagement.</p>
+                      <p>Utilizing clean, responsive, and accessible web designs.</p>
+
+                    </div>
+                  </li>
+                  <li>
+                    <div class="myservices">
+                      <h6>BACKEND DEVELOPERMENT</h6>
+                      <p>Building robust and scalable 
+                        server-side architectures
+                         and databases to power 
+                         dynamic and efficient
+                          web applications with
+                         secure and optimized functionality.</p>
+                    </div>
+                  </li>
+                  
+                </ul>
               </p>
-              {/* <div className="myboxes">
-              <h5>SERVICES</h5>
-              <div className="boxes">
-                
-                <div className="boxes_1">
-                  <div className="box_1">
-                    <h6>Graphic Design</h6>
-                  </div>
               
-                </div>
-
-                <div className="boxes_2">
-                  <div className="box_3">
-                  <h6>Front End</h6>
-                  </div>
-                 
-                </div>
-
-                <div className="boxes_3">
-                  <div className="box_5">
-                  <h6>Backend developer</h6>
-                  </div>
-                </div>
+            </p>
+            {/* <!-- <div class="myboxes">
+              <div class="learn_more">
+                <a href="#Journey">
+                  <button> Learn more</button>
+                </a>
               </div>
-              </div> */}
-
-              {/* <div className="wrapper animate">
-              <a className="button animate" href="#contact">
-                Contact Me
-              </a>
-              
+              <div class="getin_touch">
+                <a href="#Contact">
+                  <button>Get In Touch  </button>
+                </a>
+              </div>
             </div> */}
             </div>
           </div>
         </div>
       </div>
-    </section>
+  </section>
   );
 };
 export default Aboutpage;
