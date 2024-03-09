@@ -2,34 +2,34 @@ import React from "react";
 import "./Aboutpage.css";
 
 const Aboutpage = () => {
-  let sections = document.querySelectorAll("section");
+  // let sections = document.querySelectorAll("section");
 
-  window.onscroll = () => {
-    sections.forEach((sec) => {
-      let top = window.scrollY;
-      let offset = sec.offsetTop - 150;
-      let height = sec.offsetHeight;
+  // window.onscroll = () => {
+  //   sections.forEach((sec) => {
+  //     let top = window.scrollY;
+  //     let offset = sec.offsetTop - 150;
+  //     let height = sec.offsetHeight;
 
-      if (top >= offset && top < offset + height) {
-        sec.classList.add("show_animate");
-      } else {
-        sec.classList.add("show_animate");
-      }
-    });
-  };
+  //     if (top >= offset && top < offset + height) {
+  //       sec.classList.add("show_animate");
+  //     } else {
+  //       sec.classList.add("show_animate");
+  //     }
+  //   });
+  // };
 
   return (
-    <section class="sec_2 show_animate" id="about">
-    <div class="page animate">
-      <div class="container animate">
-        <div class="about_myself animate">
-          <div class="about_image animate">
-            <img src="sakhumzi.png " alt="" class="animate" />
+    <section className="sec_2 show_animate" id="about">
+    <div className="page animate">
+      <div className="container animate">
+        <div className="about_myself animate">
+          <div className="about_image animate">
+            <img src="sakhumzi.png " alt="" className="animate" />
           </div>
           
-          <div class="about_paragraph animate">
-            <h2 class="animate">WHO I AM?</h2>
-            <p class="my_paragraph animate">
+          <div className="about_paragraph animate">
+            <h2 className="animate">WHO I AM?</h2>
+            <p className="my_paragraph animate">
              
               Hi, I am Kwaza Sakhumzi a Computer Science graduate with a software
               development Learnership at Capaciti, I possess a versatile skill
@@ -45,21 +45,11 @@ const Aboutpage = () => {
               opportunities to further enhance my skills and make a meaningful
               impact in the field.
 
-              <p class="services">
+              <p className="services">
                 <h5>WHAT I CAN OFFER?</h5>
                 <ul>
-                  {/* <li>
-                    <div class="myservices">
-                      <h6>GRAPHICS DESIGNER</h6>
-                      <p>Elevating brands with visually 
-                        captivating designs that 
-                        communicate messages 
-                        effectively and leave 
-                        lasting impressions.</p>
-                    </div>
-                  </li> */}
                   <li>
-                    <div class="myservices">
+                    <div className="myservices">
                       <h6>FRONTEND DEVELOPERMENT</h6>
                       <p>Crafting intuitive and seamless user interfaces.</p>
                       <p>Enhancing user experience and engagement.</p>
@@ -68,7 +58,7 @@ const Aboutpage = () => {
                     </div>
                   </li>
                   <li>
-                    <div class="myservices">
+                    <div className="myservices">
                       <h6>BACKEND DEVELOPERMENT</h6>
                       <p>Building robust and scalable 
                         server-side architectures
@@ -83,18 +73,6 @@ const Aboutpage = () => {
               </p>
               
             </p>
-            {/* <!-- <div class="myboxes">
-              <div class="learn_more">
-                <a href="#Journey">
-                  <button> Learn more</button>
-                </a>
-              </div>
-              <div class="getin_touch">
-                <a href="#Contact">
-                  <button>Get In Touch  </button>
-                </a>
-              </div>
-            </div> */}
             </div>
           </div>
         </div>
