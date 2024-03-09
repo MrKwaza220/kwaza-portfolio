@@ -28,7 +28,7 @@
 }
 
 .contact_picture {
-  flex-basis: 40%;
+  flex-basis: 50%;
  background-color: #78A2DA;
   border-radius: 20px 0px 0px 20px;
   -webkit-box-shadow: -18px 0px 23px -14px rgba(66, 68, 90, 1);
@@ -42,7 +42,7 @@
 }
 
 .contact_form {
-  flex-basis: 40%;
+  flex-basis: 50%;
   margin-left: -20px;
   background-color: white;
   border-radius: 0px 20px 20px 0px;
