@@ -69,7 +69,7 @@ h2{
   margin-top: -0rem;
 }
 .services{
-  border: 2px solid black;
+  border: 0px solid black;
   overflow: hidden;
   /* justify-content: center;
   align-items: center; */
@@ -80,35 +80,41 @@ ul{
   padding: 0;
   margin: 10px;
 }
-li{
+.services li{
   display: inline-block;
   list-style-type: none;
   margin: 0 20px;
 }
+.services li:hover {
+  box-shadow: 0px 0px 24px -7px rgba(66, 68, 90, 1);
+}
 li:nth-child(1) .myservices {
-    background: #9FC5F8;
+  background: white;
   }
 li:nth-child(2) .myservices {
-  background: #9FC5F8;
+  /* background: #9FC5F8; */
+  background: white;
   }
 li:nth-child(3) .myservices {
-  background: #9FC5F8;
+  /* background: #9FC5F8; */
+  background: white;
   }
 
 .myservices {
   position: relative;
-  background: rebeccapurple;
-  width: 160px;
-  height: 140px;
+  width: 180px;
+  height: 150px;
   border-radius: 10px;
-  border:1px solid  black;
+  border: 0px solid  black;
   color: black;
   font-family: Verdana;
   font-weight: bold;
-  font-size: 22px; /* Adjusted font size */
+  font-size: 20px; /* Adjusted font size */
   cursor: pointer;
   padding: 3px; /* Adjusted padding */
 }
+
+
 
 h6{
   font-size: 13px;
@@ -119,7 +125,7 @@ h5{
   margin-top: 5px;
 }
 .myservices p{
-  font-size: 10px;
+  font-size: 11px;
   font-weight: 300;
   margin-top: -1px;
   text-align: start;
