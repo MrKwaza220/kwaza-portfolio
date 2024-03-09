@@ -7,23 +7,11 @@
 body{
   background-color: #9FC5F8;
 }
-/* section .animate{
-  
-  transition: 1s;
-  
-}
 
-.sec_2 .animate{
-  transform: translateX(-100%);
-}
-.sec_2.show_animate .animate{
-  transform: translateX(0);
-} */
 
 .page {
   margin-top: 0rem;
   height: 50rem;
- 
 }
 .container {
   padding: 10px 10%;
@@ -109,9 +97,9 @@ li:nth-child(3) .myservices {
   color: black;
   font-family: Verdana;
   font-weight: bold;
-  font-size: 20px; /* Adjusted font size */
+  font-size: 20px; 
   cursor: pointer;
-  padding: 3px; /* Adjusted padding */
+  padding: 3px; 
 }
 
 
@@ -124,6 +112,7 @@ h6{
 h5{
   margin-top: 5px;
 }
+
 .myservices p{
   font-size: 11px;
   font-weight: 300;
@@ -174,17 +163,33 @@ border-radius: 10px;
   .about_paragraph {
     flex-basis: 60%;
   }
+  .services li{
+    margin: 0 10px;
+  }
+  .myservices{
+    width: 150px;
+    height: 190px;
+  }
 }
 
 @media only screen and (max-width: 767px){
   .page{
-    height: 50rem;
+    height: 65rem;
   }
   
 }
+@media only screen and (max-width: 499px){
+  .page{
+    height: 75rem;
+  }
+  .services li{
+    margin: 0 10px;
+  }
+}
+
 @media only screen and (max-width: 425px){
   .page{
-    height: 50rem;
+    height: 70rem;
   }
   .about_image{
     height: 350px;
@@ -197,11 +202,50 @@ border-radius: 10px;
     background-color: #78A2DA;
     transition: transform 0.5s;
   }
+  .services li{
+    margin: 0pc 10px;
+  }
+  .myservices {
+    width: 140px; 
+    height: 220px; 
+  }
 }
- @media only screen and(max-width: 320px) {
-
+@media only screen and (max-width: 375px){
+  .services li{
+    margin: 0px 8px;
+  }
+  .myservices {
+    width: 140px; 
+    height: 220px; 
+  }
+}
+@media only screen and (max-width: 360px){
+  .page{
+    height: 85rem;
+  }
   .about_image img{
     height: 300px;
   }
-  
+  .services li{
+    margin: 0px 2px;
+  }
+  .myservices {
+    width: 130px; 
+    height: 220px; 
+  }
+}
+ @media only screen and (max-width: 320px) {
+  .page{
+    height: 85rem;
+  }
+  .about_image img{
+    height: 300px;
+  }
+  .services li{
+    margin: 0px 2px;
+  }
+  .myservices {
+    width: 130px; 
+    height: 220px; 
+  }
  }
