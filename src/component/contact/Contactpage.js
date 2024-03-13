@@ -104,10 +104,10 @@ const Contactpage = () => {
                   /> */}
                 </div>
                 <button type="submit"
-                 className="google_captcha"
-                 data-sitekey="6LczU3opAAAAAEYbO-S2q32v7xMpgQ7x5TvE9cti"
-                 data-callback='onSubmit'
-                 data-action='submit'
+                //  className="google_captcha"
+                //  data-sitekey="6LczU3opAAAAAEYbO-S2q32v7xMpgQ7x5TvE9cti"
+                //  data-callback='onSubmit'
+                //  data-action='submit'
 
                 >
                   
