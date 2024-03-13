@@ -10,6 +10,7 @@ body {
   /* background-color: #9FB1BCFF; */
   width: 100%;
   background-repeat: no-repeat;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
 
 }
 
