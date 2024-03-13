@@ -193,6 +193,7 @@ border-radius: 10px;
   }
   .about_image{
     height: 350px;
+    width: 100%;
   }
   .about_image img {
     width: 100%;
