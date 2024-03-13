@@ -946,6 +946,7 @@ section.show_animate .animate{
 
 }
 @media only screen and (max-width: 280px){
+  
   .homepage_names {
     text-align: start;
     margin-top: 1rem;
