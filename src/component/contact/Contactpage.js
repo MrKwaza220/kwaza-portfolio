@@ -96,14 +96,22 @@ const Contactpage = () => {
                   onChange={(e) => setMessage(e.target.value)}
                 ></textarea>
                 <div className="captcha">
-                  <ReCAPTCHA
+                  {/* <ReCAPTCHA
                     sitekey="6LczU3opAAAAAEYbO-S2q32v7xMpgQ7x5TvE9cti"
                     onChange={() => setCaptchaChecked(true)} // Set captchaChecked to true on change
                     // size='compact'
                     // explicit
-                  />
+                  /> */}
                 </div>
-                <button type="submit">Submit</button>
+                <button type="submit"
+                 className="google_captcha"
+                 data-sitekey="6LczU3opAAAAAEYbO-S2q32v7xMpgQ7x5TvE9cti"
+                 data-callback='onSubmit'
+                 data-action='submit'
+
+                >
+                  
+                  Submit</button>
               </form>
             </div>
           </div>
