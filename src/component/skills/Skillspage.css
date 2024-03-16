@@ -97,11 +97,16 @@ box-shadow: 31px 32px 16px -39px rgba(66, 68, 90, 1);
   }
 
   .front, .back {
-    width: 60%; 
+    width: 80%; 
     border-radius: block;
   }
   .front{
     font-size: 21px;
+  }
+}
+@media  screen and (max-width: 767px){
+  .front, .back{
+    width: 100%;
   }
 }
 @media only screen and (max-width: 320px){
@@ -113,4 +118,10 @@ box-shadow: 31px 32px 16px -39px rgba(66, 68, 90, 1);
     height: 60rem;
   }
   
+}
+
+@media screen and (max-width: 280px){
+  .skill_page{
+    height: 75rem;
+  }
 }
