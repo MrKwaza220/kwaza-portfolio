@@ -9,13 +9,29 @@ const Contactpage = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const [captchaChecked, setCaptchaChecked] = useState(false); // State variable to track CAPTCHA check
+  const [submitted, setSubmitted] = useState(false);
+  const [errorMessage, setErrorMessage] = useState(""); 
+  const [messageTimeout, setMessageTimeout] = useState(null); // State variable to hold timeout for error/success message
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if (!captchaChecked) {
-      alert('Please check CAPTCHA before submitting.');
+    // if (!captchaChecked) {
+    //     setErrorMessage('Please check CAPTCHA before submitting.');
+    //     return;
+    //   }
+
+    if (message.trim() === "") { 
+      setErrorMessage("Please fill the message field.");
+
+      // Clear previous timeout (if any)
+      clearTimeout(messageTimeout);
+
+      // Set new timeout to clear the error message after 3 seconds
+      setMessageTimeout(setTimeout(() => {
+        setErrorMessage("");
+      }, 3000));
+
       return;
     }
 
@@ -29,8 +45,7 @@ const Contactpage = () => {
         },
         (error) => {
           console.log('FAILED...', error.text);
-        },
-        e.target.reset()
+        }
       );
 
     db.collection('contacts').add({
@@ -39,10 +54,26 @@ const Contactpage = () => {
       message: message
     })
     .then(() => {
-      alert("Message has been submitted ");
+      setSubmitted(true);
+
+      // Clear previous timeout (if any)
+      clearTimeout(messageTimeout);
+
+      // Set new timeout to clear the success message after 3 seconds
+      setMessageTimeout(setTimeout(() => {
+        setSubmitted(false);
+      }, 3000));
     })
     .catch(error => {
-      alert(error.message);
+      setErrorMessage(error.message); 
+
+      // Clear previous timeout (if any)
+      clearTimeout(messageTimeout);
+
+      // Set new timeout to clear the error message after 3 seconds
+      setMessageTimeout(setTimeout(() => {
+        setErrorMessage("");
+      }, 3000));
     });
 
     setName("");
@@ -95,23 +126,14 @@ const Contactpage = () => {
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                 ></textarea>
-                <div className="captcha">
-                  {/* <ReCAPTCHA
+                {/* <div className="captcha">
+                  <ReCAPTCHA
                     sitekey="6LczU3opAAAAAEYbO-S2q32v7xMpgQ7x5TvE9cti"
-                    onChange={() => setCaptchaChecked(true)} // Set captchaChecked to true on change
-                    // size='compact'
-                    // explicit
-                  /> */}
-                </div>
-                <button type="submit"
-                //  className="google_captcha"
-                //  data-sitekey="6LczU3opAAAAAEYbO-S2q32v7xMpgQ7x5TvE9cti"
-                //  data-callback='onSubmit'
-                //  data-action='submit'
-
-                >
-                  
-                  Submit</button>
+                  />
+                </div> */}
+                <button type="submit">Submit</button>
+                {submitted && <p style={{ color: 'green', textAlign: 'center' }}>Message has been submitted</p>}
+                {errorMessage && <p style={{ color: 'red', textAlign: 'center' }}>{errorMessage}</p>}
               </form>
             </div>
           </div>
